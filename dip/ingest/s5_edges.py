@@ -30,7 +30,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from dip import config, db, llm, nli
-from dip.ingest.common import log, progress
+from dip.ingest.common import embed_missing_chunk_text, log, progress
 
 RELATIONS = ["supports", "challenges", "elaborates", "example", "unrelated"]
 SCHEMA = {
@@ -148,7 +148,10 @@ def _counter_edges(conn, edges: dict):
         "SELECT n.id, n.text, s.title section, d.title doc FROM nodes n "
         "JOIN nodes s ON s.id = n.parent_id JOIN nodes d ON d.id = s.parent_id "
         "WHERE n.kind='chunk' AND coalesce(n.role, '') != 'link'")}
-    idx = db.VectorIndex("node").refresh(conn)
+    # candidates from the chunks' own text: the context prefix in their search vectors names the
+    # document, so its nearest passages were almost all from the same source (5% crossed)
+    embed_missing_chunk_text(conn)
+    idx = db.VectorIndex("chunk_text").refresh(conn)
     allowed = set(rows)
     pairs = set()
     for nid in rows:

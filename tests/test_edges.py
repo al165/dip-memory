@@ -75,7 +75,10 @@ def test_graded_counter_links(tmp_path, monkeypatch):
               for k, t in texts.items()}
     vec = lambda *h: np.eye(config.EMBED_DIM, dtype=np.float32)[list(h)].sum(0)  # noqa: E731
     vecs = [vec(0, 1), vec(0, 1, 2), vec(5, 6), vec(5, 6, 7)]
-    db.put_vectors(conn, "node", [nodes[k] for k in texts], vecs)
+    # candidates come from the prefix-free text vectors; the prefixed search vectors pair the
+    # passages differently (as a shared document prefix would) and must not be used
+    db.put_vectors(conn, "chunk_text", [nodes[k] for k in texts], vecs)
+    db.put_vectors(conn, "node", [nodes[k] for k in texts], [vec(0, 1), vec(5, 6, 7), vec(0, 1, 2), vec(5, 6)])
     db.put_vectors(conn, "claim", [claims[k] for k in texts], vecs)
     conn.commit()
     db.bump_version(conn)
