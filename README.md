@@ -57,6 +57,10 @@ saved to the files; a topic page's summary and citations update the database at 
 page's vector (and image page edits) wait for the next ingest run on the GPU machine. Without
 `DIP_EDIT_TOKEN` anyone who can open the site can save edits.
 
+The UI works under a path prefix (e.g. `mydomain.com/dip/`): have the proxy strip the prefix
+(nginx: `location /dip/ { proxy_pass http://127.0.0.1:8000/; }`, note the trailing slash) and
+start uvicorn with `--root-path /dip` so `/dip/docs` finds its OpenAPI file.
+
 Every action also accepts `text=` instead of `node_id=` (mapped to the closest chunk) and `k=`.
 Each result has a `why` field naming the index layer that produced it.
 

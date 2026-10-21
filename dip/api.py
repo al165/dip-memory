@@ -28,7 +28,7 @@ app.mount("/ui", StaticFiles(directory=Path(__file__).parent / "static", html=Tr
 
 @app.get("/", include_in_schema=False)
 def root():
-    return RedirectResponse("/ui/")
+    return RedirectResponse("ui/")  # relative, so it also works under a path prefix
 
 
 def get_conn():

@@ -76,7 +76,7 @@
 <body>
 <header>
   <h1>DIP memory · test bench</h1>
-  <a href="/ui/editor.html" style="color:var(--muted);font-size:13px">wiki editor →</a>
+  <a href="editor.html" style="color:var(--muted);font-size:13px">wiki editor →</a>
   <span id="health">connecting…</span>
 </header>
 <main>
@@ -114,11 +114,15 @@ const ACTIONS = [
 let trail = [];          // visited node ids
 let focusNode = null;    // current node object
 let offline = false;     // server runs without LLM/embedding models (DIP_OFFLINE demo)
+// The app can be served under a path prefix (e.g. mydomain.com/dip/ behind nginx): every API path
+// and app link goes through url(), relative to wherever /ui/ is mounted.
+const BASE = location.pathname.replace(/\/ui\/[^/]*$/, "");
+const url = path => BASE + path;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 
 async function api(path, opts) {
-  const r = await fetch(path, opts);
+  const r = await fetch(url(path), opts);
   if (!r.ok) throw new Error(`${r.status}: ${(await r.text()).slice(0, 300)}`);
   return r.headers.get("content-type")?.includes("json") ? r.json() : r.text();
 }
@@ -133,7 +137,7 @@ function imageCard(r) {
   const rel = r.metaphor
     ? `<div class="rel"><strong>${esc(r.metaphor.keyword)}</strong>: ${esc(r.metaphor.gloss)}<br><em>← concept</em> “${esc(r.concept)}”</div>`
     : "";
-  el.innerHTML = `<img src="${esc(r.url)}" alt="${esc(r.title)}" loading="lazy">
+  el.innerHTML = `<img src="${esc(url(r.url))}" alt="${esc(r.title)}" loading="lazy">
     <div><div class="meta"><span class="chip match-${esc(r.match)}">${esc(r.match)}</span>
       <span>score ${(+r.score).toFixed(3)}</span></div>
     <strong>${esc(r.title)}</strong><div class="credit">${creditHtml}${r.license ? ` · ${esc(r.license)}` : ""}</div>
@@ -274,7 +278,7 @@ function imageGrid(items, target = $("#list")) {
   items.forEach(r => {
     const t = document.createElement("div"); t.className = "thumb"; t.dataset.slug = r.slug;
     t.title = r.metaphors.map(m => m.keyword).join(" · ");
-    t.innerHTML = `<img src="${esc(r.url)}" alt="${esc(r.title)}" loading="lazy"><span>${esc(r.title)}</span>`;
+    t.innerHTML = `<img src="${esc(url(r.url))}" alt="${esc(r.title)}" loading="lazy"><span>${esc(r.title)}</span>`;
     t.onclick = () => showImagePage(r.slug);
     grid.appendChild(t);
   });
@@ -295,7 +299,7 @@ async function showImagePage(slug) {
     if (!r) throw new Error(`no image ${slug}`);
     const md = await api(r.page);
     out.innerHTML = `<h2>image · ${esc(slug)}</h2><div class="imgview">
-      <img class="big" src="${esc(r.url)}" alt="${esc(r.title)}">
+      <img class="big" src="${esc(url(r.url))}" alt="${esc(r.title)}">
       <h3>${esc(r.title)}</h3><div class="credit">${creditHtml(r)}</div>
       <p>${esc(r.description)}</p>
       <div class="chips">${r.subjects.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>
@@ -326,7 +330,7 @@ async function imagePassages(slug, btn) {
 async function showWiki(slug) {
   const md = await api(`/wiki/${encodeURIComponent(slug)}`);
   const out = $("#results");
-  out.innerHTML = `<h2>wiki · ${esc(slug)} · <a href="/ui/editor.html#topic/${encodeURIComponent(slug)}.md" style="color:var(--focus)">edit</a></h2>`;
+  out.innerHTML = `<h2>wiki · ${esc(slug)} · <a href="editor.html#topic/${encodeURIComponent(slug)}.md" style="color:var(--focus)">edit</a></h2>`;
   const pre = document.createElement("pre"); pre.className = "wiki";
   pre.innerHTML = esc(md).replace(/\[\[chunk:(\d+)\]\]/g, `<span class="cite" data-id="$1" style="color:var(--focus);cursor:pointer">[[chunk:$1]]</span>`);
   pre.querySelectorAll(".cite").forEach(c => c.onclick = () => setFocus(+c.dataset.id));

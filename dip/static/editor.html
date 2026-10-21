@@ -66,7 +66,7 @@
 <body>
 <header>
   <h1>DIP memory · wiki editor</h1>
-  <a href="/ui/">← explore the corpus</a>
+  <a href="./">← explore the corpus</a>
   <span id="token-wrap" hidden>edit token <input type="password" id="token" autocomplete="off"></span>
 </header>
 <main>
@@ -89,6 +89,10 @@
 </main>
 
 <script>
+// The app can be served under a path prefix (e.g. mydomain.com/dip/ behind nginx): every API path
+// and app link goes through url(), relative to wherever /ui/ is mounted.
+const BASE = location.pathname.replace(/\/ui\/[^/]*$/, "");
+const url = path => BASE + path;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const store = {  // per-viewer conveniences only; the page works without them
@@ -101,7 +105,7 @@ let doc = null;         // {kind, name, text, hash}
 let dirty = false;
 
 async function api(path, opts = {}) {
-  const r = await fetch(path, opts);
+  const r = await fetch(url(path), opts);
   const body = r.headers.get("content-type")?.includes("json") ? await r.json() : await r.text();
   if (!r.ok) throw new Error(body?.detail || `${r.status}: ${String(body).slice(0, 200)}`);
   return body;
@@ -110,7 +114,7 @@ async function api(path, opts = {}) {
 // --- markdown preview (just what the wiki pages use) ------------------------------------
 function inline(s) {
   return esc(s)
-    .replace(/\[\[chunk:(\d+)\]\]/g, `<a class="chunk" href="/ui/?node=$1" target="_blank" rel="noopener" title="open passage $1 in the explorer">chunk $1</a>`)
+    .replace(/\[\[chunk:(\d+)\]\]/g, `<a class="chunk" href="./?node=$1" target="_blank" rel="noopener" title="open passage $1 in the explorer">chunk $1</a>`)
     .replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (m, slug, label) => {
       const p = pages.find(x => x.kind === "topic" && x.slug === slug);
       return p ? `<a href="#topic/${esc(p.name)}">${esc(label || p.title)}</a>` : `<span title="no page ${esc(slug)}">${esc(label || slug)}</span>`;
