@@ -16,6 +16,7 @@ asks the LLM whether very similar pages contradict each other (-> wiki_lint edge
 import datetime as dt
 import json
 import re
+from pathlib import Path
 
 import numpy as np
 
@@ -182,10 +183,36 @@ def run(conn):
         db.put_vectors(conn, "wiki", [p["id"] for p in pages], vecs)
 
     _write_index(conn, wiki)
+    removed, kept = remove_stale_pages(wiki, set(slug_of.values()))
     with open(wiki / "log.md", "a", encoding="utf-8") as f:
         f.write(f"- {dt.datetime.now():%Y-%m-%d %H:%M} build: {len(pages)} pages "
-                f"({written} regenerated), model {config.LLM_MODEL}\n")
+                f"({written} regenerated, {len(removed)} stale removed), model {config.LLM_MODEL}\n")
     log(f"stage 6: {len(pages)} wiki pages ({written} written) in {wiki}")
+    if removed:
+        log(f"stage 6: removed {len(removed)} page(s) of clusters/themes that no longer exist")
+    if kept:
+        log(f"stage 6: kept {len(kept)} locked page(s) with no matching cluster/theme (not indexed): "
+            + ", ".join(kept))
+
+
+GENERATED_FILES = {"index.md", "log.md", "lint.md"}
+
+
+def remove_stale_pages(wiki, slugs: set) -> tuple[list[str], list[str]]:
+    """Delete pages whose cluster or theme is gone (clusters change on every rebuild). Locked
+    pages stay: they hold someone's edits. Returns (removed, kept) file names."""
+    removed, kept = [], []
+    if Path(config.IMAGE_WIKI_DIR).resolve() == Path(wiki).resolve():
+        return removed, kept  # image pages share the folder: they would look stale
+    for path in sorted(wiki.glob("*.md")):
+        if path.name in GENERATED_FILES or path.stem in slugs:
+            continue
+        if _is_locked(path):
+            kept.append(path.name)
+        else:
+            path.unlink()
+            removed.append(path.name)
+    return removed, kept
 
 
 def _write_index(conn, wiki):
