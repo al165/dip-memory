@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DIP memory · wiki editor</title>
+<style>
+  :root {
+    --bg: #fafafa; --panel: #fff; --ink: #111; --muted: #777; --line: #e4e4e4; --chip: #f1f1f1;
+    --focus: #6a5cff; --images: #f7b98a; --ok: #1f8a4c; --err: #d33;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141414; --panel: #1d1d1d; --ink: #eee; --muted: #999; --line: #333; --chip: #2a2a2a; --ok: #5fd08f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 Inter, -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; gap: 16px; align-items: baseline; padding: 12px 20px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header h1 { font-size: 17px; margin: 0; }
+  header a { color: var(--muted); font-size: 13px; }
+  #token-wrap { margin-left: auto; font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  #token-wrap input { width: 160px; padding: 4px 8px; }
+  main { display: grid; grid-template-columns: minmax(240px, 320px) 1fr; height: calc(100vh - 50px); }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; height: auto; } aside { max-height: 40vh; } }
+  aside { overflow: auto; padding: 16px; border-right: 1px solid var(--line); }
+  input, textarea, button, select { font: inherit; color: inherit; }
+  input[type=text], input[type=password] { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+  button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 6px 12px; }
+  button:disabled { opacity: .5; cursor: default; }
+  button.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 16px 0 6px; }
+  .page { display: flex; gap: 6px; align-items: baseline; padding: 6px 8px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .page:hover { background: var(--chip); }
+  .page.on { background: var(--chip); outline: 1px solid var(--focus); }
+  .page .lock { font-size: 11px; color: var(--muted); margin-left: auto; white-space: nowrap; }
+  .page .dot { color: var(--focus); }
+  section.work { display: grid; grid-template-rows: auto auto 1fr; min-height: 0; }
+  .bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  .bar .title { font-weight: 600; }
+  .bar .path { font: 12px ui-monospace, monospace; color: var(--muted); }
+  .bar .spacer { flex: 1; }
+  .bar label { font-size: 13px; display: flex; gap: 4px; align-items: center; }
+  .seg button { border-radius: 0; margin-left: -1px; }
+  .seg button:first-child { border-radius: 8px 0 0 8px; } .seg button:last-child { border-radius: 0 8px 8px 0; }
+  .seg button.on { background: var(--chip); font-weight: 600; }
+  #status { font-size: 13px; color: var(--muted); padding: 4px 16px; min-height: 26px; }
+  #status.ok { color: var(--ok); } #status.err { color: var(--err); }
+  .panes { display: grid; grid-template-columns: 1fr 1fr; min-height: 0; }
+  .panes.edit { grid-template-columns: 1fr; } .panes.edit #preview { display: none; }
+  .panes.preview { grid-template-columns: 1fr; } .panes.preview #src { display: none; }
+  @media (max-width: 800px) { .panes { grid-template-columns: 1fr; } .panes:not(.edit):not(.preview) #src { min-height: 50vh; } }
+  #src { width: 100%; height: 100%; min-height: 300px; resize: none; border: 0; border-right: 1px solid var(--line); padding: 16px;
+         background: var(--panel); font: 13px/1.6 ui-monospace, "SFMono-Regular", Menlo, monospace; outline: none; tab-size: 2; }
+  #preview { overflow: auto; padding: 8px 24px 40px; }
+  #preview h1 { font-size: 24px; margin: 12px 0 8px; } #preview h2 { font-size: 13px; margin-top: 24px; }
+  #preview h3 { font-size: 16px; }
+  #preview blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--focus); color: var(--muted); }
+  #preview code { background: var(--chip); padding: 0 4px; border-radius: 4px; font-size: .9em; }
+  #preview a { color: var(--focus); }
+  #preview .front { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; font: 12px ui-monospace, monospace;
+                    color: var(--muted); background: var(--chip); border-radius: 8px; padding: 8px 12px; margin: 12px 0; }
+  #preview .chunk { font: 12px ui-monospace, monospace; background: var(--chip); padding: 0 5px; border-radius: 4px; text-decoration: none; }
+  .empty { color: var(--muted); font-style: italic; padding: 24px; }
+  .err { color: var(--err); padding: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>DIP memory · wiki editor</h1>
+  <a href="/ui/">← explore the corpus</a>
+  <span id="token-wrap" hidden>edit token <input type="password" id="token" autocomplete="off"></span>
+</header>
+<main>
+  <aside>
+    <input type="text" id="filter" placeholder="filter pages…">
+    <div id="pages"><p class="empty">loading…</p></div>
+  </aside>
+  <section class="work">
+    <div class="bar" id="bar" hidden>
+      <span class="title" id="doc-title"></span><span class="path" id="doc-path"></span>
+      <span class="spacer"></span>
+      <label title="Locked pages are never rewritten by a rebuild (front matter `locked: true`)"><input type="checkbox" id="lock"> keep through rebuilds</label>
+      <span class="seg"><button data-view="edit">Edit</button><button data-view="split" class="on">Split</button><button data-view="preview">Preview</button></span>
+      <button id="revert">Revert</button>
+      <button id="save" class="primary" disabled>Save</button>
+    </div>
+    <div id="status"></div>
+    <div class="panes" id="panes"><p class="empty">Pick a page on the left. Topic pages describe a cluster or theme of passages; image pages describe a picture and what it could stand for.</p></div>
+  </section>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const store = {  // per-viewer conveniences only; the page works without them
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+};
+
+let pages = [];         // from /wiki-files
+let doc = null;         // {kind, name, text, hash}
+let dirty = false;
+
+async function api(path, opts = {}) {
+  const r = await fetch(path, opts);
+  const body = r.headers.get("content-type")?.includes("json") ? await r.json() : await r.text();
+  if (!r.ok) throw new Error(body?.detail || `${r.status}: ${String(body).slice(0, 200)}`);
+  return body;
+}
+
+// --- markdown preview (just what the wiki pages use) ------------------------------------
+function inline(s) {
+  return esc(s)
+    .replace(/\[\[chunk:(\d+)\]\]/g, `<a class="chunk" href="/ui/?node=$1" target="_blank" rel="noopener" title="open passage $1 in the explorer">chunk $1</a>`)
+    .replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (m, slug, label) => {
+      const p = pages.find(x => x.kind === "topic" && x.slug === slug);
+      return p ? `<a href="#topic/${esc(p.name)}">${esc(label || p.title)}</a>` : `<span title="no page ${esc(slug)}">${esc(label || slug)}</span>`;
+    })
+    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, `<a href="$2" target="_blank" rel="noopener">$1</a>`)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>");
+}
+
+function render(md) {
+  let out = "", list = null, para = [];
+  const flush = () => {
+    if (para.length) { out += `<p>${inline(para.join(" "))}</p>`; para = []; }
+    if (list) { out += `</${list}>`; list = null; }
+  };
+  const fm = md.match(/^---\n([\s\S]*?)\n---\n?/);
+  if (fm) {
+    out += `<div class="front">` + fm[1].split("\n").map(l => {
+      const i = l.indexOf(":");
+      return i < 0 ? "" : `<span>${esc(l.slice(0, i))}</span><span>${esc(l.slice(i + 1).trim())}</span>`;
+    }).join("") + `</div>`;
+    md = md.slice(fm[0].length);
+  }
+  for (const line of md.split("\n")) {
+    let m;
+    if ((m = line.match(/^(#{1,4})\s+(.*)/))) { flush(); out += `<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`; }
+    else if ((m = line.match(/^>\s?(.*)/))) { flush(); out += `<blockquote>${inline(m[1])}</blockquote>`; }
+    else if ((m = line.match(/^\s*[-*]\s+(.*)/))) {
+      if (para.length) { out += `<p>${inline(para.join(" "))}</p>`; para = []; }
+      if (list !== "ul") { if (list) out += `</${list}>`; out += "<ul>"; list = "ul"; }
+      out += `<li>${inline(m[1])}</li>`;
+    }
+    else if ((m = line.match(/^\s*\d+[.)]\s+(.*)/))) {
+      if (para.length) { out += `<p>${inline(para.join(" "))}</p>`; para = []; }
+      if (list !== "ol") { if (list) out += `</${list}>`; out += "<ol>"; list = "ol"; }
+      out += `<li>${inline(m[1])}</li>`;
+    }
+    else if (!line.trim()) flush();
+    else { if (list) { out += `</${list}>`; list = null; } para.push(line.trim()); }
+  }
+  flush();
+  return out;
+}
+
+// --- page list ------------------------------------------------------------------------
+function renderList() {
+  const q = $("#filter").value.trim().toLowerCase();
+  const box = $("#pages");
+  box.innerHTML = "";
+  for (const [kind, label] of [["topic", "Topic pages"], ["image", "Image pages"]]) {
+    const items = pages.filter(p => p.kind === kind && (!q || p.title.toLowerCase().includes(q) || p.name.includes(q)));
+    if (!items.length) continue;
+    box.insertAdjacentHTML("beforeend", `<h2>${label} · ${items.length}</h2>`);
+    for (const p of items) {
+      const el = document.createElement("div");
+      el.className = "page" + (doc && doc.kind === p.kind && doc.name === p.name ? " on" : "");
+      el.innerHTML = `<span>${esc(p.title)}</span>${doc && doc.name === p.name && dirty ? `<span class="dot" title="unsaved">●</span>` : ""}
+        <span class="lock">${p.locked ? "locked" : ""}</span>`;
+      el.onclick = () => { location.hash = `${p.kind}/${p.name}`; };
+      box.appendChild(el);
+    }
+  }
+  if (!box.children.length) box.innerHTML = `<p class="empty">no pages</p>`;
+}
+
+function status(msg, cls = "") { const s = $("#status"); s.textContent = msg; s.className = cls; }
+
+function setDirty(v) {
+  dirty = v;
+  $("#save").disabled = !v;
+  renderList();
+}
+
+async function openPage(kind, name) {
+  if (dirty && !confirm("Discard your unsaved changes to this page?")) { location.hash = `${doc.kind}/${doc.name}`; return; }
+  try {
+    doc = await api(`/wiki-files/${kind}/${encodeURIComponent(name)}`);
+  } catch (e) { status(e.message, "err"); return; }
+  const meta = pages.find(p => p.kind === kind && p.name === name);
+  $("#bar").hidden = false;
+  $("#doc-title").textContent = meta?.title || name;
+  $("#doc-path").textContent = `${kind === "image" ? "wiki/images/" : "wiki/"}${name}`;
+  $("#lock").checked = /^locked:\s*true\s*$/m.test(doc.text.split("\n---")[0]);
+  const panes = $("#panes");
+  panes.innerHTML = `<textarea id="src" spellcheck="true"></textarea><div id="preview"></div>`;
+  $("#src").value = doc.text;
+  $("#src").oninput = () => { setDirty($("#src").value !== doc.text); preview(); };
+  preview();
+  setView(store.get("dip-editor-view") || "split");
+  setDirty(false);
+  status(kind === "image"
+    ? "Image page: edits change search after the next stage 7 run (needs the embedding model)."
+    : meta?.locked ? "Locked: rebuilds keep this page as you leave it."
+                   : "Not locked yet: tick “keep through rebuilds” or the next stage 6 rebuild rewrites it.");
+}
+
+let previewTimer;
+function preview() {
+  clearTimeout(previewTimer);
+  previewTimer = setTimeout(() => { const p = $("#preview"); if (p) p.innerHTML = render($("#src").value); }, 120);
+}
+
+function setView(v) {
+  document.querySelectorAll(".seg button").forEach(b => b.classList.toggle("on", b.dataset.view === v));
+  $("#panes").className = "panes " + (v === "split" ? "" : v);
+  store.set("dip-editor-view", v);
+}
+
+async function save() {
+  if (!doc || !dirty) return;
+  $("#save").disabled = true;
+  status("saving…");
+  try {
+    const headers = {"content-type": "application/json"};
+    const tok = $("#token").value.trim();
+    if (tok) headers["x-edit-token"] = tok;
+    const res = await api(`/wiki-files/${doc.kind}/${encodeURIComponent(doc.name)}`, {
+      method: "PUT", headers,
+      body: JSON.stringify({text: $("#src").value, base_hash: doc.hash, lock: $("#lock").checked}),
+    });
+    if (tok) store.set("dip-edit-token", tok);
+    const fresh = await api(`/wiki-files/${doc.kind}/${encodeURIComponent(doc.name)}`);  // with lock applied
+    doc = fresh;
+    $("#src").value = doc.text;
+    const meta = pages.find(p => p.kind === doc.kind && p.name === doc.name);
+    if (meta) meta.locked = res.locked;
+    setDirty(false);
+    preview();
+    status(res.note, "ok");
+  } catch (e) {
+    status(e.message, "err");
+    $("#save").disabled = false;
+  }
+}
+
+$("#filter").oninput = renderList;
+$("#save").onclick = save;
+$("#lock").onchange = () => setDirty(true);
+$("#revert").onclick = () => { if (doc) { $("#src").value = doc.text; $("#lock").checked = /^locked:\s*true\s*$/m.test(doc.text.split("\n---")[0]); setDirty(false); preview(); status("reverted to the saved page"); } };
+document.querySelectorAll(".seg button").forEach(b => b.onclick = () => setView(b.dataset.view));
+document.addEventListener("keydown", e => {
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "s") { e.preventDefault(); save(); }
+});
+window.addEventListener("beforeunload", e => { if (dirty) { e.preventDefault(); e.returnValue = ""; } });
+window.addEventListener("hashchange", route);
+
+function route() {
+  const m = location.hash.match(/^#(topic|image)\/(.+)$/);
+  if (m) openPage(m[1], decodeURIComponent(m[2]));
+  renderList();
+}
+
+(async () => {
+  try {
+    const [list, health] = await Promise.all([api("/wiki-files"), api("/health")]);
+    pages = list;
+    if (health.editing === "token") {
+      $("#token-wrap").hidden = false;
+      $("#token").value = store.get("dip-edit-token") || "";
+    }
+    route();
+  } catch (e) { $("#pages").innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+})();
+</script>
+</body>
+</html>

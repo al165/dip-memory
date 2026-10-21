@@ -24,6 +24,10 @@ IMAGE_DIR = Path(_env("DIP_IMAGE_DIR", str(ROOT.parent.parent / "00_Data" / "ima
 IMAGE_WIKI_DIR = Path(_env("DIP_IMAGE_WIKI_DIR", str(WIKI_DIR / "images")))  # one page per image (stage 7)
 
 # --- models (all local) ----------------------------------------------------
+# Offline demo: no LLM and no embedding model at query time. Calls fail at once instead of
+# waiting for a timeout; actions fall back to stored vectors, links and cached concepts.
+OFFLINE = _env("DIP_OFFLINE", False, lambda v: v.strip().lower() in ("1", "true", "yes"))
+EDIT_TOKEN = _env("DIP_EDIT_TOKEN", "")  # if set, saving in the wiki editor needs this token
 OLLAMA_URL = _env("OLLAMA_URL", "http://localhost:11434")
 LLM_MODEL = _env("DIP_LLM_MODEL", "qwen3:4b")
 VLM_MODEL = _env("DIP_VLM_MODEL", "qwen2.5vl:3b")  # only used for image items

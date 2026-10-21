@@ -393,3 +393,15 @@ def precompute_concepts(conn):
             if concepts:
                 actions.cache_concepts(conn, text, concepts)  # written here, on the main thread
             progress(i, len(todo), "concepts", every=25)
+
+    # their query vectors too (plus the no-LLM concepts of clusters and themes), so the Images
+    # action also works on a server without the embedding model (DIP_OFFLINE)
+    concepts = {c for r in conn.execute("SELECT concepts_json FROM concept_cache WHERE model=?",
+                                        (config.LLM_MODEL,)) for c in json.loads(r["concepts_json"])}
+    for n in conn.execute("SELECT * FROM nodes WHERE kind IN ('cluster','theme')").fetchall():
+        concepts.update(actions._tree_concepts(conn, n))
+    concepts = sorted(concepts)
+    have = 0
+    for i in range(0, len(concepts), 256):
+        have += len(actions.concept_vectors(conn, concepts[i:i + 256]))
+    log(f"concept vectors: {have} of {len(concepts)} stored")

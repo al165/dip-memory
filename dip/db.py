@@ -159,6 +159,15 @@ CREATE TABLE IF NOT EXISTS concept_cache (
     PRIMARY KEY (text, model)
 );
 
+-- Query vectors of those concepts, keyed by concept text + embedding model, so the Images action
+-- also runs where no embedding model is available (DIP_OFFLINE demo).
+CREATE TABLE IF NOT EXISTS concept_vectors (
+    text  TEXT NOT NULL,
+    model TEXT NOT NULL,
+    vec   BLOB NOT NULL,
+    PRIMARY KEY (text, model)
+);
+
 CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
 """
 

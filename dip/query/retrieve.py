@@ -47,8 +47,9 @@ def rrf(*ranked_lists, k: int = None) -> dict[int, float]:
 
 def hybrid(conn, text: str, vec, k: int = 20, allowed: set | None = None,
            exclude: set | None = None) -> list[tuple[int, float]]:
+    """Dense + BM25, fused by rank. With vec=None (no embedding model) it is BM25 alone."""
     exclude = exclude or set()
-    dense = index(conn, "node").search(vec, k=k * 2, allowed=allowed, exclude=exclude)
+    dense = [] if vec is None else index(conn, "node").search(vec, k=k * 2, allowed=allowed, exclude=exclude)
     kw = [(i, s) for i, s in bm25(conn, text, k=k * 2, allowed=allowed) if i not in exclude]
     fused = rrf(dense, kw)
     return sorted(fused.items(), key=lambda x: -x[1])[:k]

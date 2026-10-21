@@ -76,6 +76,7 @@
 <body>
 <header>
   <h1>DIP memory · test bench</h1>
+  <a href="/ui/editor.html" style="color:var(--muted);font-size:13px">wiki editor →</a>
   <span id="health">connecting…</span>
 </header>
 <main>
@@ -112,6 +113,7 @@ const ACTIONS = [
 ];
 let trail = [];          // visited node ids
 let focusNode = null;    // current node object
+let offline = false;     // server runs without LLM/embedding models (DIP_OFFLINE demo)
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 
@@ -197,6 +199,11 @@ async function setFocus(id, push = true) {
   bar.appendChild(k);
   wrap.appendChild(bar);
 
+  if (offline) {
+    wrap.insertAdjacentHTML("beforeend", `<p class="empty">Question needs a language model, which this demo server doesn't run.</p>`);
+    $("#results").innerHTML = "";
+    return;
+  }
   const qf = document.createElement("form");
   qf.className = "row";
   qf.innerHTML = `<input type="text" id="question" placeholder="Ask a question about this passage (or the whole corpus)…"><button style="background:var(--question);border:0;color:#111;font-weight:600">Ask</button>`;
@@ -216,12 +223,13 @@ function renderTrail() {
 async function runAction(key, btn) {
   document.querySelectorAll(".actions button").forEach(b => b.classList.toggle("active", b === btn));
   const out = $("#results");
-  out.innerHTML = `<p class="empty">running ${key}… (counter/evidence may call the LLM if the graph has no answer)</p>`;
+  out.innerHTML = `<p class="empty">running ${key}…${offline ? "" : " (counter/evidence may call the LLM if the graph has no answer)"}</p>`;
   btn.disabled = true;
   const t0 = performance.now();
   try {
     const res = await api(`/${key}?node_id=${focusNode.id}&k=${$("#k").value}`);
-    out.innerHTML = `<h2>${key} · ${res.results.length} results · ${((performance.now() - t0) / 1000).toFixed(1)}s${res.meta?.fallback_used ? " · fallback used" : ""}</h2>`;
+    const fb = res.meta?.fallback_error ? (offline ? " · stored links only" : " · fallback failed") : res.meta?.fallback_used ? " · fallback used" : "";
+    out.innerHTML = `<h2>${key} · ${res.results.length} results · ${((performance.now() - t0) / 1000).toFixed(1)}s${fb}</h2>`;
     if (res.meta?.concepts) out.insertAdjacentHTML("beforeend", `<div class="concepts">concepts (${esc(res.meta.concepts_from)}): ${res.meta.concepts.map(c => `“${esc(c)}”`).join(" · ")}</div>`);
     if (res.meta?.note) out.insertAdjacentHTML("beforeend", `<p class="empty">${esc(res.meta.note)}</p>`);
     const box = document.createElement("div"); out.appendChild(box);
@@ -318,7 +326,7 @@ async function imagePassages(slug, btn) {
 async function showWiki(slug) {
   const md = await api(`/wiki/${encodeURIComponent(slug)}`);
   const out = $("#results");
-  out.innerHTML = `<h2>wiki · ${esc(slug)}</h2>`;
+  out.innerHTML = `<h2>wiki · ${esc(slug)} · <a href="/ui/editor.html#topic/${encodeURIComponent(slug)}.md" style="color:var(--focus)">edit</a></h2>`;
   const pre = document.createElement("pre"); pre.className = "wiki";
   pre.innerHTML = esc(md).replace(/\[\[chunk:(\d+)\]\]/g, `<span class="cite" data-id="$1" style="color:var(--focus);cursor:pointer">[[chunk:$1]]</span>`);
   pre.querySelectorAll(".cite").forEach(c => c.onclick = () => setFocus(+c.dataset.id));
@@ -356,10 +364,17 @@ document.querySelectorAll(".tabs button").forEach(b => b.onclick = async () => {
 
 api("/health").then(h => {
   const n = h.nodes || {}, e = h.edges || {};
+  offline = !!h.offline;
+  if (offline) $("#q").placeholder = "search the corpus (keywords)…";
   $("#health").textContent = `${n.chunk || 0} chunks · ${n.cluster || 0} clusters · ${n.theme || 0} themes · ` +
     `${h.claims} claims · edges ${Object.entries(e).map(([k, v]) => `${k.toLowerCase()} ${v}`).join(", ") || "none"} · ` +
-    `${h.wiki_pages} wiki pages · ${h.images || 0} images · ollama ${h.ollama?.ollama ? "ok" : "unreachable"}`;
-}).catch(e => $("#health").textContent = "API error: " + e.message);
+    `${h.wiki_pages} wiki pages · ${h.images || 0} images · ` +
+    (offline ? "offline demo: stored data only" : `ollama ${h.ollama?.ollama ? "ok" : "unreachable"}`);
+}).catch(e => $("#health").textContent = "API error: " + e.message)
+  .finally(() => {  // ?node=123 opens that passage (links from the wiki editor)
+    const start = new URLSearchParams(location.search).get("node");
+    if (start && /^\d+$/.test(start)) setFocus(+start);
+  });
 </script>
 </body>
 </html>

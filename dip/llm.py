@@ -24,8 +24,15 @@ class LLMError(RuntimeError):
     pass
 
 
+def _check_online():
+    if config.OFFLINE:
+        raise LLMError("offline demo (DIP_OFFLINE=1): no language or embedding model on this server")
+
+
 def available() -> dict:
     """Report whether Ollama is reachable and the configured models are pulled."""
+    if config.OFFLINE:
+        return {"ollama": False, "offline": True}
     try:
         tags = _client.get("/api/tags", timeout=5).json()
     except Exception as e:  # noqa: BLE001
@@ -45,6 +52,7 @@ def generate(prompt: str, schema: dict | None = None, system: str | None = None,
     """Chat completion. With `schema`, Ollama constrains output to that JSON schema and the
     parsed object is returned; otherwise the text is returned. With `logprobs=True` returns
     (result, token_logprobs) so callers can read the model's confidence (see expected_score)."""
+    _check_online()
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
@@ -189,6 +197,7 @@ def remote_available() -> bool:
 
 def embed_images(paths: list, batch: int = 8) -> list[list[float]]:
     """Vectors for image files, in the same space as text (gemma: st or remote backend)."""
+    _check_online()
     if config.EMBED_BACKEND == "remote":
         out = []
         for i in range(0, len(paths), batch):
@@ -203,6 +212,7 @@ def embed_images(paths: list, batch: int = 8) -> list[list[float]]:
 
 def embed(texts: list[str], query: bool = False, batch: int = 32) -> list[list[float]]:
     # gemma's own task prompts: "task: search result | query: " / "title: none | text: "
+    _check_online()
     prompt_name = "SearchQuery" if query else "Document"
     if config.EMBED_BACKEND == "st":
         return _st_encode(list(texts), prompt_name=prompt_name)

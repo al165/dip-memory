@@ -99,8 +99,7 @@ def resolve(conn, node_id: int | None = None, text: str | None = None):
         return row
     if not text:
         raise ValueError("give node_id or text")
-    vec = llm.embed_one(text, query=True)
-    hits = retrieve.hybrid(conn, text, vec, k=1, allowed=db.ids_of_kind(conn, "chunk"))
+    hits = retrieve.hybrid(conn, text, query_vec(text), k=1, allowed=db.ids_of_kind(conn, "chunk"))
     if not hits:
         raise NotFound("database is empty")
     return db.node(conn, hits[0][0])
@@ -109,6 +108,15 @@ def resolve(conn, node_id: int | None = None, text: str | None = None):
 def _vec(conn, row):
     v = retrieve.index(conn, "node").get(row["id"])
     return v if v is not None else llm.embed_one(row["text"])
+
+
+def query_vec(text: str):
+    """The query's vector, or None without an embedding model (offline demo): search then runs on
+    keywords alone, and text-started actions use the vector of the passage the keywords found."""
+    try:
+        return llm.embed_one(text, query=True)
+    except llm.LLMError:
+        return None
 
 
 def _envelope(action, anchor, results: Results, **meta):
@@ -124,7 +132,9 @@ def neighbours(conn, node_id=None, text=None, k=None):
     k = k or config.DEFAULT_K
     if text and node_id is None:
         anchor = resolve(conn, text=text)
-        vec, qtext, exclude = llm.embed_one(text, query=True), text, set()
+        vec, qtext, exclude = query_vec(text), text, set()
+        if vec is None:
+            vec = _vec(conn, anchor)
     else:
         anchor = resolve(conn, node_id)
         vec, qtext, exclude = _vec(conn, anchor), anchor["text"], {anchor["id"]}
@@ -349,6 +359,30 @@ def cache_concepts(conn, text: str, concepts: list[str]):
     conn.commit()
 
 
+def concept_vectors(conn, concepts: list[str]) -> list[tuple[str, np.ndarray]]:
+    """[(concept, query vector)], cached by concept text + embedding model so the Images action
+    also runs without the embedding model (offline demo). Concepts that are neither cached nor
+    embeddable right now are left out."""
+    concepts = list(dict.fromkeys(concepts))
+    if not concepts:
+        return []
+    have = {r["text"]: db.from_blob(r["vec"]) for r in conn.execute(
+        f"SELECT text, vec FROM concept_vectors WHERE model=? AND text IN ({','.join('?' * len(concepts))})",
+        (config.EMBED_MODEL, *concepts))}
+    missing = [c for c in concepts if c not in have]
+    if missing:
+        try:
+            vecs = llm.embed(missing, query=True)
+        except llm.LLMError:
+            vecs = []
+        if vecs:
+            conn.executemany("INSERT OR REPLACE INTO concept_vectors(text, model, vec) VALUES (?,?,?)",
+                             [(c, config.EMBED_MODEL, db.to_blob(v)) for c, v in zip(missing, vecs)])
+            conn.commit()
+            have.update({c: np.asarray(v, dtype=np.float32) for c, v in zip(missing, vecs)})
+    return [(c, have[c]) for c in concepts if c in have]
+
+
 def _tree_concepts(conn, anchor) -> list[str]:
     """Without the LLM: the anchor's cluster and theme titles (already abstract), then its claims."""
     out = []
@@ -436,7 +470,10 @@ def metaphor_ranking(conn, concepts: list[str], qvecs=None, centre=True) -> list
     image pages; an image scores its best (concept, metaphor) pair. Returns
     [(image_id, score, why, extra)] best first."""
     if qvecs is None:
-        qvecs = [llm.embed_one(c, query=True) for c in concepts]
+        found = concept_vectors(conn, concepts)
+        concepts, qvecs = [c for c, _ in found], [v for _, v in found]
+        if not qvecs:
+            return []
     ids, S = _sims(conn, "image_metaphor", qvecs, centre)
     if not len(ids):
         return []
@@ -462,7 +499,9 @@ def images(conn, node_id=None, text=None, k=None):
     k = k or config.DEFAULT_K
     if text and node_id is None:
         anchor = resolve(conn, text=text)
-        vec, src = llm.embed_one(text, query=True), text
+        vec, src = query_vec(text), text
+        if vec is None:
+            vec = _vec(conn, anchor)
     else:
         anchor = resolve(conn, node_id)
         vec, src = _vec(conn, anchor), anchor["text"]
@@ -654,9 +693,10 @@ def question(conn, question: str, node_id: int | None = None, k: int = 8):
 
 
 def search(conn, q: str, k: int = 10, kinds=("chunk",)):
-    vec = llm.embed_one(q, query=True)
+    vec = query_vec(q)
     hits = retrieve.hybrid(conn, q, vec, k=k, allowed=db.ids_of_kind(conn, *kinds))
-    return [node_result(conn, db.node(conn, i), s, "hybrid dense+bm25 (rrf)") for i, s in hits]
+    why = "hybrid dense+bm25 (rrf)" if vec is not None else "keywords only (bm25): no embedding model here"
+    return [node_result(conn, db.node(conn, i), s, why) for i, s in hits]
 
 
 ACTIONS = {

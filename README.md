@@ -37,6 +37,28 @@ uvicorn dip.api:app --port 8000      # test UI: http://localhost:8000/   API doc
 | `POST /question` `{question, node_id?}` | answer with `[id]` citations, wiki-routed |
 | `GET /nodes?kind=chunk`, `GET /nodes/{id}` | browse nodes, with claims and edges |
 | `GET /items`, `GET /wiki`, `GET /wiki/{slug}` | sources and wiki pages |
+| `GET /wiki-files`, `GET`/`PUT /wiki-files/{topic\|image}/{name}` | wiki editor: list, read, save (`{text, base_hash, lock?}`) |
+
+The wiki editor is at `/ui/editor.html` (linked from the test UI).
+
+## Offline demo (no LLM, no embedding model)
+
+To share the explorer from a server without Ollama or the embedding server:
+
+```bash
+python -m dip.ingest.run --concepts   # first, on the GPU machine: Images concepts + their vectors
+# copy data-embeddinggemma2/ and 00_Data/images/ to the server, then:
+DIP_OFFLINE=1 DIP_EDIT_TOKEN=<secret> \
+DIP_DATA_DIR=data-embeddinggemma2 DIP_IMAGE_WIKI_DIR=data-embeddinggemma2/wiki/images \
+DIP_IMAGE_DIR=/path/to/images uvicorn dip.api:app --host 0.0.0.0 --port 8000
+```
+
+Browsing, Neighbours, Counter, Evidence, Zoom in/out, Images and "Passages for this image" run
+on stored vectors, links and cached concepts. Search matches keywords only (BM25), Counter and
+Evidence skip their LLM fallback (stored links only), and Question is unavailable. Wiki edits are
+saved to the files; a topic page's summary and citations update the database at once, while the
+page's vector (and image page edits) wait for the next ingest run on the GPU machine. Without
+`DIP_EDIT_TOKEN` anyone who can open the site can save edits.
 
 Every action also accepts `text=` instead of `node_id=` (mapped to the closest chunk) and `k=`.
 Each result has a `why` field naming the index layer that produced it.
