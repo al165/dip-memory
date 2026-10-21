@@ -1,0 +1,2478 @@
+{
+ "431-798": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "857-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "378-431": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "511-518": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "687-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "379-522": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "689-690": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "413-431": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "687-688": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-489": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-865": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "685-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "856-858": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-687": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "379-793": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-666": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "867-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "504-505": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "857-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "664-685": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "506-635": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "361-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "509-537": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "484-487": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-376": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-689": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-807": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-685": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "431-524": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-506": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "618-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "363-432": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "344-361": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "665-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "532-597": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "687-693": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "629-636": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-670": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "865-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-430": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-642": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "368-393": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "361-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "859-865": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-416": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "580-859": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-864": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "686-688": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "532-578": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "694-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-863": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "535-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "379-498": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "614-694": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "836-841": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "679-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "578-666": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "369-431": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "688-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-807": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "675-689": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "670-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-668": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "865-869": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "431-793": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-630": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "602-630": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-623": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-813": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "862-871": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "669-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "505-578": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "805-822": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "669-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "857-864": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-561": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "575-635": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "577-581": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "414-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "670-680": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "575-863": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-692": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "685-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "678-689": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "357-794": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-830": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-629": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "575-636": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "548-549": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "487-813": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-605": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "388-391": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "665-672": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "552-637": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-688": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "483-485": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-686": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "698-700": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "509-535": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-578": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "376-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "376-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "636-809": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "618-689": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "548-795": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "805-839": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "688-693": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "594-595": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "662-666": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "492-527": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "518-615": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "367-578": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "552-554": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "421-523": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "369-421": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-795": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "864-867": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "413-414": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "807-868": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "696-698": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "538-666": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "525-793": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "349-821": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "678-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "865-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "532-611": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-839": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "864-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "692-693": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-869": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "409-686": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "597-813": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-614": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-796": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "688-692": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "355-361": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "682-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "690-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "857-861": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "688-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "367-605": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "686-807": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "669-678": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "694-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "597-799": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "505-539": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "856-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "424-830": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "691-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "374-413": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "534-580": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "414-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "667-669": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-492": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-505": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "538-555": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "546-694": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "407-431": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "379-526": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "532-562": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "376-580": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "678-685": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "532-535": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-505": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "664-679": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "551-560": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "836-869": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "669-689": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "664-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "690-808": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "796-808": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "370-421": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "344-421": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "824-825": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "864-869": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "388-411": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "363-381": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "355-865": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "695-696": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "550-796": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "581-870": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "664-699": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "551-859": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "485-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "567-577": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "504-539": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "527-540": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "361-839": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-821": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "358-832": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "815-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "829-831": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "670-674": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-572": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-636": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "661-685": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "668-685": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "376-416": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-630": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "501-589": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "484-863": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "661-689": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "856-864": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-821": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "381-401": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "690-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-541": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "357-374": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "863-871": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "351-413": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-666": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-527": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "566-643": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "685-690": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "794-815": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-814": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "385-394": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "508-563": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "821-822": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "505-809": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "497-627": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "538-663": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "410-413": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-830": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "679-689": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "529-563": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-809": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "366-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "342-670": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "572-629": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "685-693": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "669-673": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "529-684": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "385-686": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "527-545": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "362-578": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "577-580": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "500-629": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "362-535": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "354-381": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-866": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "629-806": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "676-686": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "502-557": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "583-584": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "354-363": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "821-825": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-669": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "501-621": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "677-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "577-865": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "563-577": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "513-558": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "810-821": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "355-434": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "674-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "689-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "424-431": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "482-483": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "540-605": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "685-688": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "509-527": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "602-633": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "497-531": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "374-376": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "643-686": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "534-541": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-683": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "834-841": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "434-509": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "581-858": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "502-505": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-637": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-868": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "529-562": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "633-799": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "695-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "492-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "535-577": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "534-535": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "512-581": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "490-497": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-611": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-635": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "662-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-420": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "566-651": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "342-409": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "376-409": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "409-418": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "409-423": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "409-427": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "409-429": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "409-435": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "349-525": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "522-525": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-350": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-354": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-361": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-805": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "348-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-353": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-354": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-361": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-805": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-357": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "354-357": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "357-361": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "357-805": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "357-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "357-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-381": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "361-381": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "381-805": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "381-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "381-829": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "350-430": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "354-430": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "430-805": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "430-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "430-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-802": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "354-802": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-802": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "802-805": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "802-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "802-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "354-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "361-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "805-823": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "823-829": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "350-364": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "351-366": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "366-373": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "366-414": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "366-424": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "351-376": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "373-376": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "376-414": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "376-424": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "351-433": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "373-433": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "414-433": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "424-433": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "351-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "373-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "424-800": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "351-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "352-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "369-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "407-419": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "411-419": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "419-523": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "419-602": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "419-797": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "353-356": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "355-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "363-824": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "381-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "498-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "590-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "794-824": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "810-824": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "822-824": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "357-420": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "357-825": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-825": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "358-837": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "821-837": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "358-838": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "821-838": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "361-426": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "426-433": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "362-365": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "362-522": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "365-430": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "430-522": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "368-840": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "535-840": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "567-840": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "581-840": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "833-840": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "370-374": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "371-374": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "378-406": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "379-387": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "379-390": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "379-405": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "379-407": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "379-410": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "387-390": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "387-405": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "387-407": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "387-410": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "380-413": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "383-389": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "389-394": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "389-396": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "385-390": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "388-392": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "388-405": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "394-395": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "394-397": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "394-400": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "395-397": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "395-400": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "395-396": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "396-397": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "396-400": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "397-400": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "395-399": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "397-399": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "399-400": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "404-616": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "478-596": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "596-632": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "478-613": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "613-632": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "478-614": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "614-632": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-485": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "484-486": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "485-491": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-491": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-573": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-573": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-605": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-617": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-617": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-629": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-629": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-637": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-637": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-807": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "485-813": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-813": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-588": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-588": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "485-630": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "485-635": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-635": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "486-499": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-506": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "486-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "488-499": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "488-506": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "488-792": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "491-499": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "491-506": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "491-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-536": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-536": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "536-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-541": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-541": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "541-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-568": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-568": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "568-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-603": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-603": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "603-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-632": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-632": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "632-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "499-634": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-634": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "634-792": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "552-594": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "490-615": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "491-531": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "491-539": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "498-531": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "498-539": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "531-532": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "532-539": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "531-541": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "531-548": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-548": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "531-549": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-549": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-561": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-561": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-566": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-566": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-567": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-567": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-579": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-579": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "531-589": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-589": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "531-602": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-602": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "531-603": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "539-603": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "495-509": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "509-563": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "495-539": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "539-563": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "497-505": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "498-537": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "537-562": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "537-565": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "501-504": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "505-630": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "630-803": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "630-809": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "506-809": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "511-667": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "518-667": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "512-560": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "517-553": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "524-796": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "524-797": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "527-538": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "529-534": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "529-538": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "540-563": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "547-808": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "554-808": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "573-808": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "552-683": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "557-558": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "558-621": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "559-561": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "575-675": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "579-580": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "588-598": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "593-594": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "593-596": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "604-649": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "607-611": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "608-610": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "612-640": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "612-641": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "614-672": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "614-680": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "614-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "618-672": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "618-680": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "618-685": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "672-675": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "675-680": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "675-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-676": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "676-680": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "676-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-680": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "680-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-685": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-686": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "680-686": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-687": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "680-687": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-687": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "672-688": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "680-688": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "672-691": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "680-691": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "685-691": {
+  "relation": "opposed",
+  "score": 1.0
+ },
+ "691-692": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "692-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "691-693": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "693-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "691-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "693-695": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "616-805": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "616-806": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "805-806": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "617-631": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "621-644": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "639-643": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "661-673": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-678": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "664-673": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "664-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "664-678": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "666-673": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "666-678": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "673-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "673-678": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "673-674": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "674-677": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "674-678": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "682-694": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "661-690": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "663-671": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "693-863": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "696-697": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "823-831": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "827-830": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "827-839": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "832-840": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "834-835": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "835-841": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "856-860": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-864": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-864": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-865": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-867": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-867": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "860-868": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-869": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "860-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "858-871": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "860-871": {
+  "relation": "different_question",
+  "score": 0.0
+ },
+ "859-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "869-870": {
+  "relation": "compatible",
+  "score": 0.0
+ },
+ "862-864": {
+  "relation": "opposed",
+  "score": 1.0
+ }
+}

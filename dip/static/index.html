@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DIP memory · test bench</title>
+<style>
+  :root {
+    --bg: #fafafa; --panel: #fff; --ink: #111; --muted: #777; --line: #e4e4e4; --chip: #f1f1f1;
+    --neighbours: #efa8f2; --counter: #a5f0b5; --evidence: #77c7f2; --zoom-in: #ef9a3e; --zoom-out: #e8f53f; --images: #f7b98a;
+    --question: #c3a4f7; --focus: #6a5cff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141414; --panel: #1d1d1d; --ink: #eee; --muted: #999; --line: #333; --chip: #2a2a2a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 Inter, -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; gap: 16px; align-items: baseline; padding: 12px 20px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header h1 { font-size: 17px; margin: 0; }
+  #health { color: var(--muted); font-size: 13px; }
+  main { display: grid; grid-template-columns: minmax(280px, 380px) 1fr; height: calc(100vh - 50px); }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; height: auto; } }
+  aside, section.work { overflow: auto; padding: 16px; }
+  aside { border-right: 1px solid var(--line); }
+  input, textarea, button, select { font: inherit; color: inherit; }
+  input[type=text], textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+  button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 6px 12px; }
+  button:disabled { opacity: .5; cursor: wait; }
+  .row { display: flex; gap: 8px; align-items: center; margin-bottom: 10px; }
+  .tabs button.on { background: var(--ink); color: var(--bg); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; cursor: pointer; }
+  .card:hover { border-color: var(--focus); }
+  .card .meta { font-size: 12px; color: var(--muted); display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; }
+  .chip { background: var(--chip); border-radius: 5px; padding: 0 6px; }
+  .chip.kind { font-weight: 600; }
+  .card .text { white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+  .why { font-size: 12px; color: var(--muted); margin-top: 6px; font-family: ui-monospace, monospace; }
+  .rel { font-size: 13px; margin-top: 6px; padding: 6px 8px; border-radius: 6px; background: var(--chip); }
+  #focus { border: 2px solid var(--focus); cursor: default; }
+  #focus .text { -webkit-line-clamp: unset; }
+  .actions { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+  .actions button { border: 0; color: #111; font-weight: 600; }
+  .actions button.active { outline: 2px solid var(--ink); }
+  #trail { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  #trail a { color: inherit; cursor: pointer; text-decoration: underline; }
+  .claims { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--muted); }
+  .empty { color: var(--muted); font-style: italic; padding: 8px 0; }
+  .answer { background: var(--panel); border: 1px solid var(--question); border-radius: 10px; padding: 12px; white-space: pre-wrap; margin-bottom: 12px; }
+  .answer .cite { color: var(--focus); cursor: pointer; font-weight: 600; }
+  pre.wiki { white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-size: 13px; }
+  .err { color: #d33; }
+  .card.image { display: grid; grid-template-columns: 150px 1fr; gap: 12px; }
+  @media (max-width: 520px) { .card.image { grid-template-columns: 1fr; } }
+  .card.image img { width: 100%; max-height: 150px; object-fit: cover; border-radius: 6px; background: var(--chip); }
+  .card .credit { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .card .credit a { color: inherit; }
+  .chip.match-subject { background: #cfe3ff; color: #111; }
+  .chip.match-metaphor { background: var(--images); color: #111; }
+  .concepts { font-size: 13px; color: var(--muted); margin: -4px 0 10px; }
+  .imggrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+  .thumb { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px; cursor: pointer; display: grid; gap: 4px; }
+  .thumb:hover, .thumb.on { border-color: var(--focus); }
+  .thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 5px; background: var(--chip); }
+  .thumb span { font-size: 12px; line-height: 1.3; }
+  .imgview img.big { display: block; max-width: 100%; max-height: 460px; border-radius: 10px; background: var(--chip); }
+  .imgview h3 { margin: 12px 0 2px; font-size: 18px; }
+  .imgview .credit { font-size: 13px; color: var(--muted); }
+  .imgview .credit a { color: inherit; }
+  .imgview .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .imgview dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 12px; margin: 8px 0; }
+  .imgview dt { font-weight: 600; } .imgview dd { margin: 0; }
+  .imgview details { margin-top: 12px; } .imgview summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 16px 0 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>DIP memory · test bench</h1>
+  <span id="health">connecting…</span>
+</header>
+<main>
+  <aside>
+    <div class="row tabs">
+      <button data-tab="search" class="on">Search</button>
+      <button data-tab="browse">Browse</button>
+      <button data-tab="wiki">Wiki</button>
+      <button data-tab="images">Images</button>
+    </div>
+    <div id="tab-search">
+      <form class="row" id="search-form"><input type="text" id="q" placeholder="search the corpus…" autofocus><button>Go</button></form>
+    </div>
+    <div id="tab-browse" hidden>
+      <div class="row"><select id="kind"><option>chunk</option><option>section</option><option>document</option><option>cluster</option><option>theme</option></select></div>
+    </div>
+    <div id="tab-images" hidden>
+      <div class="row"><input type="text" id="imgfilter" placeholder="filter by title, subject or metaphor…"></div>
+    </div>
+    <div id="list"></div>
+  </aside>
+
+  <section class="work">
+    <div id="trail"></div>
+    <div id="focus-wrap"><p class="empty">Search or browse on the left, then pick a passage to explore from.</p></div>
+    <div id="results"></div>
+  </section>
+</main>
+
+<script>
+const ACTIONS = [
+  ["neighbours", "Neighbours"], ["counter", "Counter"], ["evidence", "Evidence"],
+  ["zoom-in", "Zoom in"], ["zoom-out", "Zoom out"], ["images", "Images"],
+];
+let trail = [];          // visited node ids
+let focusNode = null;    // current node object
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error(`${r.status}: ${(await r.text()).slice(0, 300)}`);
+  return r.headers.get("content-type")?.includes("json") ? r.json() : r.text();
+}
+
+function imageCard(r) {
+  const el = document.createElement("div");
+  el.className = "card image";
+  const credit = r.credit || r.creator || "credit missing";
+  const creditHtml = r.source
+    ? `<a href="${esc(r.source)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(credit)}</a>`
+    : esc(credit);
+  const rel = r.metaphor
+    ? `<div class="rel"><strong>${esc(r.metaphor.keyword)}</strong>: ${esc(r.metaphor.gloss)}<br><em>← concept</em> “${esc(r.concept)}”</div>`
+    : "";
+  el.innerHTML = `<img src="${esc(r.url)}" alt="${esc(r.title)}" loading="lazy">
+    <div><div class="meta"><span class="chip match-${esc(r.match)}">${esc(r.match)}</span>
+      <span>score ${(+r.score).toFixed(3)}</span></div>
+    <strong>${esc(r.title)}</strong><div class="credit">${creditHtml}${r.license ? ` · ${esc(r.license)}` : ""}</div>
+    <div class="text" style="-webkit-line-clamp:3">${esc(r.text)}</div>${rel}<div class="why">${esc(r.why)}</div></div>`;
+  el.onclick = () => showImagePage(r.slug);
+  return el;
+}
+
+function card(r, {onClick} = {}) {
+  if (r.type === "image") return imageCard(r);
+  const el = document.createElement("div");
+  el.className = "card";
+  const meta = [
+    `<span class="chip kind">${esc(r.kind)} ${r.type === "wiki" ? "" : "#" + r.id}</span>`,
+    r.role && `<span class="chip">${esc(r.role)}</span>`,
+    r.abstraction != null && `<span class="chip" title="abstraction 1 concrete … 5 general">abs ${(+r.abstraction).toFixed(1)}</span>`,
+    (r.document || r.section) && `<span>${esc([r.document, r.section].filter(Boolean).join(" › "))}</span>`,
+    r.match && `<span class="chip match-${esc(r.match)}">${esc(r.match)}</span>`,
+    r.score != null && `<span>score ${(+r.score).toFixed(3)}</span>`,
+    r.source && (/^https?:/.test(r.source)
+      ? `<a class="chip" href="${esc(r.source)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">web ↗</a>`
+      : `<span class="chip" title="${esc(r.source)}">${esc(r.source_type)}: ${esc(r.source.split("/").pop())}</span>`),
+  ].filter(Boolean).join("");
+  const title = r.kind !== "chunk" && r.title ? `<strong>${esc(r.title)}</strong><br>` : "";
+  let rel = "";
+  if (r.claim) rel = `<div class="rel">“${esc(r.claim)}”${r.against ? `<br><em>vs</em> “${esc(r.against)}”` : ""}${r.supports ? `<br><em>supports</em> “${esc(r.supports)}”` : ""}${r.metaphor ? `<br><em>fits the metaphor</em> <strong>${esc(r.metaphor.keyword)}</strong>: ${esc(r.metaphor.gloss)}` : ""}</div>`;
+  else if (r.metaphor) rel = `<div class="rel"><em>fits the metaphor</em> <strong>${esc(r.metaphor.keyword)}</strong>: ${esc(r.metaphor.gloss)}</div>`;
+  el.innerHTML = `<div class="meta">${meta}</div><div class="text">${title}${esc(r.text)}</div>${rel}${r.why ? `<div class="why">${esc(r.why)}</div>` : ""}`;
+  el.onclick = onClick || (() => r.type === "wiki" ? showWiki(r.slug) : setFocus(r.id));
+  return el;
+}
+
+function list(items, target = $("#list")) {
+  target.innerHTML = "";
+  if (!items.length) target.innerHTML = `<p class="empty">nothing found</p>`;
+  items.forEach(r => target.appendChild(card(r)));
+}
+
+async function setFocus(id, push = true) {
+  const n = await api(`/nodes/${id}`);
+  focusNode = n;
+  if (push) { trail = trail.filter(t => t.id !== id); trail.push({id, label: (n.title || n.text).slice(0, 30)}); }
+  renderTrail();
+  const wrap = $("#focus-wrap");
+  wrap.innerHTML = "";
+  const c = card({...n, type: "node"}, {onClick: () => {}});
+  c.id = "focus";
+  if (n.claims?.length) c.insertAdjacentHTML("beforeend", `<ul class="claims">${n.claims.map(x => `<li>${esc(x.text)}</li>`).join("")}</ul>`);
+  if (n.topics?.length) c.querySelector(".meta").insertAdjacentHTML("beforeend", n.topics.map(t => `<span class="chip">${esc(t)}</span>`).join(""));
+  wrap.appendChild(c);
+
+  const bar = document.createElement("div");
+  bar.className = "actions";
+  ACTIONS.forEach(([key, label]) => {
+    const b = document.createElement("button");
+    b.textContent = label; b.dataset.action = key;
+    b.style.background = `var(--${key})`;
+    b.onclick = () => runAction(key, b);
+    bar.appendChild(b);
+  });
+  const k = document.createElement("select");
+  k.id = "k"; [3, 5, 8, 12].forEach(v => k.add(new Option(`k=${v}`, v, v === 5, v === 5)));
+  bar.appendChild(k);
+  wrap.appendChild(bar);
+
+  const qf = document.createElement("form");
+  qf.className = "row";
+  qf.innerHTML = `<input type="text" id="question" placeholder="Ask a question about this passage (or the whole corpus)…"><button style="background:var(--question);border:0;color:#111;font-weight:600">Ask</button>`;
+  qf.onsubmit = e => { e.preventDefault(); ask(qf.querySelector("input").value, qf.querySelector("button")); };
+  wrap.appendChild(qf);
+  $("#results").innerHTML = "";
+}
+
+function renderTrail() {
+  $("#trail").innerHTML = trail.map((t, i) =>
+    `<a data-i="${i}">${esc(t.label)}${t.label.length >= 30 ? "…" : ""}</a>`).join(" → ");
+  $("#trail").querySelectorAll("a").forEach(a => a.onclick = () => {
+    const t = trail[+a.dataset.i]; trail = trail.slice(0, +a.dataset.i + 1); setFocus(t.id, false);
+  });
+}
+
+async function runAction(key, btn) {
+  document.querySelectorAll(".actions button").forEach(b => b.classList.toggle("active", b === btn));
+  const out = $("#results");
+  out.innerHTML = `<p class="empty">running ${key}… (counter/evidence may call the LLM if the graph has no answer)</p>`;
+  btn.disabled = true;
+  const t0 = performance.now();
+  try {
+    const res = await api(`/${key}?node_id=${focusNode.id}&k=${$("#k").value}`);
+    out.innerHTML = `<h2>${key} · ${res.results.length} results · ${((performance.now() - t0) / 1000).toFixed(1)}s${res.meta?.fallback_used ? " · fallback used" : ""}</h2>`;
+    if (res.meta?.concepts) out.insertAdjacentHTML("beforeend", `<div class="concepts">concepts (${esc(res.meta.concepts_from)}): ${res.meta.concepts.map(c => `“${esc(c)}”`).join(" · ")}</div>`);
+    if (res.meta?.note) out.insertAdjacentHTML("beforeend", `<p class="empty">${esc(res.meta.note)}</p>`);
+    const box = document.createElement("div"); out.appendChild(box);
+    list(res.results, box);
+  } catch (e) { out.innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+  btn.disabled = false;
+}
+
+async function ask(question, btn) {
+  if (!question.trim()) return;
+  const out = $("#results");
+  out.innerHTML = `<p class="empty">thinking…</p>`; btn.disabled = true;
+  try {
+    const res = await api("/question", {method: "POST", headers: {"content-type": "application/json"},
+      body: JSON.stringify({question, node_id: focusNode?.id ?? null})});
+    const answer = esc(res.answer).replace(/\[(\d+)\]/g, `<span class="cite" data-id="$1">[$1]</span>`);
+    out.innerHTML = `<h2>answer</h2><div class="answer">${answer}</div><h2>passages used</h2>`;
+    out.querySelectorAll(".cite").forEach(c => c.onclick = () => setFocus(+c.dataset.id));
+    const box = document.createElement("div"); out.appendChild(box);
+    list([...res.wiki, ...res.passages], box);
+  } catch (e) { out.innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+  btn.disabled = false;
+}
+
+// --- image library --------------------------------------------------------------
+let library = null;      // cached /image-library
+async function loadLibrary(force = false) {
+  if (!library || force) library = await api("/image-library");
+  return library;
+}
+
+function creditHtml(r) {
+  const credit = esc(r.credit || r.creator || "credit missing");
+  return (r.source ? `<a href="${esc(r.source)}" target="_blank" rel="noopener">${credit}</a>` : credit)
+    + (r.license ? ` · ${esc(r.license)}` : "");
+}
+
+function imageGrid(items, target = $("#list")) {
+  target.innerHTML = "";
+  if (!items.length) { target.innerHTML = `<p class="empty">no images</p>`; return; }
+  const grid = document.createElement("div"); grid.className = "imggrid";
+  items.forEach(r => {
+    const t = document.createElement("div"); t.className = "thumb"; t.dataset.slug = r.slug;
+    t.title = r.metaphors.map(m => m.keyword).join(" · ");
+    t.innerHTML = `<img src="${esc(r.url)}" alt="${esc(r.title)}" loading="lazy"><span>${esc(r.title)}</span>`;
+    t.onclick = () => showImagePage(r.slug);
+    grid.appendChild(t);
+  });
+  target.appendChild(grid);
+}
+
+function filterLibrary() {
+  const q = $("#imgfilter").value.trim().toLowerCase();
+  const hay = r => [r.title, r.description, ...r.subjects, ...r.metaphors.flatMap(m => [m.keyword, m.gloss])].join(" ").toLowerCase();
+  imageGrid((library || []).filter(r => !q || q.split(/\s+/).every(w => hay(r).includes(w))));
+}
+
+async function showImagePage(slug) {
+  const out = $("#results");
+  document.querySelectorAll(".thumb").forEach(t => t.classList.toggle("on", t.dataset.slug === slug));
+  try {
+    const r = (await loadLibrary()).find(x => x.slug === slug) || (await loadLibrary(true)).find(x => x.slug === slug);
+    if (!r) throw new Error(`no image ${slug}`);
+    const md = await api(r.page);
+    out.innerHTML = `<h2>image · ${esc(slug)}</h2><div class="imgview">
+      <img class="big" src="${esc(r.url)}" alt="${esc(r.title)}">
+      <h3>${esc(r.title)}</h3><div class="credit">${creditHtml(r)}</div>
+      <p>${esc(r.description)}</p>
+      <div class="chips">${r.subjects.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>
+      <h2>metaphors</h2>
+      <dl>${r.metaphors.map(m => `<dt><span class="chip match-metaphor">${esc(m.keyword)}</span></dt><dd>${esc(m.gloss)}</dd>`).join("")}</dl>
+      <details><summary>wiki page source (edit the file, then rerun stage 7)</summary><pre class="wiki"></pre></details>
+      <div class="actions"><button id="imgpass" style="background:var(--images)">Passages for this image</button></div>
+      <div id="imgpass-out"></div>
+    </div>`;
+    out.querySelector("pre.wiki").textContent = md;
+    $("#imgpass").onclick = () => imagePassages(slug, $("#imgpass"));
+  } catch (e) { out.innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+}
+
+async function imagePassages(slug, btn) {
+  const out = $("#imgpass-out");
+  out.innerHTML = `<p class="empty">finding passages…</p>`; btn.disabled = true;
+  const t0 = performance.now();
+  try {
+    const res = await api(`/image-passages/${encodeURIComponent(slug)}?k=8`);
+    out.innerHTML = `<h2>passages for this image · ${res.results.length} · ${((performance.now() - t0) / 1000).toFixed(1)}s</h2>`;
+    const box = document.createElement("div"); out.appendChild(box);
+    list(res.results, box);   // click a passage to explore from it
+  } catch (e) { out.innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+  btn.disabled = false;
+}
+
+async function showWiki(slug) {
+  const md = await api(`/wiki/${encodeURIComponent(slug)}`);
+  const out = $("#results");
+  out.innerHTML = `<h2>wiki · ${esc(slug)}</h2>`;
+  const pre = document.createElement("pre"); pre.className = "wiki";
+  pre.innerHTML = esc(md).replace(/\[\[chunk:(\d+)\]\]/g, `<span class="cite" data-id="$1" style="color:var(--focus);cursor:pointer">[[chunk:$1]]</span>`);
+  pre.querySelectorAll(".cite").forEach(c => c.onclick = () => setFocus(+c.dataset.id));
+  out.appendChild(pre);
+}
+
+// --- left panel -------------------------------------------------------------
+$("#search-form").onsubmit = async e => {
+  e.preventDefault();
+  const q = $("#q").value.trim(); if (!q) return;
+  $("#list").innerHTML = `<p class="empty">searching…</p>`;
+  try { list(await api(`/search?q=${encodeURIComponent(q)}&k=15`)); }
+  catch (err) { $("#list").innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+};
+async function browse() {
+  try { list((await api(`/nodes?kind=${$("#kind").value}&limit=300`)).map(n => ({...n, type: "node"}))); }
+  catch (err) { $("#list").innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+}
+$("#kind").onchange = browse;
+$("#imgfilter").oninput = filterLibrary;
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = async () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
+  ["search", "browse", "images"].forEach(t => $(`#tab-${t}`).hidden = t !== b.dataset.tab);
+  $("#list").innerHTML = "";
+  if (b.dataset.tab === "browse") browse();
+  if (b.dataset.tab === "images") {
+    try { await loadLibrary(true); filterLibrary(); }
+    catch (err) { $("#list").innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+  }
+  if (b.dataset.tab === "wiki") {
+    const pages = await api("/wiki");
+    list(pages.map(p => ({type: "wiki", kind: "wiki", id: p.id, slug: p.slug, title: p.title, text: p.summary})));
+  }
+});
+
+api("/health").then(h => {
+  const n = h.nodes || {}, e = h.edges || {};
+  $("#health").textContent = `${n.chunk || 0} chunks · ${n.cluster || 0} clusters · ${n.theme || 0} themes · ` +
+    `${h.claims} claims · edges ${Object.entries(e).map(([k, v]) => `${k.toLowerCase()} ${v}`).join(", ") || "none"} · ` +
+    `${h.wiki_pages} wiki pages · ${h.images || 0} images · ollama ${h.ollama?.ollama ? "ok" : "unreachable"}`;
+}).catch(e => $("#health").textContent = "API error: " + e.message);
+</script>
+</body>
+</html>

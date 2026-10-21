@@ -1,0 +1,7 @@
+# Same versions as dip-memory's own environment, so vectors match the existing gemma build.
+# Install a CUDA build of torch first (see README.md), then:
+transformers==5.19.0
+sentence-transformers==6.1.0
+pillow>=10
+fastapi>=0.115
+uvicorn[standard]>=0.30

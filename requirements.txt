@@ -1,0 +1,18 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+numpy>=1.26
+scikit-learn>=1.5
+sentence-transformers>=3.0
+# optional, DIP_EMBED_BACKEND=st with google/embeddinggemma-2 (needs transformers>=5.19);
+# install torchvision from https://download.pytorch.org/whl/cpu to keep the CPU torch build
+transformers>=5.19
+pillow>=10
+pydantic>=2.7
+python-dotenv>=1.0
+pymupdf>=1.24
+docling>=2.140   # PDF layout -> markdown (pulls in torch; keep the CPU build as above)
+trafilatura>=2.0
+markdown-it-py>=3.0
+python-frontmatter>=1.1
+pytest>=8.0

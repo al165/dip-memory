@@ -1,0 +1,922 @@
+{
+ "rule": "Counter-worthy if one passage's main content is a position (argued, reported, or described in order to reject it) that the other passage argues against. Two passages that both reject the same view are compatible.",
+ "labels": {
+  "O": "opposed",
+  "Q": "qualifies",
+  "C": "compatible",
+  "D": "different_question",
+  "S": "supports"
+ },
+ "counter_worthy": [
+  "O",
+  "Q"
+ ],
+ "pool": {
+  "k_nearest": 10,
+  "excluded_roles": [
+   "link"
+  ]
+ },
+ "strata": {
+  "cross": {
+   "n_total": 1215,
+   "n_sampled": 40
+  },
+  "within": {
+   "n_total": 4392,
+   "n_sampled": 40
+  }
+ },
+ "items": [
+  {
+   "pair": [
+    215,
+    238
+   ],
+   "stratum": "within",
+   "similarity": 0.738,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    354,
+    381
+   ],
+   "stratum": "within",
+   "similarity": 0.763,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    929,
+    939
+   ],
+   "stratum": "within",
+   "similarity": 0.783,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    697,
+    767
+   ],
+   "stratum": "cross",
+   "similarity": 0.752,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    768,
+    784
+   ],
+   "stratum": "within",
+   "similarity": 0.738,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    737,
+    778
+   ],
+   "stratum": "within",
+   "similarity": 0.757,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    920,
+    922
+   ],
+   "stratum": "within",
+   "similarity": 0.676,
+   "claude": "Q",
+   "user": null,
+   "note": "Cavalier: barriers will erode vs SpaceX S-1: may not achieve commercial viability",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    193,
+    628
+   ],
+   "stratum": "cross",
+   "similarity": 0.72,
+   "claude": "Q",
+   "user": null,
+   "note": "AI metadata incl. named entity recognition as archive opportunity vs NER fails African languages (MasakhaNER)",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    590,
+    810
+   ],
+   "stratum": "cross",
+   "similarity": 0.818,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    826,
+    827
+   ],
+   "stratum": "within",
+   "similarity": 0.723,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    394,
+    399
+   ],
+   "stratum": "within",
+   "similarity": 0.838,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    349,
+    821
+   ],
+   "stratum": "cross",
+   "similarity": 0.809,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    661,
+    812
+   ],
+   "stratum": "cross",
+   "similarity": 0.754,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    434,
+    508
+   ],
+   "stratum": "cross",
+   "similarity": 0.66,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    732,
+    765
+   ],
+   "stratum": "within",
+   "similarity": 0.718,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    615,
+    699
+   ],
+   "stratum": "cross",
+   "similarity": 0.764,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    741,
+    748
+   ],
+   "stratum": "within",
+   "similarity": 0.689,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    153,
+    604
+   ],
+   "stratum": "cross",
+   "similarity": 0.763,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    420,
+    432
+   ],
+   "stratum": "within",
+   "similarity": 0.773,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    731,
+    749
+   ],
+   "stratum": "within",
+   "similarity": 0.804,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    526,
+    800
+   ],
+   "stratum": "cross",
+   "similarity": 0.744,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    753,
+    755
+   ],
+   "stratum": "within",
+   "similarity": 0.819,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    927,
+    935
+   ],
+   "stratum": "within",
+   "similarity": 0.816,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    380,
+    829
+   ],
+   "stratum": "cross",
+   "similarity": 0.737,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    126,
+    200
+   ],
+   "stratum": "within",
+   "similarity": 0.791,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    614,
+    683
+   ],
+   "stratum": "cross",
+   "similarity": 0.746,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    860,
+    863
+   ],
+   "stratum": "within",
+   "similarity": 0.787,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    618,
+    666
+   ],
+   "stratum": "cross",
+   "similarity": 0.766,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    352,
+    416
+   ],
+   "stratum": "within",
+   "similarity": 0.727,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    127,
+    861
+   ],
+   "stratum": "cross",
+   "similarity": 0.744,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    580,
+    794
+   ],
+   "stratum": "cross",
+   "similarity": 0.766,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    65,
+    211
+   ],
+   "stratum": "within",
+   "similarity": 0.672,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    858,
+    869
+   ],
+   "stratum": "within",
+   "similarity": 0.767,
+   "claude": "O",
+   "user": null,
+   "note": "frictionless trend vs 'increase our resistance'",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    688,
+    689
+   ],
+   "stratum": "within",
+   "similarity": 0.779,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    511,
+    685
+   ],
+   "stratum": "cross",
+   "similarity": 0.725,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    57,
+    738
+   ],
+   "stratum": "cross",
+   "similarity": 0.695,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    915,
+    932
+   ],
+   "stratum": "within",
+   "similarity": 0.786,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    759,
+    770
+   ],
+   "stratum": "within",
+   "similarity": 0.754,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    58,
+    679
+   ],
+   "stratum": "cross",
+   "similarity": 0.71,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    919,
+    923
+   ],
+   "stratum": "within",
+   "similarity": 0.805,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    506,
+    805
+   ],
+   "stratum": "cross",
+   "similarity": 0.801,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    664,
+    668
+   ],
+   "stratum": "within",
+   "similarity": 0.78,
+   "claude": "O",
+   "user": null,
+   "note": "Bell's thesis vs 'the fatal flaw in this op-ed'",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    856,
+    867
+   ],
+   "stratum": "within",
+   "similarity": 0.766,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    670,
+    672
+   ],
+   "stratum": "within",
+   "similarity": 0.761,
+   "claude": "Q",
+   "user": null,
+   "note": "critical-professor prompt vs 'this level of critique is not useful if I need a quick summary'",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    309,
+    676
+   ],
+   "stratum": "cross",
+   "similarity": 0.779,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    327,
+    653
+   ],
+   "stratum": "cross",
+   "similarity": 0.695,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    239,
+    647
+   ],
+   "stratum": "cross",
+   "similarity": 0.771,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    558,
+    804
+   ],
+   "stratum": "cross",
+   "similarity": 0.706,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    636,
+    816
+   ],
+   "stratum": "cross",
+   "similarity": 0.754,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    911,
+    921
+   ],
+   "stratum": "within",
+   "similarity": 0.752,
+   "claude": "Q",
+   "user": null,
+   "note": "SpaceX/Blue Origin hype vs 'material science could prove fatal'",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    667,
+    674
+   ],
+   "stratum": "within",
+   "similarity": 0.721,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    102,
+    643
+   ],
+   "stratum": "cross",
+   "similarity": 0.667,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    857,
+    868
+   ],
+   "stratum": "within",
+   "similarity": 0.822,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    718,
+    750
+   ],
+   "stratum": "within",
+   "similarity": 0.777,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    397,
+    401
+   ],
+   "stratum": "within",
+   "similarity": 0.714,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    515,
+    934
+   ],
+   "stratum": "cross",
+   "similarity": 0.718,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    51,
+    589
+   ],
+   "stratum": "cross",
+   "similarity": 0.675,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    837,
+    838
+   ],
+   "stratum": "within",
+   "similarity": 0.751,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    289,
+    408
+   ],
+   "stratum": "cross",
+   "similarity": 0.709,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    493,
+    862
+   ],
+   "stratum": "cross",
+   "similarity": 0.645,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    693,
+    694
+   ],
+   "stratum": "within",
+   "similarity": 0.82,
+   "claude": "Q",
+   "user": null,
+   "note": "Gerlich findings vs 'these studies don't convince me the problem is genAI itself'",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    257,
+    649
+   ],
+   "stratum": "cross",
+   "similarity": 0.746,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    575,
+    792
+   ],
+   "stratum": "cross",
+   "similarity": 0.727,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    762,
+    773
+   ],
+   "stratum": "within",
+   "similarity": 0.779,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    359,
+    431
+   ],
+   "stratum": "within",
+   "similarity": 0.8,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    662,
+    671
+   ],
+   "stratum": "within",
+   "similarity": 0.791,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    740,
+    746
+   ],
+   "stratum": "within",
+   "similarity": 0.762,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    315,
+    316
+   ],
+   "stratum": "within",
+   "similarity": 0.757,
+   "claude": "C",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    279,
+    566
+   ],
+   "stratum": "cross",
+   "similarity": 0.687,
+   "claude": "O",
+   "user": null,
+   "note": "Beyond Search: open collections for creative reuse vs Katiakitanga licence restricting open access",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    66,
+    377
+   ],
+   "stratum": "cross",
+   "similarity": 0.733,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    403,
+    721
+   ],
+   "stratum": "cross",
+   "similarity": 0.639,
+   "claude": "D",
+   "user": null,
+   "junk_side": true
+  },
+  {
+   "pair": [
+    686,
+    807
+   ],
+   "stratum": "cross",
+   "similarity": 0.772,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    796,
+    808
+   ],
+   "stratum": "within",
+   "similarity": 0.762,
+   "claude": "Q",
+   "user": null,
+   "note": "AI water demands hard to justify vs shift to small local models",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    396,
+    520
+   ],
+   "stratum": "cross",
+   "similarity": 0.717,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    342,
+    382
+   ],
+   "stratum": "within",
+   "similarity": 0.741,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    413,
+    797
+   ],
+   "stratum": "cross",
+   "similarity": 0.774,
+   "claude": "S",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    603,
+    813
+   ],
+   "stratum": "cross",
+   "similarity": 0.739,
+   "claude": "C",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    196,
+    774
+   ],
+   "stratum": "cross",
+   "similarity": 0.716,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  },
+  {
+   "pair": [
+    357,
+    839
+   ],
+   "stratum": "cross",
+   "similarity": 0.784,
+   "claude": "O",
+   "user": null,
+   "note": "Pasek rejects the 'consume less' script vs GCC: declutter storage, check footprints",
+   "junk_side": false
+  },
+  {
+   "pair": [
+    681,
+    815
+   ],
+   "stratum": "cross",
+   "similarity": 0.738,
+   "claude": "D",
+   "user": null,
+   "junk_side": false
+  }
+ ]
+}

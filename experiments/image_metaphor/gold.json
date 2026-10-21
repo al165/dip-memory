@@ -1,0 +1,213 @@
+[
+ {
+  "text": "Can we design AI systems for the human and non-human ecologies that sustain it?",
+  "subject": [],
+  "metaphor": [
+   "mycelium",
+   "honeycomb"
+  ]
+ },
+ {
+  "text": "How can cooperative ecologies and economies offer alternatives to profit-driven AI models?",
+  "subject": [],
+  "metaphor": [
+   "honeycomb",
+   "mycelium",
+   "peasant-wedding"
+  ]
+ },
+ {
+  "text": "What does community or collective data and AI governance look like?",
+  "subject": [],
+  "metaphor": [
+   "peasant-wedding",
+   "honeycomb",
+   "murmuration"
+  ]
+ },
+ {
+  "text": "AI systems are not smooth, but irregular and complex, with more details emering the closer you look at them – much like the coastline paradox.",
+  "subject": [
+   "fjord-coastline"
+  ],
+  "metaphor": [
+   "river-delta",
+   "mycelium"
+  ]
+ },
+ {
+  "text": "\"Frontier\" narratives position AI as an enexplored, boundless territory ripe for conquest",
+  "subject": [
+   "american-progress"
+  ],
+  "metaphor": [
+   "old-world-map"
+  ]
+ },
+ {
+  "text": "\"Cloud\" narratives mystifies AI and digital technologies as immaterial, inconsequential to the natural world.",
+  "subject": [
+   "cumulus-cloud"
+  ],
+  "metaphor": []
+ },
+ {
+  "text": "\"General Intelligence\" reinforces systems of centralised control and power",
+  "subject": [],
+  "metaphor": [
+   "panopticon",
+   "tower-of-babel"
+  ]
+ },
+ {
+  "text": "AI is not a singular intelligent entity; it's an ecosystem of people, machines, and places",
+  "subject": [],
+  "metaphor": [
+   "mycelium",
+   "honeycomb",
+   "murmuration"
+  ]
+ },
+ {
+  "text": "The frontier narrative was – and remains – a colonial strategy to justify exploiting, erasing, pillaging, and violenty re-making the world.",
+  "subject": [
+   "american-progress"
+  ],
+  "metaphor": [
+   "open-pit-mine",
+   "old-world-map"
+  ]
+ },
+ {
+  "text": "Enframing or \"Gestell\" refers to the way modern technology frames the world as nothing more than a standing-reserve (or \"Bestand\") of resources to be optimised, ordered, and exploited. This mindset reduces everything –including nature and people – to resources or inventory waiting to be utilised.",
+  "subject": [],
+  "metaphor": [
+   "open-pit-mine"
+  ]
+ },
+ {
+  "text": "Anyone who believes exponetial growth and go on forever in a finite world is either a madman or an economist.   Kenneth E. Boulding (1910–1933), American Economist",
+  "subject": [],
+  "metaphor": [
+   "tower-of-babel",
+   "open-pit-mine",
+   "earth-at-night"
+  ]
+ },
+ {
+  "text": "Frontier landscape paintings framed territories as untouched and uninhabited. The cloud narrative erases the resource extraction, labor, and politics of territorial control involved in building and maintaining digital technologies.",
+  "subject": [
+   "american-progress",
+   "cumulus-cloud",
+   "open-pit-mine"
+  ],
+  "metaphor": []
+ },
+ {
+  "text": "The cloud isn't a cloud at all. It's an underground network of people, resources, cables, and datacenters tirelessly working to make the internet work like \"magic.\"",
+  "subject": [
+   "submarine-cable",
+   "server-racks",
+   "cumulus-cloud"
+  ],
+  "metaphor": [
+   "mycelium",
+   "switchboard"
+  ]
+ },
+ {
+  "text": "The idea of the Earth as a vast, empty frontier, ready to be divided and claimed has a long history. It continues to shape how we talk about innovation. AI is no exception.",
+  "subject": [
+   "old-world-map",
+   "american-progress"
+  ],
+  "metaphor": []
+ },
+ {
+  "text": "Just as colonial landscape paintings present land as empty spaces, ripe for conquest, mainstream AI narratives abstract and erase the social, cultural, and environmental contexts in which data is collected and systems are deployed.",
+  "subject": [
+   "american-progress"
+  ],
+  "metaphor": [
+   "old-world-map"
+  ]
+ },
+ {
+  "text": "universalism determines which problems are seen as worth solving, whose knowledge is considered valid, and who gets to participate in shaping technology.",
+  "subject": [],
+  "metaphor": [
+   "tower-of-babel",
+   "old-world-map"
+  ]
+ },
+ {
+  "text": "The myth of general artificial intelligence limits our imaginations of what AI can be.",
+  "subject": [],
+  "metaphor": [
+   "tower-of-babel"
+  ]
+ },
+ {
+  "text": "There is a push for generality in machine learning, I'm totally against that: we have to work context by context, community by community.",
+  "subject": [],
+  "metaphor": [
+   "allotment-garden",
+   "peasant-wedding"
+  ]
+ },
+ {
+  "text": "Placefulness allows us to move beyond the reductive map that typically depict AI infrastructure and instead envision maps that are more just, sustainable, and life-affirming",
+  "subject": [
+   "old-world-map"
+  ],
+  "metaphor": [
+   "allotment-garden",
+   "river-delta"
+  ]
+ },
+ {
+  "text": "Small AI – it might be janky, but it's yours.",
+  "subject": [],
+  "metaphor": [
+   "allotment-garden"
+  ]
+ },
+ {
+  "text": "Antifragile is a property of systems that grow stronger and more capable when exposed to stressors, shocks, volatility, noise, mistakes, or failures.   Nassim Nicholas Taleb, 2012",
+  "subject": [],
+  "metaphor": [
+   "mycelium",
+   "murmuration"
+  ]
+ },
+ {
+  "text": "Moving with nature offers an alternative to the mainstream narratives of AI existing in the cloud.",
+  "subject": [
+   "cumulus-cloud"
+  ],
+  "metaphor": [
+   "murmuration",
+   "river-delta"
+  ]
+ },
+ {
+  "text": "Generous interfaces invite visitors to browse and wander through an archive's whole collection instead of typing a search query.",
+  "subject": [
+   "card-catalogue"
+  ],
+  "metaphor": [
+   "spider-web",
+   "river-delta"
+  ]
+ },
+ {
+  "text": "Behind every automated system there is hidden human labour: rows of workers routing, labelling and moderating by hand.",
+  "subject": [
+   "switchboard"
+  ],
+  "metaphor": [
+   "honeycomb",
+   "jacquard-loom"
+  ]
+ }
+]

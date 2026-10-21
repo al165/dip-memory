@@ -1,0 +1,272 @@
+### 00 539-568
+A [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+B [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Small AI is small because it is not about wholesale narratives—instead about moving into a future with plural of ways of designing and bringing AI into fruition.
+
+### 01 607-862
+A [Small AI › Data Intermediaries]
+Different organizations have emerged as data intermediaries—data trustees, unions, cooperatives, to name a few—creating new models for managing data. These show how inspiration for alternative data governance can emerge from unexpected places—from cultural institutions to labor organizations. What unites them is their commitment to exploring unconventional models that go beyond standard legal and financial protocols: they create working prototypes that reimagine how data can be managed for benefit of people rather than commercial profit.
+
+B [Designing Friction › Predictability]
+In this reality, data is king. In creating convenience, all our actions are recorded and translated into data, rendering them readable and predictable. The better the data, the better the predictability. Unpredictability, human messiness and unforeseen actions are all friction, and counter this goal. Predictable futures can be controlled.
+
+### 02 539-588
+A [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+B [Small AI › The Mising Tribe]
+In the context of AI, the story of the Mising Tribe shows how fluidity and movement can foster resilience in two ways:
+
+Designing for unconventional and/or changing contexts.
+There are already interesting startups addressing this. For example, Ground News, a news aggregator platform ‘that makes it easy to compare news sources, read between the lines of media bias and break free from algorithms.’ It explicitly identifies headlines covered and/or ignored by “left” or “right” news media companies.
+
+### 03 862-870
+A [Designing Friction › Predictability]
+In this reality, data is king. In creating convenience, all our actions are recorded and translated into data, rendering them readable and predictable. The better the data, the better the predictability. Unpredictability, human messiness and unforeseen actions are all friction, and counter this goal. Predictable futures can be controlled.
+
+B [Designing Friction › Non-positive]
+Acknowledge the fulfilment in the non-positive. Today’s digital technology creates a society that is in ‘pursuit of happiness’, in awe of positivity. (As a counterweight of the negativity it produces?) Smoothness doesn’t injure. It doesn’t produce resistance. It enforces the Like. These mechanisms feed our desire for attention and being seen. Designing friction cherishes the non-positive, the ‘digital unseen’, the disagreement, the doubt, the vulnerable, the complicated. This is what makes us human.
+
+### 04 558-559
+A [Small AI › The Pines of Kodaikanal]
+‘In other British colonies, foresting policies were not merely rehabilitation or beautification projects, as trees were planted for the sake of firewood and timber, used for construction, heating, and machine operation … The British considered rational land management and expansion an expression of order and control, it was also a reflection of their desire to transform the land and its creatures.’
+
+B [Small AI › Milk and Honey, Novak, 2023]
+Yet over time, these imposed landscapes take on new meanings, such as for Padte they give her nostalgia. The pine forests of Kodaikanal, though born of colonial exploitation, have since been lived with, grown into, and missed—as a distant childhood memory for Padte—despite what they represent.
+
+### 05 630-796
+A [Small AI › Another way is possible]
+The dominant image of AI infrastructure—massive data centers consuming megawatts of electricity and requiring industrial cooling systems—obscures the opportunities afforded by alternative approaches taking shape around the world. These examples showcase how AI hardware can be made and deployed at a community-scale, responsive to the local environment and available resources.
+
+B [How much water does it take to build the › BReaking down the numbers]
+AI tools like ChatGPT or Claude operate by training on large internet datasets to generate responses to questions or to solve tasks. When we use these tools, the prompts and questions we submit are processed in vast data centres where specialised computer hardware runs complex models.
+
+As countries across Europe have experienced unprecedented droughts and wildfires this summer, the demands of AI on local water sources seem even harder to justify.
+
+### 06 413-414
+A [Data Center Fights › look like?]
+deforestation, rainwater runoff problems, and worsening air quality. It’s also gotten to the point where these facilities are bumping up against residential areas, where the loud and constant noise of all those cooling fans are causing headaches and sleeping issues for some. They’re also poised to strain the electrical grid with all their AC requirements during this year’s summer months. In response state regulators have toyed with issuing special exemptions to let data centers run diesel generators to boost their power intake (but also the air pollution and climate impacts of these facilities). Data centers often don’t make for good neighbors.
+
+B [Data Center Fights › look like?]
+To be fair, sometimes the press also has positive things to say about tech development and climate change. Data center companies are leading a wave of green power purchasing agreements, helping to bring new renewable energy sources onto the grid. (I’m particularly enthused about efforts like Google’s 24/7 Carbon-Free Energy plan, which is pushing grid operators to get way more granular about the challenges and potential solutions of a future where we have more renewable power on our grids, and thus a lot more dynamic shifts between supply and demand to balance out).
+
+### 07 388-411
+A [Data Center Fights › HERE]]
+8 When poking around a site I like to use Google Street View to confirm whether or not the vibes are off. Anything with outwards facing glint (sleek windows, lobby art, a property manager’s stylish website for prospective tenants, etc.) or even just a fair bit of height is cause for suspicion. Your data center is much more likely to be a beige, sprawling warehouse, fenced off from the world (but also trying to look sort of unassuming about it).
+
+B [Data Center Fights › look like?]
+Let’s look at Netflix. If you live in the Eastern United States, a good part of your streaming content probably sits in the data centers Netflix leases from Amazon in Ashburn, Virginia. Following the IP (99.82.178.222) takes you to a mega complex on Gloucester Parkway. It’s about the size of a small neighbourhood, and is stuffed full of cooling vents and electrical equipment.
+
+### 08 858-870
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Non-positive]
+Acknowledge the fulfilment in the non-positive. Today’s digital technology creates a society that is in ‘pursuit of happiness’, in awe of positivity. (As a counterweight of the negativity it produces?) Smoothness doesn’t injure. It doesn’t produce resistance. It enforces the Like. These mechanisms feed our desire for attention and being seen. Designing friction cherishes the non-positive, the ‘digital unseen’, the disagreement, the doubt, the vulnerable, the complicated. This is what makes us human.
+
+### 09 539-603
+A [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+B [Small AI › Fruiting Bodies]
+While researching for Small AI, I found myself constantly at odds with the stories of infinite scale and general intelligence.
+
+Fruiting Bodies challenges that. It is a counter-narrative that shifts our focus away from a bigger-is-better mindset.
+
+Fruiting Bodies is about creating thoughtful, deliberate processes that support developing AI systems more connected to place and subjective experience. It encourages reflexive thinking to reimagine the possibilities of AI systems—not as instruments of industrialized general intelligence, but as tools that serve people and celebrate local wisdom.
+
+### 10 677-678
+A [A Treatise on AI Chatbots Undermining th › Making Models More Critical]
+But in the meantime, while we’re waiting for all that beautiful, expertly-designed, hand-crafted software to manifest, people will keep using the generic, do-everything chatbots like Claude and ChatGPT and Gemini to fill the gap. For now, the chatbots are the ones drafting legal briefs, analysing policy proposals, interpreting philosophical texts, and troubleshooting engineering problems.
+
+B [A Treatise on AI Chatbots Undermining th › Making Models More Critical]
+The jury’s still out on whether chatbots are adaptable enough to remain the universal interface: what most people use, for most tasks, most of the time. I don’t believe that   ## Language Model Sketchbook, or Why I Hate Chatbots
+
+Sketchy ideas for interfaces that play with the novel capabilities of language models
+
+### 11 635-794
+A [Small AI › Conclusion]
+The subsections—Placefulness, Moving with Nature, and Fruiting Bodies—invite you to see AI not as a disembodied force “in the cloud” but as deeply interconnected with land and the people who live there. They reveal how the same technology can take many forms – localized, contextual, and responsive to the environments that sustain them.
+
+B [How much water does it take to build the › What are the environmental impacts of AI, and what impact will this have on the art and cultural sector?]
+This points to a major rift in how we understand materiality in a digital world.  How much do we really acknowledge the impact that our online lives have on the physical world? The words we use to describe the online realm no doubt support this – it’s hard to grasp something tangible when we’re talking about the *network* or an *algorithm* or the *world wide web*.
+
+### 12 858-866
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Proposal]
+It should create situations that are not predicted, measured and calculated beforehand; situations that result from and amount to the present moment.
+
+*Here are some ideas on what ‘designing friction’ might entail.*
+
+### 13 363-800
+A [Data Center Fights › of our digital lives?]
+4. Encourages us to keep the relative scale of things in mind, rather than just our personal actions (i.e. ChatGPT emits way way way way way way way more than your cat photos ever will);
+
+5. Centers our attention on particular places and communities where specific and disproportionate impacts will be felt (rather than only the global abstraction of the climate—though I care a lot about that too);
+
+B [How much water does it take to build the › BReaking down the numbers]
+Locating these data centres in local communities also presents a serious opportunity cost for more sustainable land use options. In Scotland, for example, new data centre plans threaten to displace proposed renewable energy projects. How much are we taking a step backwards on climate action, when what we need to be doing is accelerating in the other direction?
+
+### 14 858-871
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Non-positive]
+Perform your unpredictable self. Design environments and situations that trigger and facilitate unpredictable behaviour. De-automise. Step out of your pattern. Do something strange.
+
+*Friction perceived as an obstacle might in fact be a possibility for connection.*
+
+Luna Maurer
+
+Roel Wouters
+
+Co-authored with Alexandra Barancová mail@designingfriction.com
+
+### 15 478-539
+A [Small AI › Project Intro]
+Small AI is part of Slow AI project by AIxDESIGN. The Slow AI project seeks to imagine alternative narratives for AI, unpacking and moving beyond Silicon Valley ideologies. Inspired by this article about Timnit Gebru, and countermovements like slow fashion and slow food, it aims to subvert corporate-first thinking by collectively exploring new perspectives—such as Small AI, Ancestral AI, and Esoteric AI—as pathways to ‘imagine and craft the worlds we cannot live without, just as we dismantle the ones we cannot live within’ (Ruha Benjamin).
+
+B [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+### 16 370-430
+A [Data Center Fights › But why data centers?]
+This is on top of all the data centers we’ve already got kicking around—and they’re growing too. By some estimates, there are 8,000 or so in the world today, and many of these are slated for further expansions. It’s common for tech companies to build these sites with growth in mind, adding additional buildings and servers over time as demand continues.
+
+B [Data Center Fights › But what could we win?]
+To folks like me, two major reasons to grapple with data centre expansions include 1) wider climate trajectories and 2) political suspicions about the kind of world that endless data storage is slowly building. Setting limits on digital infrastructure—or even beginning with the assumption that what we currently have might already be sufficient—could help foster a culture of technical maintenance and repair over and above an emphasis on innovation (regardless of the social or climate cost). It would be great to learn how to be better stewards of what we’ve already built instead of playing regulatory catch up with the infrastructural and digital monsters that lurk on the horizon. Plus, again and with emphasis, this climate change thing is pretty bad. We should do something about it.
+
+### 17 359-361
+A [Data Center Fights › of our digital lives?]
+The network is going to stay on; the data centre hosting that video will still draw the same amount of power.
+
+But wait, surely consumer demand counts for something! You could argue that withdrawing your participation from digital businesses that have an outsized impact on the climate has still got to be at least a little helpful. Even if it doesn’t lessen the immediate carbon intensity of our digital systems, maybe it’ll reduce the market signals for these kinds of businesses, such that they’ll slow or reduce their operations. Voting with your dollar counts, right?
+
+B [Data Center Fights › of our digital lives?]
+These days whenever I’m asked what the climate impact of X network thing might be, I pivot and instead try to start a conversation about how we can stop the next data center from being built.
+
+(Think of those ‘one less car’ stickers you see on commuter bikes, but with a digital twist.)
+
+I like this frame because it : 1. Makes it a collective, rather than individual, concern (goodbye and good riddance, green saviour complex);
+
+### 18 589-674
+A [Small AI › The Mising Tribe]
+This could lead to new UX of AI. For example, in Nadia Piet’s project Feminist UX of AI, the Reset to Algo Checkpoints prototype suggests introducing checkpoints to allow users to course-correct machine learning. Or, the Switch Cultural Context offers users the option to select which cultural context best suits their needs.
+
+B [A Treatise on AI Chatbots Undermining th › Making Models More Critical]
+Professor Bell and I are both frustrated that there is no hint of this critical, questioning attitude written into the *default* system prompt. Models are not currently designed and trained with the goal of challenging us and encouraging critical thinking.
+
+Part of this problem is not just the prompts, but the generic interface of the helpful chatbot assistant. We are attempting to use an all-in-one text box for a vast array of tasks and use cases, with a single system prompt to handle all manner of queries. And the fawning, deferential assistant personality is the lowest common denominator to help with most tasks.
+
+### 19 355-830
+A [Data Center Fights › of our digital lives?]
+This is really frustrating! It means that our first impulse, to focus on our own actions and to ask how we can better align them with our ethics, isn’t a terribly useful starting point for learning how digital networks actually work or how to change them. In fact, I worry that it risks teaching the wrong lessons, leaving us with an inflated sense of our individual importance and agency. It’s kind of the same mistake that we’ve made with plastic recycling: we can be overinvested in the morality of individual actions, completely missing how larger industrial factors have a far bigger impact.
+
+B [Digital › Overview]
+Over time, as energy grids shift towards renewables, these cloud servers will become less and less polluting, however, as more and more of the planet becomes reliant on these servers, their energy demands will increase. As users of these services, the best action we can take is to shift to more efficient methods of working, and pressure service providers to make the shift to renewables faster and in a more transparent manner. Simple file management practices can make a difference. Only save what is necessary, and delete large files that are no longer useful. Alternatively you can look for an independent provider who can set up email and a secure cloud service, such as NextCloud, on servers reliably powered by renewable energy.
+
+### 20 630-809
+A [Small AI › Another way is possible]
+The dominant image of AI infrastructure—massive data centers consuming megawatts of electricity and requiring industrial cooling systems—obscures the opportunities afforded by alternative approaches taking shape around the world. These examples showcase how AI hardware can be made and deployed at a community-scale, responsive to the local environment and available resources.
+
+B [How much water does it take to build the › taking action: imagining and exploring the alternatives]
+As this shift accelerates, some of the infrastructural concerns outlined above may become less acute. But large-scale AI infrastructure is not disappearing, and the communities already bearing its costs will continue to do so for years to come. In a recent assessment of ethical digital tools, the *Ethical Consumer* raised the important point that while some AI tools may be better than others, this progress is relative. They pose the fundamental question of whether an AI tool can ever be ethical or if “harm is baked into the system itself”. Whilst the direction of travel is encouraging, the urgency of the present situation remains.
+
+### 21 531-573
+A [Small AI › The American Smile]
+In the article "AI and the American Smile", author Jenka Gurfinkel exposes how image generators and broader AI systems unconsciously encode and perpetuate American cultural norms, revealing the invisible Western bias embedded in these supposed "global" or “universal” technologies.
+
+When reddit user @_m0us316_ prompted Midjourney to generate group selfies of people from different historic eras, it generated images that photo with a peculiar quirk – wide, toothy, and distinctly American grins.
+
+B [Small AI › AI Governance]
+What if we created AI as a regional, rather than globalized, product? StuntyAI is a project by SETUP where they trained an image generation model on vernacular photos of the local teenage disco - uncovering the charm of localized data and outputs over large-scale AI models.
+
+Explore also Latent Intimacies—three experimental AI prototypes running on tiny hardware devices, fine-tuned on cultural rituals and perspectives as specific as data from a cat-worn camera.
+
+### 22 827-837
+A [Digital › Overview]
+Cloud Storage / Data Centres Most organisations and companies now depend on cloud services for their data storage, email, and business applications. This is certainly more efficient than having your own servers - as cloud services operate at huge scale and are optimised for efficiency. But while the major cloud services (Amazon, Microsoft, and Google) all claim to be moving rapidly to net zero they have all been widely criticised for their sustainability claims. This is because:
+They currently all rely on purchasing renewable energy certificates (called RECs in the US or REGOs in the UK) and offsets, whilst continuing to consume energy from the grid of the countries in which they operate. In all cases this means burning fossil fuels to power their data centres.
+
+B [Digital › Video Calls]
+Other There are other ways to ensure that your time spent using digital services is as least impactful as possible. ## Ecosia search engineEcosia is known as the ‘search engine that plants trees’. It is a non-profit and registered Bcorp that claims to spend 80% of its advertising income on tree planting and forest restoration. The total amount spent, and the projects supported, are listed every month on its website. However, it should be noted that Ecosia’s search engine is powered by Microsoft’s Bing search engine, so all the issues concerning Microsoft’s carbon footprint still apply. ## Click CleanSince 2010 Greenpeace has been calling on digital companies to stop depending on dirty energy and instead power digital activities with renewables.
+
+### 23 373-824
+A [Data Center Fights › But why data centers?]
+We see that ‘solution’ evidenced today in the rise of many varied data- and compute-intensive applications. Things like ChatGPT, companies that act as ‘prospectors’ running analytics on massive health datasets, or general web3/crypto weirdness all wouldn’t be possible without the guarantee of cheap data storage. We live in a digital world increasingly defined by this presumption. It all adds up to far greater climate impacts than personal consumer habits alone.6
+
+B [Digital › Overview]
+While certainly not without an environmental consequence, the impact of digital technologies are less significant than activities such as flying. However, some aspects of our collective digital usage - such as bitcoin and NFT production - have much larger negative environmental impacts. Information on NFTs can be found on our NFT resource page.
+
+### 24 353-355
+A [Data Center Fights › of our digital lives?]
+This circles back to the question of digital carbon footprints. It’s normal for us to want to think through sustainability problems with the assistance of a little quantification. There’s even a growing number of online calculators to help you assess exactly how bad your own digital emissions might be.1 If you’re sending an email, watching a video, or archiving your data in a cloud back up, you can find a carbon number for your actions.
+
+B [Data Center Fights › of our digital lives?]
+This is really frustrating! It means that our first impulse, to focus on our own actions and to ask how we can better align them with our ethics, isn’t a terribly useful starting point for learning how digital networks actually work or how to change them. In fact, I worry that it risks teaching the wrong lessons, leaving us with an inflated sense of our individual importance and agency. It’s kind of the same mistake that we’ve made with plastic recycling: we can be overinvested in the morality of individual actions, completely missing how larger industrial factors have a far bigger impact.
+
+### 25 589-673
+A [Small AI › The Mising Tribe]
+This could lead to new UX of AI. For example, in Nadia Piet’s project Feminist UX of AI, the Reset to Algo Checkpoints prototype suggests introducing checkpoints to allow users to course-correct machine learning. Or, the Switch Cultural Context offers users the option to select which cultural context best suits their needs.
+
+B [A Treatise on AI Chatbots Undermining th › Making Models More Critical]
+But can’t we add a smidgeon of the harsh professor attitude into our future assistants? Or at least the option to engage it?
+
+Sure, we can do this manually, like I did with Claude. But that’s asking a lot of everyday users. Most of whom don’t realise they *can* augment this passive, complimentary default mode. And who certainly won’t write the optimal prompt to elicit it – one that balances harsh critique with kindness, questions their assumptions while still being encouraging, and productively facilitates a challenging discussion. Putting the onus on the user sidesteps the problem.
+
+### 26 357-373
+A [Data Center Fights › of our digital lives?]
+But more importantly, these answers give us the wrong impression about how to actually reduce emissions. We’re used to thinking about carbon footprints in a certain way: one where the connections between our consumer habits and environmental impacts are pretty direct. We all know the script: if we want to make the number go down, we need to consume less.
+
+B [Data Center Fights › But why data centers?]
+We see that ‘solution’ evidenced today in the rise of many varied data- and compute-intensive applications. Things like ChatGPT, companies that act as ‘prospectors’ running analytics on massive health datasets, or general web3/crypto weirdness all wouldn’t be possible without the guarantee of cheap data storage. We live in a digital world increasingly defined by this presumption. It all adds up to far greater climate impacts than personal consumer habits alone.6
+
+### 27 356-377
+A [Data Center Fights › of our digital lives?]
+A nerdy network aside: Why am I so skeptical about these tools? In part because calculators use a lot of assumptions that make their outputs look way more precise than they actually are. All the footprinters you can find online have to make approximations about the carbon intensity of electricity, the kind of devices you’re using, the efficiency of the wider network, and the path your data takes across it. All these factors fluctuate over time and place, so what these tools can calculate is really just an estimate from a model—not a ‘true’ answer.
+
+B [Data Center Fights › But why data centers?]
+6 I’ve previously tried to map out some of these differences in scale. Again, I’ll repeat my caveat about the precision of these sorts of footprinting numbers, but I think it’s useful to make these comparisons when they help illuminate what’s really a difference in kind, not just degree.
+
+### 28 354-359
+A [Data Center Fights › of our digital lives?]
+The trouble is, I think that this is often the wrong question to ask—at least in terms of the carbon costs of discrete consumer action.
+
+1 Here’s a few to try if you’re curious: https://ecotree.green/en/ calculate-digital-co2; https://thenetworkedcondition.com/; https:// www.websitecarbon.com/.
+
+B [Data Center Fights › of our digital lives?]
+The network is going to stay on; the data centre hosting that video will still draw the same amount of power.
+
+But wait, surely consumer demand counts for something! You could argue that withdrawing your participation from digital businesses that have an outsized impact on the climate has still got to be at least a little helpful. Even if it doesn’t lessen the immediate carbon intensity of our digital systems, maybe it’ll reduce the market signals for these kinds of businesses, such that they’ll slow or reduce their operations. Voting with your dollar counts, right?
+
+### 29 858-867
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Discomfort]
+Embrace uncomfortable situations. In uncomfortable environments we can discover the richness and breadth of friction. Uncomfortable situations help you to feel structures you are not adjusted to, you can learn and discover. With friction we get immersed, we get creative, we get alive. Discomfort allows us to experience boundaries both physically and mentally (these are necessary and productive). Designing friction is exploring boundaries.
+

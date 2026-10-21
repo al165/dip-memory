@@ -1,0 +1,100 @@
+00. A: Small-scale AI projects can produce significant cultural and artistic value.
+    B: The gap between AI's marketing promises and its actual capabilities is growing.
+01. A: AI tool usage is associated with reduced critical thinking skills.
+    B: Higher education levels protect against the negative effects of AI tool use on critical thinking.
+02. A: Designing friction is essential for preserving human complexity.
+    B: Technological innovations reduce friction in human interaction processes.
+03. A: Higher confidence in generative AI is linked to reduced critical thinking.
+    B: Users should not be responsible for perfecting AI's critical feedback mechanisms.
+04. A: The author focuses on preventing new data centers from being built rather than assessing the climate impact of specific digital services.
+    B: Simple calculations may not capture the complexities of data center growth and sustainability
+05. A: Consumer habits have a direct and clear impact on carbon footprints.
+    B: Focusing on preventing new data center construction is a more effective strategy than addressing individual digital habits.
+06. A: Avoiding digital activities like streaming does not significantly reduce network energy consumption or climate impact.
+    B: Reducing grid carbon intensity is essential for progress
+07. A: The unrestrained pursuit of AI dominance leads to the neglect of people and communities.
+    B: Loss of autonomy in a data-driven world leads to a longing for what lies beyond algorithms and AI.
+08. A: AI is marketed as seamless and capable of superhuman thought.
+    B: AI is being treated as a resource to be exploited rather than a tool to be responsibly managed.
+09. A: The illustration critiques how AI systems reinforce structures of domination through power and control.
+    B: AI should be seen as responsive to the environments that sustain it
+10. A: AI only answers questions that users ask it.
+    B: AI capabilities vary based on training data, fine-tuning, and system prompts
+11. A: Generated outcomes prioritize statistically common results over cultural context.
+    B: Subjectivity and specificity are central to human culture, not deviations to be corrected.
+12. A: This leads to a cultural mismatch in AI development.
+    B: It explores the potential of small AI to address local and cultural challenges.
+13. A: AI foundational models are often framed as frontiers to be exploited.
+    B: Western ethical frameworks are considered suitable for global AI governance without change.
+14. A: The focus is on local impacts rather than global climate concerns
+    B: Staying grounded in infrastructure allows for balancing climate concerns with local and global social/economic impacts.
+15. A: The majority of the carbon impact from digital technologies comes from manufacturing, not from energy use.
+    B: Digital companies fail to prevent climate disinformation on their platforms.
+16. A: Reasoning models are designed to think for users rather than enhance their own thinking abilities.
+    B: Developing AI tools as critical thinking tools is a worthwhile goal for researchers.
+17. A: Resisting data center expansions is the best place for individuals and non-tech organizations to engage in environmental efforts.
+    B: The environmental impact of data centers exceeds that of individual consumer habits.
+18. A: Frequent use of AI tools reduces critical thinking abilities.
+    B: Developing AI tools as critical thinking tools is a worthwhile goal for researchers.
+19. A: Consumer habits have a direct and clear impact on carbon footprints.
+    B: The carbon impact of digital communication is difficult to measure and constantly changes with technological advancements and new research.
+20. A: Focusing on infrastructure rather than content helps avoid unhelpful moralism about content's ecological and moral justification.
+    B: The cloud's physical infrastructure is deliberately hidden to prevent public disruption or contestation.
+21. A: The 'new frontier' AI narrative is linked to extractivism and universalism, which have roots in colonial times.
+    B: The passage suggests that new UX of AI can emerge from feminist approaches.
+22. A: Data centers rely on non-renewable resources for their operation.
+    B: Meeting data center demand with new renewable energy alone is unlikely to be feasible.
+23. A: AI tools can undermine critical thinking abilities when used frequently.
+    B: Users should not be responsible for perfecting AI's critical feedback mechanisms.
+24. A: AI is marketed as seamless and capable of superhuman thought.
+    B: Intelligence is not about universal capability but contextual mastery.
+25. A: Potato Internet supports regenerative approaches to AI design.
+    B: AI use in the creative industries raises significant ethical concerns.
+26. A: This AI follows a seasonal approach to technology.
+    B: Year-round energy use by AI has significant environmental costs
+27. A: Large data centers consume vast amounts of water and electricity.
+    B: Meeting data center demand with new renewable energy alone is unlikely to be feasible.
+28. A: The cloud is presented as a metaphor or symbol rather than a literal infrastructure.
+    B: The cloud is not weightless or distant but involves vast physical infrastructure.
+29. A: Professor Bell and the author are frustrated that current chatbot system prompts lack a critical, questioning attitude.
+    B: The author predicts a second Enlightenment driven by AI chatbots.
+30. A: Technologies should embrace subjectivity and place-based contexts to serve specific communities.
+    B: The Eurocentric model of man versus nature influences technology design and material sourcing.
+31. A: Technology should align with planetary constraints and rhythms.
+    B: Digital technology aims to eliminate friction to achieve seamlessness.
+32. A: Digital platforms should be evaluated based on their energy usage and transparency.
+    B: Energy used for physical infrastructure like offices is not considered part of digital activities.
+33. A: Professor Bell argues that AI chatbots contradict Enlightenment values.
+    B: The author predicts a second Enlightenment driven by AI chatbots.
+34. A: Microsoft Research found that higher confidence in generative AI is linked to less critical thinking.
+    B: Higher education is associated with better critical thinking, regardless of AI use.
+35. A: There is a significant gap in understanding the environmental consequences of digital activities.
+    B: The organization is honest about the trade-offs of digital tools and explores alternatives like compost-powered servers.
+36. A: Small AI agents can potentially address this form of emotional labor.
+    B: The outcome was a documentation of a process-oriented approach rather than a single Small AI agent.
+37. A: Custom prompts can effectively shape an AI's tone and critical engagement.
+    B: AI has the potential to embody the idealistic values of the Enlightenment.
+38. A: Focusing on stopping new data centres from being built yields significant emotional benefits.
+    B: The environmental impact of data centers exceeds that of individual consumer habits.
+39. A: A data center's location can be determined using latitude and longitude coordinates.
+    B: The likelihood of a data center being built in a specific location is low if it is not a known data center hub.
+40. A: Creating AI models can be a form of critical engagement beyond technical tasks.
+    B: Generative AI models are not trained to support critical thinking.
+41. A: Placefulness emphasizes the importance of confronting histories of displacement, colonization, and environmental degradation.
+    B: Western ethical frameworks should be the global standard for AI governance.
+42. A: AI should be designed with a focus on its ecological and geographical dependencies.
+    B: AI systems encode and perpetuate American cultural norms.
+43. A: Higher confidence in generative AI is linked to reduced critical thinking.
+    B: Claude does not generously interpret questions in a way that avoids intense critical thinking.
+44. A: The impacts of digital activities are not measurable via an energy bill
+    B: Increased reliance on digital tools requires awareness of their environmental impacts.
+45. A: Better alternatives to AI should be actively sought.
+    B: AI is overhyped and does not yet deliver on its promised capabilities.
+46. A: The author focuses on preventing new data centers from being built rather than assessing the climate impact of specific digital services.
+    B: Opposing data centers can influence the tech sector's climate trajectory.
+47. A: AI tools can enhance domain-specific critical thinking by integrating into professional workflows.
+    B: Claude does not generously interpret questions in a way that avoids intense critical thinking.
+48. A: AI reinforces existing beliefs rather than prompting critical thinking.
+    B: The prompt instructs the AI to ask pointed questions and guide users toward more rigorous arguments.
+49. A: AI chatbots can replace human intellectual engagement in philosophical inquiry.
+    B: Tools for thought should be considered cultural practices rather than purely computational objects.

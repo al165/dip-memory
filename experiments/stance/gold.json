@@ -1,0 +1,573 @@
+{
+ "labels": {
+  "O": "opposed",
+  "Q": "qualifies",
+  "C": "compatible",
+  "D": "different_question",
+  "S": "supports"
+ },
+ "counter_worthy": [
+  "O",
+  "Q"
+ ],
+ "strata": {
+  "opposed_8b": {
+   "n_total": 143,
+   "n_sampled": 30
+  },
+  "other_8b": {
+   "n_total": 476,
+   "n_sampled": 30
+  }
+ },
+ "items": [
+  {
+   "pair": [
+    362,
+    535
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": "D"
+  },
+  {
+   "pair": [
+    536,
+    792
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": "D"
+  },
+  {
+   "pair": [
+    862,
+    871
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "O"
+  },
+  {
+   "pair": [
+    491,
+    531
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": "D"
+  },
+  {
+   "pair": [
+    434,
+    509
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": "D"
+  },
+  {
+   "pair": [
+    424,
+    800
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "D"
+  },
+  {
+   "pair": [
+    563,
+    577
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    676,
+    680
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": "C"
+  },
+  {
+   "pair": [
+    583,
+    584
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "S"
+  },
+  {
+   "pair": [
+    865,
+    868
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "user": "S"
+  },
+  {
+   "pair": [
+    358,
+    839
+   ],
+   "stratum": "other_8b",
+   "claude": "Q",
+   "user": "O",
+   "note": "GCC 'declutter storage can make a difference' vs Pasek: cutting use doesn't cut fixed network draw"
+  },
+  {
+   "pair": [
+    858,
+    870
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "user": "Q"
+  },
+  {
+   "pair": [
+    856,
+    858
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "Q"
+  },
+  {
+   "pair": [
+    690,
+    695
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "S"
+  },
+  {
+   "pair": [
+    506,
+    572
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": "D"
+  },
+  {
+   "pair": [
+    431,
+    798
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": "S",
+   "note": "claim extraction misread A ('reduce strain on groundwater') - passages agree data centres strain water"
+  },
+  {
+   "pair": [
+    365,
+    430
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    499,
+    603
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    539,
+    567
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null,
+   "note": "A describes the universalist view the author criticises; not a counter by the rule used"
+  },
+  {
+   "pair": [
+    509,
+    563
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    858,
+    865
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    409,
+    435
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    862,
+    864
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    675,
+    689
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    661,
+    689
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    858,
+    869
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    691,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "user": null,
+   "note": "Gerlich finding vs author: 'studies don't convince me the problem is genAI itself'"
+  },
+  {
+   "pair": [
+    539,
+    561
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    618,
+    689
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    590,
+    824
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    394,
+    395
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    690,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    577,
+    580
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    381,
+    805
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    361,
+    430
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    355,
+    865
+   ],
+   "stratum": "opposed_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    860,
+    867
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    794,
+    815
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    685,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    821,
+    838
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    612,
+    641
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    540,
+    563
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null,
+   "note": "same as 18"
+  },
+  {
+   "pair": [
+    353,
+    354
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "user": null,
+   "note": "author sets up carbon calculators, then calls this 'the wrong question'"
+  },
+  {
+   "pair": [
+    858,
+    867
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    506,
+    630
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    558,
+    621
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    678,
+    689
+   ],
+   "stratum": "opposed_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    351,
+    800
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    859,
+    870
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    575,
+    863
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    666,
+    669
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "user": null,
+   "note": "Bell: AI only answers what we ask vs author: a critical character is within prompting range"
+  },
+  {
+   "pair": [
+    484,
+    505
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    860,
+    866
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    486,
+    505
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    551,
+    560
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    685,
+    688
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "user": null,
+   "note": "author bullish on AI as critical partner vs study: confidence in GenAI -> less critical thinking"
+  },
+  {
+   "pair": [
+    834,
+    841
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    506,
+    623
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    575,
+    636
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    577,
+    581
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "user": null
+  }
+ ]
+}

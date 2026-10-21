@@ -1,0 +1,764 @@
+### 00  215-238
+A [Beyond Search: Exploring Creative Approaches to In › Additional Resources]
+• Lukas Pilka‘s experimental interface, Digital Curator.
+
+• Research article on Archives and AI: An Overview of Current Debates and Future Perspectives.
+
+• Blog post from Archives Hub with a more in-depth discussion of machine learning in archival collections.
+
+• The book Archives, Access & Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections, particularly the last chapter, AFTERWORD: Towards a New Discipline of Computational Archival Science.
+
+B [Beyond Search: Exploring Creative Approaches to In › Participatory Sense- Making + Storytelling]
+We can push this idea further by building digital tools that make creative reuse accessible to anyone, not just artists with an existing practice, inviting people to make and remake with archival materials.
+
+User-generated Queer Noise exhibition page, part of the Manchester Digital Music Archive. 52
+
+52	 Abigail. “Queer Noise.” Manchester Digital Media Archive. Accessed 24 September, 2023. https://www.mdmarchive.co.uk/exhibition/id/77/QUEER_NOISE.html.
+
+### 01  354-381
+A [Data Center Fights › of our digital lives?]
+The trouble is, I think that this is often the wrong question to ask—at least in terms of the carbon costs of discrete consumer action.
+
+1 Here’s a few to try if you’re curious: https://ecotree.green/en/ calculate-digital-co2; https://thenetworkedcondition.com/; https:// www.websitecarbon.com/.
+
+B [Data Center Fights › HERE]]
+STEP 1: PICK A TARGET
+
+Pick something online that’s meaningful to you—that thing that you’d otherwise be wanting to calculate with a carbon footprinting tool and wring your hands over. Maybe it’s your go-to website for passing the time, an online project you built, your meme stash, a web3 hatewatch, or your favorite multiplayer game. Anything with a URL or IP address will work.
+
+### 02  929-939
+A [Orbital data centers? Or just distributed LEO comp › What’s China’s deal here?]
+China’s propensity to both advance steadily into strategic industries and maintain cognisance with American tech markets puts it on a collision course with this race for orbital compute. In fact, it can be argued that the country has already assumed a modest lead.
+
+“China was the first to put up a dedicated multi-satellite constellation focused on orbital compute,” reports Cavalier, who has tracked Chinese developments from ABI Research’s Singapore office. “China has the talent, manufacturing base, and funding to brute force their orbital data centers into reality. I expect that orbital data centers will become as much about sovereignty as any other technology in the stack.”
+
+B [Orbital data centers? Or just distributed LEO comp › What’s China’s deal here?]
+Before we know it, the argument for orbital data centers could turn from promises of transhuman utopia into a caustic facet of the new space race.
+
+### 03  697-767
+A [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+On seeing tools for thought through a historical and anthropological lens
+
+When I read Candide in my freshman humanities course, Voltaire might have been challenging me to question naïve optimism, but he wasn’t able to respond to me in real time, prodding me to go deeper into why it’s problematic, rethink my assumptions, or spawn dozens of research agents to read, synthesise, and contextualise everything written on Panglossian philosophy and Enlightenment ethics.
+
+B [A Brief History & Ethos of the Digital Garden › 3. Imperfection & Learning in Public]
+This freedom of course comes with great responsibility. Publishing imperfect and early ideas requires that we make the status of our notes clear to readers. You should include some indicator of how “done” they are, and how much effort you’ve invested in them.
+
+This could be with a simple categorisation system. I personally use an overly horticultural metaphor:
+
+### 04  768-784
+A [A Brief History & Ethos of the Digital Garden › 3. Imperfection & Learning in Public]
+- 🌱 *Seedlings* for very rough and early ideas
+- 🌿 *Budding* for work I’ve cleaned up and clarified
+- 🌳 *Evergreen* for work that is reasonably complete (though I still tend these over time).
+
+I also include the dates I *planted* and *last tended* a post so people get a sense of how long I’ve been growing it.
+
+B [A Brief History & Ethos of the Digital Garden › 6. Independent Ownership]
+This is all my take on gardening, but knowledge and neologisms always live within communities. No one owns *The Official Definition* of digital gardening. Numerous people have contributed to the growing conversation and you should read their thoughts as well.
+
+### 05  737-778
+A [A Brief History & Ethos of the Digital Garden › Carrying on Caufield]
+Tom Critchlow’s  2018<sub>8ya</sub>    article      Of Digital Streams, Campfires and Gardens      was one of the main kick-off points. Tom read Caufield’s essay and began speculating on alternative metaphors to frame the way we consume and produce information. They suggested we add *campfires* to the idea of streams and gardens – the private Slack groups, casual blog rings, and   ## The Dark Forest and the Cozy Web
+
+B [A Brief History & Ethos of the Digital Garden › 5. Intercropping & Content Diversity]
+Gardens are not just a collection of interlinked words. While linear writing is an incredible medium that has served us well for a little over 5000 years, it is daft to pretend working in a single medium is a sufficient way to explore complex ideas.
+
+It is also absurd to ignore the fact we’re living in an audio-visual cornucopia that the web makes possible. Podcasts, videos, diagrams, illustrations, interactive web animations, academic papers, tweets, rough sketches, and code snippets should all live and grow in the garden.
+
+### 06  920-922
+A [Orbital data centers? Or just distributed LEO comp › Heads in the clouds?]
+“The cost of gallium arsenide photovoltaic solar panels – the space-grade standard – runs two to three orders of magnitude more than terrestrial solar panels, and that sits alongside launch costs and cooling system requirements that make the current economics challenging to justify,” ABI’s Cavalier explains. “These barriers will be eroded over time, however, as launch costs fall and manufacturing and supply chains adjust for the scale of these systems.”
+
+B [Orbital data centers? Or just distributed LEO comp › Heads in the clouds?]
+It’s a challenge even constellation engineers are austere about. In an S-1 filing from SpaceX discussing its orbital AI compute, industrialization in orbit, lunar, and interplanetary endeavors, the company said these efforts would “involve significant technical complexity and unproven technologies, and may not achieve commercial viability."
+
+### 07  193-628
+A [Beyond Search: Exploring Creative Approaches to In › Computational Sensing + Algorithmically- Abundant Metadata]
+The Archief van de Toekomst by VPRO in collaboration with Sound & Vision illustrates the potential of these technologies for AV material in an open and interactive archive and installation of 500+ broadcasted episodes of the Tegenlicht show. Using computer vision, the designers ran object recognition models to index the visual content of the video archive. Using natural language processing for speech2text, they rendered spoken audio into searchable text. AI added a rich layer of metadata to each episode and the archive as a whole. We can imagine pushing this even further with features such as sentiment analysis, named entity recognition, content clustering, similarity analysis, and trends over time.
+
+B [Small AI › Masakhane]
+The MasakhaNER: Know Our Names project illustrates how these imbalances affect everyday technology. Named entity recognition (NER) enables voice assistants and chatbots to identify people, organizations, and locations in text—yet African languages have been largely neglected in this development. When Siri or Alexa cannot recognize African names, places, or cultural entities, they fail African users entirely. MasakhaNER counters this exclusion by creating the first large-scale NER dataset for 20 indigenous African languages, developed collaboratively with local language coordinators.
+
+### 08  590-810
+A [Small AI › The Mising Tribe]
+Designing for the interconnected web of living and nonliving systems that underpin AI.
+
+For example, the Website Carbon Calculator shows the relation between the web and carbon emissions through a “badge” that can be added to the footer of any website that automatically calculates and displays the carbon emissions of each page—aiming to increases awareness of web carbon emissions.
+
+B [How much water does it take to build the cloud? AI › taking action: imagining and exploring the alternatives]
+Organisations such as Wholegrain Digital are already supporting organisations reduce their digital impact through low-carbon website design and tools like their website carbon calculator. And for those wanting to measure the footprint of a specific AI tool or GPU workload, the ML CO₂ Impact calculator is a practical starting point.
+
+### 09  826-827
+A [Digital › Overview]
+If you do need to buy a device you should consider budget or older models, or even buying second-hand. While leading tech brands advertise using recycled materials (which is a welcome development), it is just as important to look for devices that are a) easy to repair (and therefore cheaper to repair) and b) supported with updates for as long as possible. You can find out which phones are the easiest to repair here. There are also some brands that have designed their products specifically for sustainability, such as:
+
+B [Digital › Overview]
+Cloud Storage / Data Centres Most organisations and companies now depend on cloud services for their data storage, email, and business applications. This is certainly more efficient than having your own servers - as cloud services operate at huge scale and are optimised for efficiency. But while the major cloud services (Amazon, Microsoft, and Google) all claim to be moving rapidly to net zero they have all been widely criticised for their sustainability claims. This is because:
+They currently all rely on purchasing renewable energy certificates (called RECs in the US or REGOs in the UK) and offsets, whilst continuing to consume energy from the grid of the countries in which they operate. In all cases this means burning fossil fuels to power their data centres.
+
+### 10  394-399
+A [Data Center Fights › traceroute]
+Of course, this might not be so simple. Maybe your IP geolocation data is absolutely in the middle of nowhere, or it’s proving tricky to make the jump from the offices of the folks who registered the IP address to the digital warehouse where the digital stuff actually is. We have another trick up our sleeve: we can run a traceroute.
+
+B [Data Center Fights › traceroute]
+The exciting stuff comes next: lots of seemingly random IP addresses. Try piecing together the geographic path of your data by looking up the locations of each IP address using the same tools as before. You might write down the cities in a list, or try putting down pins on a map. In this way, even if you can’t determine the location of the final IP, the path leading up to it can offer useful clues.9
+
+### 11  349-821
+A [Data Center Fights › of our digital lives?]
+It's encouraging to see so many people pose this question. I’m part of a community that studies the energy and carbon impacts of digital networks, and it used to feel like our biggest challenge was just getting people to understand that online files and services aren’t the immaterial stuff of sleek corporate infographics or the whole metaphor of ‘the cloud.’ That cloud, we’d endlessly reply, is just someone else’s computer. Most likely, it’s a computer stuck in an
+
+B [Digital › Overview]
+‘Digital’ here refers to an organisation’s web-based activities, the impacts of which will not be measurable via an energy bill - such as cloud services or website hosting. This does not refer to the energy used to power an office, studio or storage facility (information on that kind of energy use can be found here).
+
+### 12  661-812
+A [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+People using AI chatbots in their daily lives, concerned with how they subtly shift our ways of thinking. People building software with language models who want to consider the implications of their design choices.
+
+I don’t pay much attention to the torrent of AI think pieces published by the New York Times; I am not their target demographic. But this one , by Princeton professor of history David A. Bell hits some good notes.
+
+B [How much water does it take to build the cloud? AI › taking action: imagining and exploring the alternatives]
+Community responses are also highlighting the human and environmental costs of extensive AI use. In February, volunteers gathered in Quilicura – an area just outside Santiago in Chile, where data centre growth has raised serious water concerns – with the aim of answering AI chatbot queries themselves.
+
+### 13  434-508
+A [Data Center Fights › But what could we win?]
+are seemingly oblivious to their own, we could put that energy towards goals with concrete and bounded targets: stuff we could actually win. It feels good to organize under a framework that doesn’t require you to meet impossible ethical standards, to only ever do less. Instead, you could find ways to do more, applying yourself to a constructive project. Plus, this way you don’t have to convert everyone you meet to your exact point of view. You can, instead, find friends where you will, develop the skills you’re interested in fostering, and be a part of building something bigger than yourself.
+
+B [Small AI › New Frontier]
+Extractivism: A system of practices and mindsets that justify exploiting people, resources, and ecosystems through domination, violence, depletion, and non-reciprocity.
+
+### 14  732-765
+A [A Brief History & Ethos of the Digital Garden › Gardens, Streams, and Caufield’s Metaphors]
+Caufield makes clear digital gardening is not about specific tools – it’s not a Wordpress plugin, Gastby theme, or Jekyll template. It’s a different way of thinking about our online behaviour around information - one that accumulates personal knowledge over time in an explorable space.
+
+Caufield’s main argument was that we have become swept away by *streams* – the collapse of information into single-track timelines of events. The conversational feed design of email inboxes, group chats, and InstaTwitBook is fleeting – they’re only concerned with self-assertive immediate thoughts that rush by us in a few moments.     While this may sound obvious now, the streamification of everything was still dawning around  2015<sub>11ya</sub>   .
+
+B [A Brief History & Ethos of the Digital Garden › 3. Imperfection & Learning in Public]
+Think of it as a spectrum. Things we dump into private WhatsApp group chats, DMs, and cavalier Tweet threads are part of our *chaos streams* - a continuous flow of high noise / low signal ideas. On the other end we have highly performative and cultivated artefacts like published books that you prune and tend for years.
+
+### 15  615-699
+A [Small AI › In conversation with Linda Dounia Rebeiz]
+Linda Dounia Rebeiz’s work brings attention to the role of AI in cultural and ecological preservation, particularly in exploring what is missing or underrepresented in readily-available datasets.
+
+Inspired by Algorithmic Justice League’s research on visual recognition systems mislabeling Black bodies, she began questioning what remains invisible in AI training, who controls embedded narratives, and what gets included or excluded—a notoriously difficult task in the industry.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+The ideals of the Enlightenment are still up for grabs here. We simply have to make the conscious choice to design our AI models and interfaces around them.
+
+PostScript
+
+I apologise for leaning heavily on Claude and Anthropic as examples throughout this piece. I’m more familiar with Anthropic’s research than other labs and Claude is my primary model, so I am heavily biased. I am sure other labs are doing interesting research in this area. I’d love to read about it on BlueSky (either message or mention me) or your own blog.
+
+### 16  741-748
+A [A Brief History & Ethos of the Digital Garden › Carrying on Caufield]
+“Suddenly people weren’t creating homepages or even web pages… they were writing web content in form fields and text areas inside a web page.”
+
+Many people have lamented the web’s slow transition from unique homepages to a bland ocean of generic Wordpress themes. Digital gardening is part of the pushback against the limited range of vanilla web formats and layouts we now for granted.
+
+B [A Brief History & Ethos of the Digital Garden › Developer-led Gardening]
+But those days are gone, and the only thing we can do now is slowly untangle our JavaScript spaghetti and package it up into more accessible build tools. These services are trying to find a happy middle ground between tediously hand-coding solutions, and being trapped in the restrictions of Wordpress or Squarespace.
+
+### 17  153-604
+A [Beyond Search: Exploring Creative Approaches to In › Situated + Experiential Entry Points]
+This method of bringing the user directly into the materials in a collection allows for a deeper understanding of their histories, and adds playfulness as a new layer and level of engagement.
+
+“Move Mirror.” Experiments with Google. Accessed September 24, 2023. https://experiments.withgoogle.com/move-mirror.
+
+B [Small AI › Fruiting Bodies]
+This approach fundamentally shifts how we view data: not as raw material to extract, but as something organic to nurture—more like a garden than a mine. Seeing data this way naturally brings in care, consent, and thoughtful selection, transforming data collection from an exploitative process into a mindful practice.
+
+### 18  420-432
+A [Data Center Fights › with data centers?]
+We need more than just a green licence for new growth, we need to slash the carbonintensity of the grid as it stands.
+
+B [Data Center Fights › But what could we win?]
+Regardless of the outcome, I strongly suspect that this path will also bring its share of rewards through the very process of struggle. These are in part analytic: by being clear about the need to reduce sectoral emissions, rather than just increase efficiency, we can avoid slights of hand that obscure fundamental differences in scale or emphasize the wrong sorts of metrics. Staying grounded in the infrastructural side of things also ensures that we can hold the climate story in hand along with a range of other social and economic impacts, keeping local concerns in tandem with global perils. We need both to really turn the corner on this one.
+
+### 19  731-749
+A [A Brief History & Ethos of the Digital Garden › Gardens, Streams, and Caufield’s Metaphors]
+At the  2015<sub>11ya</sub>    Digital Learning Research Network, Mike Caufield delivered a keynote on      The Garden and the Stream: a Technopastoral     . It later becomes      a hefty essay      that lays the foundations for our current understanding of the term. If anyone should be considered the original source of *digital gardening*, it’s Caufield. They are the first to lay out this whole idea in poetic, coherent words.
+
+B [A Brief History & Ethos of the Digital Garden › Developer-led Gardening]
+While developers were the first on the scene, plenty of writers, researchers, and note-taking enthusiasts have been drawn to the idea of digital gardening.
+
+To help folks without programming skills join in, there’s been a surge in templates and platforms that allow people to build their own digital gardens without touching a ton of code. I’ve written an entire guide to   ## Digital Gardening for Non-Technical Folks
+
+### 20  526-800
+A [Small AI › Data Center]
+Physical facilities that house the computers and equipment needed to store and process vast amounts of digital information. These buildings form the backbone of our digital infrastructure, with their global distribution - currently more than 8,000 data centres globally, with about 33% located in the United States, 16% in Europe, and close to 10% in China - reflecting patterns of technological power concentration.
+
+B [How much water does it take to build the cloud? AI › BReaking down the numbers]
+Locating these data centres in local communities also presents a serious opportunity cost for more sustainable land use options. In Scotland, for example, new data centre plans threaten to displace proposed renewable energy projects. How much are we taking a step backwards on climate action, when what we need to be doing is accelerating in the other direction?
+
+### 21  753-755
+A [A Brief History & Ethos of the Digital Garden › The Six Patterns of Gardening]
+After reading all the existing takes on the term, observing a wide variety of gardens, and collecting some of the best examples , I’ve identified a few key qualities they all share.
+
+There are a few guiding principles, design patterns and structures people are rallying around. This amounts to a kind of digital gardening   ## Pattern Languages in Programming and Interface Design
+
+B [A Brief History & Ethos of the Digital Garden › 1. Topography over Timelines]
+Gardens are organised around contextual relationships and associative links; the concepts and themes within each note determine how it’s connected to others.
+
+This runs counter to the time-based structure of traditional blogs: posts presented in reverse chronological order based on publication date.
+
+Gardens don’t consider publication dates the most important detail of a piece of writing. Dates might be included on posts, but they aren’t the structural basis of how you navigate around the garden. Posts are connected to other by posts through related themes, topics, and shared context.
+
+### 22  927-935
+A [Orbital data centers? Or just distributed LEO comp › Iterating into what?]
+Both execs recall the history most space technologies possess, originating as government and military programs and commercializing after being sufficiently incubated by defense revenues. They also both agree that this trajectory suggests a roadmap that eventually places AI capability into space.
+
+“[After compute demonstrations] we will see more AI inference in orbit,” DeMillo suggests. “I do not think broad AI training in orbit is imminent. Inference is the near-term opportunity. Specialized training or model adaptation may come later. Longer term, orbital compute becomes a complementary extension of terrestrial data centers, not a replacement.”
+
+B [Orbital data centers? Or just distributed LEO comp › What’s China’s deal here?]
+This advancement hasn’t been lost on orbital compute technologists in the West.
+
+“[China’s] activity reinforces the point that orbital compute is not just a technical curiosity,” Sophia Space’s DeMillo says. “It is becoming geopolitically relevant. The question is not whether the technology will matter, but who sets the standards, controls the infrastructure, and builds the trusted systems that other countries and companies are willing to use. That makes it important for the US and its allies to move quickly, but also thoughtfully.”
+
+### 23  380-829
+A [Data Center Fights › But which data centers?]
+Stock photo here taken from ENI, an oil and gas company (hence, I guess, why this gentleman is wearing a hard hat in between server racks?). Oil and
+
+gas prospecting is another growth area for data centers and big data analytics. Anyways, thanks ENI for the CC license, and may you be defanged or
+
+obliterated in the energy transition…
+
+B [Digital › Overview]
+They actively promote highly processor-intensive new technologies, such as AI.
+
+They market their services to enable fossil fuel companies and other major emitters to maximise their output. (Google, though, have announced that they will not be selling AI services to oil companies).
+
+They don’t do enough to prevent climate disinformation on their platforms, not least advertising from fossil fuel companies.
+
+### 24  126-200
+A [Beyond Search: Exploring Creative Approaches to In › Practical Pointers Opportunities/Values]
+•	 They also enable high-level insights that span the entire collection, unveiling new patterns and uncovering interesting insights for archivists and researchers.
+
+B [Beyond Search: Exploring Creative Approaches to In › Computational Sensing + Algorithmically- Abundant Metadata]
+Adopting these technologies can alleviate the traditional burden of metadata creation and enable archives (including those with fewer resources) to enhance accessibility, interactivity, and usability and open up new possibilities for ways of engaging and exploring the archives.
+
+### 25  614-683
+A [Small AI › In conversation with Vera van der Burg]
+If AI is a mirror, can we use it as such?
+Working with object detection models, Vera collaborates with other artists to use AI as a mirror that reflects their subjective worldviews, encouraging creative self-reflection. For her, the process of training and refining AI models is valuable in and of itself—an arduous but worthwhile journey requiring careful consideration for the data, datasets, and labels that go into AI models.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Stuffing Multiple Personalities into the Universal Text Box]
+We need techniques beyond RLHF that aren’t as susceptible to the egotistical human need to receive praise and approval. Anthropic’s experiments with      Constitutional AI      and using AI agents for reinforcement learning (RLAIF) might be guiding us in a better direction (
+
+### 26  860-863
+A [Designing Friction › Removing physical human interaction]
+Instead of using our whole hand to interact, we now often use our fingertips to swipe screens or interact with air. Each new app or innovation replaces a previously friction-laden human interaction process, David Byrne states. Transactions with machines are perceived to be smoother than interactions with fellow humans.
+
+B [Designing Friction › Loss of autonomy]
+Keeping friction out maintains a fragile equilibrium. Enter AI — technology becomes omnipresent, and evolves from being a tool, to being a companion with humanlike appeal. We are on the verge of committing our emotions to AI, plunging into an emotional dependency. AI indulges us, consumes us. Its appeal gives us the comforts and conveniences we learn to seek. To get satisfaction from interaction with a model, you need to perform your predictable self. It becomes almost impossible to step out, to live frictionfully. Our autonomy is at stake.
+
+### 27  618-666
+A [Small AI › Once UPON A GARDEN]
+The conversations with Vera and Linda highlight how focusing on the idea of process in AI unearths insights with distinct, unique value compared to the output alone. Both artists emphasize the slow, iterative nature of their data work, underscoring that creating AI models is more than a technical endeavor—it is and can be a form of critical engagement. Together, they show that in the context of AI, the value lies not just in the final outputs but also in the process of training, refining, and reflecting. That, though, comes from two distinct questions:
+How can we identify what’s missing from the data?, and
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+Bell’s Exhibit A
+
+“One should never so exhaust a subject that nothing is left for readers to do. The point is not to make them read, but to make them think.”
+
+Bell’s Exhibit B
+
+“The most useful books are those that the readers write half of themselves.”
+
+He argues that AI does not do this. It follows our lead. It compliments our poorly considered ideas. It only answers the questions we ask it. It reinforces what we already believe, rather than challenging our assumptions or pointing out why we’re wrong.
+
+### 28  352-416
+A [Data Center Fights › of our digital lives?]
+To give an example, take Google’s data center in Dalles, Oregon. It cost more than $1.8 billion to build and is several football fields wide. The facility uses more than 350 million gallons of water (almost a third of the total water use for the city) and likely more than 330 million kWh of electricity (more than 2/3rds of the electrical demand for the whole utility district). That’s a lot— especially considering Google’s often better than a lot of its peers on sustainability stuff. Worryingly, Google has strived, through non-disclosure agreements and legal battles, to keep past and potential future water rates secret.
+
+B [Data Center Fights › look like?]
+It’s also the case that the simple math of data center growth and green power ambitions may not always be
+
+### 29  127-861
+A [Beyond Search: Exploring Creative Approaches to In › Challenges/Constraints]
+Generous interfaces are not always intuitive for users. When using more complex user interfaces, it is important to incorporate familiar components and affordances as much as possible and to provide gradual onboarding for new users.
+
+•	 	That said, being able to develop complex user interfaces with diverse accessibility needs in mind remains a challenge. Even responsiveness across devices may be difficult; implementation may be desktop-only, showing a pop-up when visiting on a smartphone.
+
+B [Designing Friction › Convenience and immediacy]
+Everything can be effortlessly and immediately accessed from behind our screens. We stay home due to home-delivery, dating apps, online classes and endless on-demand entertainment. We are facing ‘death by convenience’. In such a reality, movement is trimmed down to a minimum.
+
+### 30  580-794
+A [Small AI › Moving with Nature]
+Technology is often perceived as separate from the natural world, yet it is deeply "attached".
+
+By shifting our perspective, we can begin to see geography and geographical events not only as spaces for political strategy or economic competition but as the Earth itself speaking to us.
+
+Building data centers in drought-stricken regions or continuing extractive practices in fragile ecosystems demonstrates the profound disconnect the cloud narrative allows and perpetuates.
+
+B [How much water does it take to build the cloud? AI › What are the environmental impacts of AI, and what impact will this have on the art and cultural sector?]
+This points to a major rift in how we understand materiality in a digital world.  How much do we really acknowledge the impact that our online lives have on the physical world? The words we use to describe the online realm no doubt support this – it’s hard to grasp something tangible when we’re talking about the *network* or an *algorithm* or the *world wide web*.
+
+### 31  65-211
+A [Beyond Search: Exploring Creative Approaches to In › 06	 Introduction]
+09	 Research Call + Researcher 10	 Methodology 11	 Report Structure 12	 Living Doc
+
+B [Beyond Search: Exploring Creative Approaches to In › Conversation-Starting Questions]
+• What funds do you have available to do this work?
+
+### 32  858-869
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Engage the body]
+When interacting with screens we lack resistance. Swiping screens makes our world more superficial. Human life gains depth when having thing-relations. Thing-relations tend to bring us together physically and create connections. Designing friction requires thinking about how to increase our resistance. How can we engage our hands and whole bodies? How can these bodily engagements bring us together?
+
+### 33  688-689
+A [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+Participants shared 936 first-hand examples of using GenAI in work tasks. Quantitatively, when considering both task and user-specific factors, a user’s task-specific self-confidence and confidence in GenAI are predictive of whether critical thinking is enacted and the effort of doing so in GenAI-assisted tasks. Specifically, higher confidence in GenAI is associated with less critical thinking, while higher self-confidence is associated with more critical thinking. Qualitatively, GenAI shifts the nature of critical thinking toward information verification, response integration, and task stewardship.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.
+- The UW Social Futures Lab (  Language Models as Critical Thinking Tools: A Case Study of PhilosophersYe 2024 ) asked philosophers to use models as critical thinking tools and found they were too neutral, incurious, and passive to be helpful.AbstractCurrent work in language models (LMs) helps us speed up or even skip thinking by accelerating and automating cognitive work. But can LMs help us with critical thinking -- thinking in deeper, more reflective ways which challenge assumptions, clarify ideas, and engineer new concepts?
+
+### 34  511-685
+A [Small AI › New Frontier]
+model collapse A phenomenon where AI systems gradually degrade in quality when training on AI-generated content. As generative AI pollutes the internet with synthetic material—now estimated by AWS researchers to account for 57% of online content—this data is scraped and used as training data, leading to worse results and compromising the effectiveness of future models.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+And second, because I don’t think it’s hyperbole to suggest we’re heading into a second Enlightenment. Not just in terms of access to information and reshuffling power structures. I should be clear: I’m exceptionally bullish on AI models being able to act as rigorous critical thinking partners. They have the potential to embody those idealistic values of enabling intellectual engagement and critical inquiry. Far more than current implementations suggest.
+
+### 35  57-738
+A [Beyond Search: Exploring Creative Approaches to In › Author’s Thanks]
+A special acknowledgment to Kwan Suppaiboonsuk for their research support, technical insights, and ongoing inspiring and supportive friendship. I would like to express my admiration for Rachel Somers Miles, whose empathic leadership and collaborative spirit were a guiding force throughout the project, and for modeling how to lead with both care and focus. Lastly, I am thankful to Steven Elbers for his unwavering support and patience, which provided a steady and loving foundation during the journey of crafting this report. Your collective contributions were instrumental in bringing this report to fruition. Thank you. Finally, I’d like to thank the internet for being an imperfect yet invaluable portal to a wealth of global knowledge and inspiration.
+
+B [A Brief History & Ethos of the Digital Garden › Carrying on Caufield]
+An illustrated diagram exposing the inner layers of the dark and cozy web
+
+Tom piece was shortly followed by Joel Hooks’      My blog is a digital garden, not a blog      in early  2019<sub>7ya</sub>   .     Disclaimer that Joel is a mentor, collaborator and friend, so my exposure to the idea comes from his early advocacy and enthusiasm for it.    Joel focused on the *process* of digital gardening, emphasising the slow growth of ideas through writing, rewriting, editing, and revising thoughts in public. Instead of slapping Fully Formed Opinions up on the web and never changing them.
+
+### 36  915-932
+A [Orbital data centers? Or just distributed LEO comp › (intro)]
+“Over a five- to ten-year horizon, orbital compute can become a multi-billion-dollar infrastructure layer, much the way terrestrial cloud evolved from specialized workloads into general-purpose infrastructure,” Rob DeMillo, Sophia Space co-founder and CEO, tells *DCD*. “This is not a distant market. Over the next three to five years, I expect early revenue to be driven primarily by defense and government use cases, with commercial adoption following as the infrastructure matures.”
+
+B [Orbital data centers? Or just distributed LEO comp › What’s China’s deal here?]
+“The project does not really have a clear vision of what they're trying to do, how they're going to do it, etc., and they've had trouble attracting top talent. After launching the first 12 satellites in May 2025, they haven't done anything substantial since. That being said, for a number of reasons, we should expect a steady development of on-orbit computing in China,” Mulvaney told *DCD*.
+
+### 37  759-770
+A [A Brief History & Ethos of the Digital Garden › 2. Continuous Growth]
+This is odd considering editability is one of the main selling points of the web. Gardens lean into this – there is no “final version” on a garden. What you publish is always open to revision and expansion. Or more likely, contraction and clarification
+
+Gardens are designed to evolve alongside your thoughts. When you first have an idea, it’s fuzzy and unrefined. You might notice a pattern in your corner of the world, but need to collect evidence, consider counter-arguments, spot similar trends, and research who else has thunk such thoughts before you. In short, you need to do your homework and critically think about it over time.
+
+B [A Brief History & Ethos of the Digital Garden › 3. Imperfection & Learning in Public]
+- topic tags
+- start and end date
+- a stage tag: *draft* ,*in progress* , or*finished*
+- a certainty tag: *impossible* ,*unlikely* ,*certain* , etc.
+- 1-10 importance tag
+
+These are all explained in their website guide , which is worth reading if you’re designing your own epistemological system.
+
+Devon Zuegal is another notable gardener who has *epistemic status* and *epistemic effort* on their posts, indicating both their certainty level about the material, and how much effort went into making it. They also make a strong case for      lazy epistemic statuses      as a feature, not a bug.
+
+### 38  58-679
+A [Beyond Search: Exploring Creative Approaches to In › Author’s Thanks]
+I’d also like to acknowledge the helpful use of ChatGPT, an imperfect tool that aided in streamlining complex sentences, rendering them into more coherent writing.
+
+Copy Editor: Thomas Cartwright
+
+Publication Designer: Ruben Doornweerd
+
+Design Support & Typesetting: Davey van der Velden
+
+Cover Image: Screenshot from biblio-graph.org / Archival Consciousness, 2023
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Stuffing Multiple Personalities into the Universal Text Box]
+So how might we solve this? How might we accommodate both needs: the generous, informative, helpful assistant *and* the critical teacher and interlocutor?
+
+As a very naïve first pass, we could make it easy to switch the generic chatbots into critique mode with a handy toggle, settings switch, or sliding scale. Allow people to shift between “give me the gist” and “help me rigorously think about this” with minimal friction.
+
+### 39  919-923
+A [Orbital data centers? Or just distributed LEO comp › Heads in the clouds?]
+This discourse isn’t rooted in the fear, uncertainty, and doubt (FUD) so often dismissed in tech bro circles. Meaningful scaling of compute in orbit means bigger space-capable solar capacity, and likely the specialist cooling technologies to support processors. This, combined with the hard limitations of Earth downstream volumes and the ionization risk from cosmic radiation, compounds the complexity.
+
+B [Orbital data centers? Or just distributed LEO comp › Heads in the clouds?]
+One semantic aspect to this conversation has been the widespread phasing out of the literalism of the orbital data center, replaced with a more disaggregated vision of orbital compute in which multi-role satellites with expanded compute capacity perform in-orbit processing that optimizes satellite imaging – one of the more taxing demands of the modern satellite industry.
+
+### 40  506-805
+A [Small AI › New Frontier]
+The Eurocentric narrative of man versus nature—conquering the frontier, mastering the elements, and remaking the world—was never sustainable. It is at its breaking point. What wasn't viable then is even less so now. AI becomes a territory to be conquered—one where companies and nations race to claim dominance, paying little attention to the harms caused by this unrestrained ambition. With AI, we treat every behavior, action, and object as a potential data point—a resource ready to be captured, claimed, and exploited. We dismiss people and communities in pursuit of more and more data—or is it "AI fuel" —while funneling very real and finite resources like energy and water into this one goal.
+
+B [How much water does it take to build the cloud? AI › the risk of over-reliance on ai models]
+AI models are not yet able to capture the full complexity of ecological systems, and over-reliance on them for decision-making carries real risk.
+
+There is a particular tension for organisations using digital tools to measure and reduce their carbon footprint. While AI could have genuine uses here to aid computational modelling, data analysis, and footprinting tools, it’s important that we don’t let digital solutions exacerbate the problem they are meant to address.
+
+### 41  664-668
+A [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+Anyway, Professor Bell’s thesis is that our current AI chatbots contradict and undermine the original Enlightenment values. Values that are implicitly sacred in our modern culture; active intellectual engagement, sceptical inquiry, and challenging received wisdom.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+Now the fatal flaw in this op-ed piece is that “AI” here just means Professor Bell’s personal interactions with ChatGPT. Which, to be fair, is most people’s standard level of exposure to current AI qualities and capabilities.
+
+But ChatGPT is not a monolith, and it is not the only model. And to be specific, it’s not itself a model, it’s an interface to OpenAI’s current selection of models like GPT-4.1, o3, and o4-mini There are lots of ways the major labs steer models into taking on specific personalities and behaviours; curating the training data, fine-tuning, reinforcement learning, and system prompts all influence the range of possible responses.
+
+### 42  856-867
+A [Designing Friction › DESIGNING FRICTION]
+A call for friction in digital culture
+
+As designers, entrepreneurs and architects of digital culture we feel the urge to refocus how we deal with our digital futures. Designing Friction is a proposal to change the way we think when producing or interacting with digital technology.
+
+B [Designing Friction › Discomfort]
+Embrace uncomfortable situations. In uncomfortable environments we can discover the richness and breadth of friction. Uncomfortable situations help you to feel structures you are not adjusted to, you can learn and discover. With friction we get immersed, we get creative, we get alive. Discomfort allows us to experience boundaries both physically and mentally (these are necessary and productive). Designing friction is exploring boundaries.
+
+### 43  670-672
+A [A Treatise on AI Chatbots Undermining the Enlighte › Making Models More Critical]
+As a quick exercise, I wrote this prompt for Claude, asking it to be a critical professor who guides me towards more specific questions and concrete arguments.
+
+You are a critical professor. Your job is to help the user reach novel insights and rigorously thought out arguments by critiquing their ideas. Ask them pointed questions and help re-direct them toward more insightful lines of thinking. Do not be fawning or complimentary. Their ideas are often dumb, shallow, and poorly considered. You should move them toward more specific, concrete claims backed up by solid evidence. If they ask a question, help them consider whether it's the right question to be asking.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Making Models More Critical]
+This level of critique and challenge is not useful if I really do need a quick and sweeping summary of the Enlightenment, sans intense critical thinking. Which is what most users will want most of the time. Claude is not generously interpreting my question in this mode.
+
+Its default response to this question is far more informative and useful:
+
+### 44  309-676
+A [Beyond Search: Exploring Creative Approaches to In › Appendix I: Methodology, Performed Research Activities, & Avenues for Future Research]
+The case studies were collected through various means, including desk research, existing references, interview inputs, online curations from other researchers (such as Philo van Kemenade’s are.na board on Generous Interfaces, and a presentation by SEMIA), and an open call for input shared with the researcher’s and organizations’ networks, such as FIAT/IFTA, IASA, AMIA, SEAPAVAA, etc. Over 20 case studies were submitted. The selection process considered the availability of project information, online accessibility, and alignment with the selected themes.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Making Models More Critical]
+All of these specialist areas will eventually get their own dedicated interfaces to AI, with tailored prompts channelled through fit-to-purpose tools. Legal professionals will have document-heavy case analysis platforms that automatically surface contradictory precedents and challenge legal reasoning with Socratic questioning. Scientists will work in computational notebooks that actively critique their experimental designs and suggest alternative hypotheses. Designers will have canvases embedded with creative reasoning tools that challenge aesthetic choices and push for deeper conceptual justification. Each interface will put domain-specific critical thinking skills directly into the workflow.
+
+### 45  327-653
+A [Beyond Search: Exploring Creative Approaches to In › Appendix II: Peer Review Team]
+avra — appendix II: peer review team
+
+avra — appendix II: peer review team
+
+Maria Drabczyk (Centrum Cyfrowe, Poland) Maria is chair of the board and head of policy and advocacy at Centrum Cyfrowe. She is a sociologist, researcher, and manager of cultural projects in the field of heritage and new technologies. She is a board member of the EUscreen Foundation, member of the Europeana Association Members Council, and the inaugural Chair of the FIAT/IFTA Value, Use and Copyright Commission (active until 2023).
+
+B [Small AI › Contributors]
+Ana Marques, Dominika Cupkova, Lexie Yu, Udita Gowdety, Janet Turra, Shruthi Venkat, Michael Kibedi, Julia Spinola, Gabrielle K. Aguilar, Prabhnoor Kohli, Anmol Srivastava, Erik Peters, Christopher Michael, Sunčica P. Kandić, Simoa Nangle, Ozan Güngör, Jazmin Morris, Gaston Welisch, Yasmeen Ayyashi, Mikara Naidoo, Teresa Pelinski, Viktor Bedö, Amritha R. Warrier, Samar Younes, Jane Cheadle, April Cain, Faizan Abbasi, and Montse
+
+### 46  239-647
+A [Beyond Search: Exploring Creative Approaches to In › Participatory Sense- Making + Storytelling]
+avra — participatory sense-making + storytelling
+
+Lukas Pilka’s Digital Curator (described in the previous section), which allows users to search the collection by recurring motifs and themes, also contains a feature for users to curate their own art collection. By allowing those who interact with a collection to create their own space within it, users experience a stronger kinship with the archival materials and therefore interact with its contents on a deeper level. This can be a valuable way to activate an archive so that it strengthens the relationship between the user and the archive itself.
+
+B [Small AI › Emergent Strategy, Adrienne Maree Brown, 2017]
+Or, as Eryk Salvaggio suggests, an archive to be collected, curated, and contested.
+
+See Ada Lovelace Institute’s research on Participatory Data Stewardship!
+
+### 47  558-804
+A [Small AI › The Pines of Kodaikanal]
+‘In other British colonies, foresting policies were not merely rehabilitation or beautification projects, as trees were planted for the sake of firewood and timber, used for construction, heating, and machine operation … The British considered rational land management and expansion an expression of order and control, it was also a reflection of their desire to transform the land and its creatures.’
+
+B [How much water does it take to build the cloud? AI › the inequality of AI: concentrating power through exploitation]
+In Ireland, data centres built by US companies on peatlands have degraded a fragile and culturally significant ecosystem, denying local communities access to a culturally important landscape. In both cases – and in other examples such as mining for rare-earth minerals – large companies redirect value from one location to themselves, further concentrating wealth and power through exploitation and extraction.
+
+### 48  636-816
+A [Small AI › Conclusion]
+From artists building personal AI models to citizen scientists preserving their evolving (marginalized) languages — we've seen how small-scale approaches can protect cultural heritage, advance ecological preservation, and redistribute power from the few big tech corporations to the many communities around the world.
+
+B [How much water does it take to build the cloud? AI › Committed to climate justice: how we’re addressing the gap between ai use and impact]
+The environmental costs of AI are not abstract.
+
+If you are working on these questions, as an organisation, funder, artist or cultural practitioner, keep an eye out for our next blog of the series where we’ll be addressing in more detail the practical changes we and others can make.
+
+Spread the word
+
+### 49  911-921
+A [Orbital data centers? Or just distributed LEO comp › (intro)]
+It’s nothing new to the FCC chairman, who is more than comfortable with hyperbole.
+
+Just that January, a filing from Elon Musk’s SpaceX declared: “A constellation of a million satellites that operate as orbital data centers is the first step towards becoming a Kardashev II-level civilization.” It was soon joined by another from Jeff Bezos-backed Blue Origin, proposing its “Project Sunrise”.
+
+B [Orbital data centers? Or just distributed LEO comp › Heads in the clouds?]
+Falling launch costs have tended to prove out, not least with breakthroughs like SpaceX’s Starship well underway. However, other issues, like those that hinge upon fundamental material science, could prove fatal.
+
+“The challenges are real,” Sophia Space’s DeMillo agrees. “But they are not hard barriers. Space punishes assumptions borrowed from Earth. Thermal management, radiation, power, communications, and autonomy all matter. But if you design for orbit from the beginning, some of those constraints can become architectural advantages.”
+
+### 50  667-674
+A [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+This line stuck out to me:
+
+This quality – of flattery, reinforcement of established beliefs, intellectual passivity, and positive feedback at all costs – is also what irks me most about the behaviour of current models.
+
+Sycophancy , meaning insincere flattery, is a well established problem in models that the foundation labs are actively working on . Mainly caused by reinforcement learning from human feedback (RLHF); getting humans to vote on which model responses they like better, and feeding those scores back into the model during training. Unsurprisingly, people rate responses higher when they are fawning and complimentary.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Making Models More Critical]
+Professor Bell and I are both frustrated that there is no hint of this critical, questioning attitude written into the *default* system prompt. Models are not currently designed and trained with the goal of challenging us and encouraging critical thinking.
+
+Part of this problem is not just the prompts, but the generic interface of the helpful chatbot assistant. We are attempting to use an all-in-one text box for a vast array of tasks and use cases, with a single system prompt to handle all manner of queries. And the fawning, deferential assistant personality is the lowest common denominator to help with most tasks.
+
+### 51  102-643
+A [Beyond Search: Exploring Creative Approaches to In › “How can we mimic the experience of exploring—going down different paths, roaming around, and stumbling upon something?”]
+• Participatory Input: To offer a space for participatory input and an opportunity for the research to be collectively expanded.
+
+• Visual Character: The nature and content of this topic is visual, including being multi-media/AV focused, and this space more easily and dynamically showcases this.
+
+• Speed of Change: Things become outdated quickly. New tools and projects see the light of day every day, so while this report is offered as a PDF, it is a reflection of a particular, fixed moment in time; the living doc can evolve, be added to, and change as technologies and their uses do.
+
+B [Small AI › Emergent Strategy, Adrienne Maree Brown, 2017]
+Open Data: Includes data that is openly accessible and can be freely used, modified, and shared by anyone, including companies, citizens, the media, and consumers, for any purpose.
+
+### 52  857-868
+A [Designing Friction › What is friction?]
+Friction is resistance. It derives from physical interaction between humans, and humans and things – its reach is holistic. All senses, elements and emotions play a role: sight, sound, smell, taste, touch, air, earth, temperature, agitation, passion, joy, sadness... With movement comes friction. The more we move and act, the more friction we encounter. The more friction there is, the more we engage and care. Friction drives our engagement. Friction, in this context, is not synonymous with either anger or conflict, nor is it malfunctioning technology. Friction is an essential ingredient that makes up our humanness and sparks human connection. Friction is a lively, intrinsic experience.
+
+B [Designing Friction › Time delay]
+Friction makes things slower and that is okay! The fastest response might not be the best one to design for. Instant gratification is what digital technology currently optimizes for. This results in the loss of desire, waiting and boredom. Avoiding boredom makes us pick up a device as soon as we have nothing to do. Being bored lets you start new fascinations. Boredom gets us into productive flow. When friction acts to slow things down it allows us to step into the now. Designing friction is fuelling longing and desire; it allows boredom and allows for a slower pace.
+
+### 53  718-750
+A [A Brief History & Ethos of the Digital Garden › (intro)]
+They’re not following the conventions of the “*personal blog*,” as we’ve come to know it. Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis.
+
+A garden is a collection of evolving ideas that aren’t strictly organised by their publication date. They’re inherently exploratory – notes are linked through contextual associations. They aren’t refined or complete - notes are published as half-finished thoughts that will grow and evolve over time. They’re less rigid, less performative, and less perfect than the personal websites we’re used to seeing.
+
+B [A Brief History & Ethos of the Digital Garden › Developer-led Gardening]
+How to build a digital garden without touching code
+
+Tools like      Obsidian     ,      TiddlyWiki     , and      Notion      are all great options. Many of them offer fancy features like nested folders,   ## A Short History of Bi-Directional Links
+
+Seventy years ago we dreamed up links that would allow us to create two-way, contextual conversations. Why don't we use them on the web?
+
+### 54  397-401
+A [Data Center Fights › traceroute]
+To initiate a traceroute, open up your terminal program, just like we did with ping. Then, type the following:
+
+For Windows Users  tracert [your IP address] (then hit enter)
+
+For Mac Users  traceroute [your IP address] (then hit enter)
+
+STEP 2: INTERPRETING THE RESULT
+
+Reading the output of a traceroute takes a bit of practice. Your computer will output a series of lines showing hop numbers, times, and IP/domain information.
+
+B [Data Center Fights › traceroute]
+NB: “* / Request times out” means that the router refused to send a message back to your computer. It happens sometimes! A lot of components in the Internet are configured to ignore traceroute prompts because they want to avoid those malicious hackers/keep traffic down. “Nothing personal,” I’m sure they’d say.
+
+### 55  515-934
+A [Small AI › New Frontier]
+And it’s not just our planet facing these issues anymore. For the first time, the World Monuments Fund has added the moon to its 2025 list of at-risk cultural heritage sites—no doubt anticipating the colonization of space as the final frontier. This follows Elon Musk’s visions of a future where settling on Mars would cost as little as 100K per person.
+
+B [Orbital data centers? Or just distributed LEO comp › What’s China’s deal here?]
+Another mysterious, enterprising company, Orbital Chenguang Technology Co., recently obtained a ¥57 billion (US$8.7bn) line of credit from a consortium of state-owned banks, another development Mulvaney admits does not possess immediately clear terms, though with a shocking headline figure.
+
+“There are a lot of other, smaller efforts of startups raising money for on-orbit data centers,” he adds. “Well-established companies like Galaxy Space also seem quite bullish about space computing. In short, it's a very hot topic in China today.”
+
+### 56  51-589
+A [Beyond Search: Exploring Creative Approaches to In › About the Author]
+Nadia Piet is an independent researcher, designer, cultural producer, and community organizer based in Amsterdam, with a focus on technology, artificial intelligence, data, (digital) culture, and creativity. She’s the founder of AIxDESIGN, holds an MA in Data-Driven Design, and works on freelance and self-initiated projects that question how we design, interact, and relate to technology. She draws on past experiences as the Head of Creative Technology at DEPT Agency and as a design researcher for
+
+B [Small AI › The Mising Tribe]
+This could lead to new UX of AI. For example, in Nadia Piet’s project Feminist UX of AI, the Reset to Algo Checkpoints prototype suggests introducing checkpoints to allow users to course-correct machine learning. Or, the Switch Cultural Context offers users the option to select which cultural context best suits their needs.
+
+### 57  837-838
+A [Digital › Video Calls]
+Other There are other ways to ensure that your time spent using digital services is as least impactful as possible. ## Ecosia search engineEcosia is known as the ‘search engine that plants trees’. It is a non-profit and registered Bcorp that claims to spend 80% of its advertising income on tree planting and forest restoration. The total amount spent, and the projects supported, are listed every month on its website. However, it should be noted that Ecosia’s search engine is powered by Microsoft’s Bing search engine, so all the issues concerning Microsoft’s carbon footprint still apply. ## Click CleanSince 2010 Greenpeace has been calling on digital companies to stop depending on dirty energy and instead power digital activities with renewables.
+
+B [Digital › Video Calls]
+The Click Clean report and website rates the major internet companies on their energy usage and transparency.
+
+### 58  289-408
+A [Beyond Search: Exploring Creative Approaches to In › Case Studies]
+“Move Mirror.” Experiments with Google. https://experiments.withgoogle.com/movemirror.
+
+“Open Archief.” 3 x institutions. Accessed 24 September, 2023. https://www.openarchief. com/.
+
+National Film and Sound Archive of Australia. Accessed 24 September, 2023. https://www. nfsa.gov.au/.
+
+National Gallery. “Curate Your Own Art Collection as a Keeper of Paintings.” Press release, July 2022. Accessed September 24, 2023. https://www.nationalgallery.org.uk/ about-us/press-and-media/press-releases/ curate-your-own-art-collection-as-a-keeperof-paintings-national-gallery-createsimmersive-experience-for-families-on-roblox.
+
+B [Data Center Fights › centre]
+To go back to our example of Castlefield Gallery, this digital sleuthing reveals that security on site is a little tight, and also that it’s undergone a recent expansion (all the containers out front appeared sometime after 2016). Snooping around news sites and press releases helps explain why: OVH expanded its Erith site post- Brexit, anticipating that there would be demand for more national data services in a Britian that was no longer a part of the EU (thus EU data privacy laws). So, all these boxes of servers and electrical transformers, in part, owe their existence to the Leave campaign.
+
+### 59  493-862
+A [Small AI › Introduction]
+Recommendation System: Algorithm that suggests or recommends additional products or services to users, based on data like past purchases, search history, or demographic information.
+
+B [Designing Friction › Predictability]
+In this reality, data is king. In creating convenience, all our actions are recorded and translated into data, rendering them readable and predictable. The better the data, the better the predictability. Unpredictability, human messiness and unforeseen actions are all friction, and counter this goal. Predictable futures can be controlled.
+
+### 60  693-694
+A [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+The findings revealed a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading. Younger participants exhibited higher dependence on AI tools and lower critical thinking scores compared to older participants. Furthermore, higher educational attainment was associated with better critical thinking skills, regardless of AI usage. These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies. This study contributes to the growing discourse on AI’s cognitive implications, offering practical recommendations for mitigating its adverse effects on critical thinking.
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.
+
+These studies don’t convince me that the problem is generative AI itself. They convince me the problem is that models are not trained to support critical thinking. And that the interface affordances and design decisions built into generic chatbots do not encourage or support critical thinking workflows and interactions. And that users have no clue they’re supposed to be compensating for these weaknesses by becoming expert prompt engineers.
+
+### 61  257-649
+A [Beyond Search: Exploring Creative Approaches to In › Additional Resources]
+•	 A case study (from Coalition for Networked Information) of a crowd-sourced transcription project at Yale, with discussion points on what makes a successful crowd-sourcing project and how to foster community engagement.
+
+•	 Analog: Data walks as a way of sharing data with communities—report from the Urban Institute outlining how to design, plan, and facilitate a data walk. It could be an experience on its own or serve as a prototype for an audio walk.
+
+B [Small AI › Emergent Strategy, Adrienne Maree Brown, 2017]
+Rather, the idea is to give language and reference to protecting the interest of people and their property which in today’s case is data.
+
+🎥 Explore the Serpentine case study
+
+Choral Data ‘Trust’ Experiment, Serpentine Arts Technologies, 2025
+
+All Media is Training Data, Holly Herndon and Mat Dryhurst, 2024
+
+### 62  575-792
+A [Small AI › Read more about Project D33pthr0at here ↗︎]
+AI Mural is an illustration made up of 3 images by clarote.
+It showcases the entanglement of the disproportionate use of natural resources, and the precarious and invisible labor behind AI, with power, profit and control in ways that reinforce structures of domination.
+
+The illustration also presents the user as a Chimera, a visual metaphor suggested by Kate Crawford in which the “end-user” also provides (often unknowingly) valuable feedback, personal data and performs other invisible labor.
+
+B [How much water does it take to build the cloud? AI › What are the environmental impacts of AI, and what impact will this have on the art and cultural sector?]
+*Written by Imogen Cripps*
+
+This blog is the second of a series of pieces from JB on the topic of AI and its use in the creative industries. We will be exploring the environmental and ethical concerns arising from the use of this technology, how the sector is responding to these challenges, and what the future of AI in the arts might look like. This piece focuses on the ethical considerations of AI use.
+
+### 63  762-773
+A [A Brief History & Ethos of the Digital Garden › 2. Continuous Growth]
+This all comes with an important caveat; gardens make their imperfection known to readers. Which brings us to the next pattern…
+
+B [A Brief History & Ethos of the Digital Garden › 4. Playful, Personal, and Experimental]
+Gardens are non-homogenous by nature. You can plant the same seeds as your neighbour, but you’ll always end up with a different arrangement of plants.
+
+Digital gardens should be just as unique and particular as their vegetative counterparts. The point of a garden is that it’s a personal playspace. You organise the garden around the ideas and mediums that match your way of thinking, rather than off someone else’s standardised template.
+
+### 64  359-431
+A [Data Center Fights › of our digital lives?]
+The network is going to stay on; the data centre hosting that video will still draw the same amount of power.
+
+But wait, surely consumer demand counts for something! You could argue that withdrawing your participation from digital businesses that have an outsized impact on the climate has still got to be at least a little helpful. Even if it doesn’t lessen the immediate carbon intensity of our digital systems, maybe it’ll reduce the market signals for these kinds of businesses, such that they’ll slow or reduce their operations. Voting with your dollar counts, right?
+
+B [Data Center Fights › But what could we win?]
+To those living in the shadow of data centers, however, I suspect the rewards will be a little more immediate and tangible: being able to open your window without being overwhelmed by whining fan sounds, lessening the load on your groundwater during a drought, keeping farmland fertile, reducing the risk of black outs and rate hikes, and ensuring that the businesses that do set up shop in your city actually pay their fair share of taxes.
+
+### 65  662-671
+A [A Treatise on AI Chatbots Undermining the Enlighte › (intro)]
+As an expert on the Enlightenment, he’s clearly been roped into developing an opinion on whether we’re in an AI-fuelled “second Enlightenment.”
+
+B [A Treatise on AI Chatbots Undermining the Enlighte › Making Models More Critical]
+User:
+I then fed it the intentionally flawed user query: “What did the men of the Enlightenment believe?”
+
+I think the response here is quite good! Bordering on sharp, dismissive, and impatient. Just the way I like my harsh critique.
+
+Claude points out my question is too broad, the Enlightenment was not a unified school of thought, I need to focus on a particular thinker and topic like political theory or natural philosophy, and then gives me examples of more specific questions I could ask like “How did Voltaire’s views on religious tolerance differ from those of his contemporaries?”
+
+### 66  740-746
+A [A Brief History & Ethos of the Digital Garden › Carrying on Caufield]
+Amy argues that Moveable Type didn’t just launch us into the “Chronological Sort Era”. It also killed the wild, diverse, hodge-podge personalisation of websites that characterised the early web. Instead of hand-coding your own layout and deciding exactly how to arrange the digital furniture, we began to enter the age of standardised layouts. Plug n’ play templates that you drop content into became the norm. It became harder and more technically involved to edit the HTML & CSS yourself.
+
+B [A Brief History & Ethos of the Digital Garden › Developer-led Gardening]
+Many of these early adopters were people who understood how to build websites – either professional developers or enthusiastic hobbyists. Any kind of novel experimentation with the web requires knowing a non-trivial amount of HTML, CSS, and JS. Not to mention all the surrounding infrastructure required actually to get a site live. Developers took to the idea because they already had the technical ability to jump in play around with what garden-esque websites might look like.
+
+### 67  315-316
+A [Beyond Search: Exploring Creative Approaches to In › Appendix I: Methodology, Performed Research Activities, & Avenues for Future Research]
+Additionally, a focus group was conducted (July 28, 2023) with a sample of five individual archival practitioners who responded to an open call for participation across the networks of the commissioning organizations. The key objective of this session was to gain an understanding of archivists‘ day-to-day realities and ensure the research findings and presentation aligned with their context and provided value to them. The attendees were Maarten Brinkerink, Elsa Garzón, Annella Mendoza, Dave Lewis, and Ilse Assmann.
+
+B [Beyond Search: Exploring Creative Approaches to In › Appendix I: Methodology, Performed Research Activities, & Avenues for Future Research]
+The researcher met three times (on May 9, June 22, September 14) with a Peer Review Team of experts in the archival field, first to offer initial insights on the topic, followed by 2 sessions to offer feedback on report drafts. The Peer Review Team played a crucial role in providing feedback on the research direction, validating relevant themes, and proofreading drafts of the report. Their expertise and insights were invaluable, particularly regarding structure, content, and cross-checking against the cultural heritage industry. The Peer Review Team consisted of Elsa Garzón, Dale Grayson, Jaime Silva, Johan Oomen, Louise Broch, Maja Drabczyk, and Philo van Kemenade, with coordination and input from Rachel Somers Miles.
+
+### 68  279-566
+A [Beyond Search: Exploring Creative Approaches to In › Conclusion]
+These experiments can be run in-house or in collaboration with external parties, such as creative studios and independent artists and creatives. Initiating these explorations through artist commissions, collaborations, and open calls invites a rich range of potential avenues and can bring the archive to life. For smaller institutions that lack the resources to fund such collaborations, simply making their collection open and attractive for creative reuse (where rights permissions exist)—like Rijks Studio’s annual open call 61 — can serve as a hack to invite similar explorations.
+
+B [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Another example of kaitiakitanga, manaakitanga, and rangatiratanga in practice is the licensing of Māori resources and archives. The Katiakitanga license provides data access according to the tikanga (Māori customs and protocols). It is a “living” license that adapts to the community wants and needs. The license restricts open access and gives priority to the community to access and use data, acknowledging the histories of colonial extraction that privileged those who could benefit from open access. The Katiakitanga license allows us to prototype a framework for responsibility in AI governance that is about community well-being, the integrity of cultural heritage, and past and future generations.
+
+### 69  66-377
+A [Beyond Search: Exploring Creative Approaches to In › 13	 Theme #1: Generous + Fluid Interfaces]
+14	 Data Viz 16	 Visual Similarity 18	 Knowledge Maps and Graph Views 20	 Spatial Views 22	 Practical Pointers
+
+B [Data Center Fights › But why data centers?]
+6 I’ve previously tried to map out some of these differences in scale. Again, I’ll repeat my caveat about the precision of these sorts of footprinting numbers, but I think it’s useful to make these comparisons when they help illuminate what’s really a difference in kind, not just degree.
+
+### 70  403-721
+A [Data Center Fights › traceroute]
+(Hahaha…. Don’t hack me bro)
+
+B [A Brief History & Ethos of the Digital Garden › A Brief History of Digital Gardens]
+Tracing back how   ## Neologisms
+
+A collection of interesting words that have recently been coined
+
+### 71  686-807
+A [A Treatise on AI Chatbots Undermining the Enlighte › Our Missing Pocket-sized Enlightenment]
+I’m frankly confused by the apparent lack of attention and exploration around this use case. Especially since some early indicators suggest the way people are currently using generative AI leads to a *reduction* in critical thinking:
+
+B [How much water does it take to build the cloud? AI › taking action: imagining and exploring the alternatives]
+Despite the myriad concerns surrounding AI and its increasing prominence across all aspects of our lives, it’s clear the technology is here to stay. This means we need to think carefully about how we use these tools while maintaining the integrity of our values, and actively look for better options.
+
+### 72  796-808
+A [How much water does it take to build the cloud? AI › BReaking down the numbers]
+AI tools like ChatGPT or Claude operate by training on large internet datasets to generate responses to questions or to solve tasks. When we use these tools, the prompts and questions we submit are processed in vast data centres where specialised computer hardware runs complex models.
+
+As countries across Europe have experienced unprecedented droughts and wildfires this summer, the demands of AI on local water sources seem even harder to justify.
+
+B [How much water does it take to build the cloud? AI › taking action: imagining and exploring the alternatives]
+It’s also worth noting that the landscape is shifting quickly. Investment and implementation are moving substantially toward small language models (SLMs), which can run on local infrastructure rather than energy-intensive data centres. This is a meaningful development — tools like LM Studio already allow organisations to run AI models locally, reducing cloud dependency and keeping data in-house. GreenPT is also emerging as a more energy-conscious AI interface worth watching.
+
+### 73  396-520
+A [Data Center Fights › traceroute]
+STEP 1: RUN YOUR TRACEROUTE COMMAND
+
+Traceroute works by sending a message to each router in the path to reaching your destination, and then getting those routers to send little messages back to
+
+your computer identifying who they are. If all works well, you’ll end up with a list of all the steps (called ‘hops’), how long it took each of them to respond, and their IP addresses. It’s this latter information that we’re interested in, since we already have some tools to translate those IP addresses into approximate geographic coordinates. Taken altogether, this can draw a map of how your data actually moves across the planet (and thus where it ultimately comes from).
+
+B [Small AI › In the Cloud]
+These cables, hidden away from public view, reveal the limits of wireless technology and ground the cloud in a physical, material reality. These cables do not just cross oceans; they retrace colonial routes. Early telegraph networks were mapped over old shipping routes, and many contemporary fiber optic cables still follow these same paths. These routes then reflect the enduring legacies of colonial domination, where territorial politics continue to dictate the flow of information and communication today.
+
+### 74  342-382
+A [Data Center Fights › Politics of ICT]
+Additionally: How to use ping and traceroute to find the location of data centers, and how to look for DRAMA, CONFLICT, and OPPORTUNITIES TO ORGANIZE WITH OTHERS wherever you find them
+
+B [Data Center Fights › HERE]]
+STEP 2: PING TO GET YOUR IP
+
+If you don’t already have an IP address, we’ll start with a simple ping command. This is a way to sort of ‘knock on the door’ of a website, get that IP address, and see if someone’s home. To do so, we’ll use a terminal program (if you’ve never touched one before, prepare to feel like a very cool hacker type).
+
+### 75  413-797
+A [Data Center Fights › look like?]
+deforestation, rainwater runoff problems, and worsening air quality. It’s also gotten to the point where these facilities are bumping up against residential areas, where the loud and constant noise of all those cooling fans are causing headaches and sleeping issues for some. They’re also poised to strain the electrical grid with all their AC requirements during this year’s summer months. In response state regulators have toyed with issuing special exemptions to let data centers run diesel generators to boost their power intake (but also the air pollution and climate impacts of these facilities). Data centers often don’t make for good neighbors.
+
+B [How much water does it take to build the cloud? AI › BReaking down the numbers]
+Data centres consumed 1.5% of global electricity in 2024, a figure expected to double by 2030, with emissions projected to exceed those of all global aviation. Research on the carbon and water footprints of data centres estimates that AI generated as much carbon pollution in a single year as a city the size of New York, and consumed as much water as global bottled water consumption.
+
+### 76  603-813
+A [Small AI › Fruiting Bodies]
+While researching for Small AI, I found myself constantly at odds with the stories of infinite scale and general intelligence.
+
+Fruiting Bodies challenges that. It is a counter-narrative that shifts our focus away from a bigger-is-better mindset.
+
+Fruiting Bodies is about creating thoughtful, deliberate processes that support developing AI systems more connected to place and subjective experience. It encourages reflexive thinking to reimagine the possibilities of AI systems—not as instruments of industrialized general intelligence, but as tools that serve people and celebrate local wisdom.
+
+B [How much water does it take to build the cloud? AI › taking action: imagining and exploring the alternatives]
+Organisers reflected that while AI has real uses, the project was about recognising that “not every question needs [an answer]”, and encouraging people to think twice about using AI, given its environmental impact. It is also a reminder that many of the problems we look to AI to solve could be addressed by connecting with each other and our shared humanity.
+
+### 77  196-774
+A [Beyond Search: Exploring Creative Approaches to In › Computational Sensing + Algorithmically- Abundant Metadata]
+The project Javastraat.cloud (described earlier), aims to give insight into the gentrification of the neighbourhood of Javastraat in Amsterdam by creating a dataset out of Instagram posts and their images, hashtags, account size, number of likes, and object recognition. It presents the collection through a visual and generous interface—made possible by computer vision, which allows for automatic object recognition and tagging in each image.
+
+B [A Brief History & Ethos of the Digital Garden › 4. Playful, Personal, and Experimental]
+Ideally, this involves experimenting with the native languages of the web – HTML, CSS, and JavaScript. They’re the most flexible and robust tools we have for building interconnected knowledge online. Gardens are a chance to question the established norms of a ‘*personal website*’, and make space for weirder, wilder experiments.
+
+### 78  357-839
+A [Data Center Fights › of our digital lives?]
+But more importantly, these answers give us the wrong impression about how to actually reduce emissions. We’re used to thinking about carbon footprints in a certain way: one where the connections between our consumer habits and environmental impacts are pretty direct. We all know the script: if we want to make the number go down, we need to consume less.
+
+B [Digital › Effective Actions]
+Keeping digital devices in use for as long as possible, through care and repair, is the most effective way to reduce the embedded emissions within digital usage.
+
+Check the carbon footprint of your cloud services, and if possible move to a more sustainable one.
+
+Declutter your storage. Simple file management practices can make a difference. Only save what is necessary, and delete large files that are no longer useful.
+
+### 79  681-815
+A [A Treatise on AI Chatbots Undermining the Enlighte › Stuffing Multiple Personalities into the Universal Text Box]
+ChatGPT and Gemini have a less flexible, less discoverable version of this hidden away in their user settings panel. Both give you an open-ended input to describe how you’d like the model to respond, but these preferences apply to *all* conversations. So this doesn’t really solve the problem.
+
+Another potential idea is adding infrastructure behind the scenes. Architectures like routing See Anthropic’s Cookbook example to read the prompt and how you’d implement it in Python can hand tasks off to more specialised prompts when they detect it’s appropriate. A central “routing” agent selects which sub-prompt to send each user request to based on the content. This could engage an edgier, harsher, sceptical prompt to tear you a new one when you ask dumb questions. But, like, in a nice way.
+
+B [How much water does it take to build the cloud? AI › Committed to climate justice: how we’re addressing the gap between ai use and impact]
+At JB, we’re committed to applying the same rigour to our digital choices as we do to our programmatic ones. That means asking harder questions about which tools we reach for and why, being honest about trade-offs, and staying curious about the alternatives that are already being built, from compost-powered servers to community-led responses to AI chatbots.
+

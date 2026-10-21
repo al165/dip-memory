@@ -1,0 +1,182 @@
+[
+ {
+  "pair": "539-568",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.999
+ },
+ {
+  "pair": "607-862",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.999
+ },
+ {
+  "pair": "539-588",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.605
+ },
+ {
+  "pair": "862-870",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.999
+ },
+ {
+  "pair": "558-559",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.923
+ },
+ {
+  "pair": "630-796",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.991
+ },
+ {
+  "pair": "413-414",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.972
+ },
+ {
+  "pair": "388-411",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.805
+ },
+ {
+  "pair": "858-870",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.649
+ },
+ {
+  "pair": "539-603",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.518
+ },
+ {
+  "pair": "677-678",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.506
+ },
+ {
+  "pair": "635-794",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.638
+ },
+ {
+  "pair": "858-866",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.98
+ },
+ {
+  "pair": "363-800",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.5
+ },
+ {
+  "pair": "858-871",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.928
+ },
+ {
+  "pair": "478-539",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.999
+ },
+ {
+  "pair": "370-430",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.543
+ },
+ {
+  "pair": "359-361",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.844
+ },
+ {
+  "pair": "589-674",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.58
+ },
+ {
+  "pair": "355-830",
+  "label": "Y",
+  "cross_source": true,
+  "score": 0.516
+ },
+ {
+  "pair": "630-809",
+  "label": "Y",
+  "cross_source": true,
+  "score": 0.822
+ },
+ {
+  "pair": "531-573",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.98
+ },
+ {
+  "pair": "827-837",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.611
+ },
+ {
+  "pair": "373-824",
+  "label": "N",
+  "cross_source": true,
+  "score": 0.973
+ },
+ {
+  "pair": "353-355",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.534
+ },
+ {
+  "pair": "589-673",
+  "label": "Y",
+  "cross_source": true,
+  "score": 0.552
+ },
+ {
+  "pair": "357-373",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.514
+ },
+ {
+  "pair": "356-377",
+  "label": "N",
+  "cross_source": false,
+  "score": 0.501
+ },
+ {
+  "pair": "354-359",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.941
+ },
+ {
+  "pair": "858-867",
+  "label": "Y",
+  "cross_source": false,
+  "score": 0.849
+ }
+]

@@ -1,0 +1,634 @@
+{
+ "labels": {
+  "O": "opposed",
+  "Q": "qualifies",
+  "C": "compatible",
+  "D": "different_question",
+  "S": "supports"
+ },
+ "counter_worthy": [
+  "O",
+  "Q"
+ ],
+ "strata": {
+  "opposed_8b": {
+   "n_total": 143,
+   "n_sampled": 30
+  },
+  "other_8b": {
+   "n_total": 476,
+   "n_sampled": 30
+  }
+ },
+ "rule": "Counter-worthy if one passage's main content is a position (argued, reported, or described in order to reject it) that the other passage argues against. Two passages that both reject the same view are compatible.",
+ "items": [
+  {
+   "pair": [
+    362,
+    535
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    536,
+    792
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    862,
+    871
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null,
+   "note": "862 describes data-driven predictability (the view the text rejects); 871 argues for unpredictability"
+  },
+  {
+   "pair": [
+    491,
+    531
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    434,
+    509
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    424,
+    800
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    563,
+    577
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    676,
+    680
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    583,
+    584
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    865,
+    868
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    358,
+    839
+   ],
+   "stratum": "other_8b",
+   "claude": "Q",
+   "claude_v1": "Q",
+   "user": null
+  },
+  {
+   "pair": [
+    858,
+    870
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    856,
+    858
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null,
+   "note": "858 describes the drive for frictionlessness; 856 calls for friction"
+  },
+  {
+   "pair": [
+    690,
+    695
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    506,
+    572
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    431,
+    798
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    365,
+    430
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    499,
+    603
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    539,
+    567
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null,
+   "note": "539 lists universalist assumptions; 567 argues for placefulness"
+  },
+  {
+   "pair": [
+    509,
+    563
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    858,
+    865
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    409,
+    435
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    862,
+    864
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    675,
+    689
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    661,
+    689
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    858,
+    869
+   ],
+   "stratum": "other_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    691,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "claude_v1": "Q",
+   "user": null
+  },
+  {
+   "pair": [
+    539,
+    561
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null,
+   "note": "same pattern as 18"
+  },
+  {
+   "pair": [
+    618,
+    689
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    590,
+    824
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    394,
+    395
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    690,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "claude_v1": "C",
+   "user": null,
+   "note": "690 philosophers: LMs lack selfhood vs 694: the problem is training, not genAI itself"
+  },
+  {
+   "pair": [
+    577,
+    580
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null,
+   "note": "both reject the same 'man vs nature' view -> compatible, not a counter"
+  },
+  {
+   "pair": [
+    381,
+    805
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    361,
+    430
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    355,
+    865
+   ],
+   "stratum": "opposed_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    860,
+    867
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    794,
+    815
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    685,
+    694
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    821,
+    838
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    612,
+    641
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    540,
+    563
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null,
+   "note": "540: local knowledge as 'edge cases' vs 563: Maori knowledge as modern design"
+  },
+  {
+   "pair": [
+    353,
+    354
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "Q",
+   "user": null,
+   "note": "353 sets up carbon calculators; 354 calls them the wrong question"
+  },
+  {
+   "pair": [
+    858,
+    867
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    506,
+    630
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    558,
+    621
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    678,
+    689
+   ],
+   "stratum": "opposed_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    351,
+    800
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    859,
+    870
+   ],
+   "stratum": "opposed_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    575,
+    863
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    666,
+    669
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "claude_v1": "Q",
+   "user": null
+  },
+  {
+   "pair": [
+    484,
+    505
+   ],
+   "stratum": "opposed_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    860,
+    866
+   ],
+   "stratum": "other_8b",
+   "claude": "O",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    486,
+    505
+   ],
+   "stratum": "opposed_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    551,
+    560
+   ],
+   "stratum": "other_8b",
+   "claude": "D",
+   "claude_v1": "D",
+   "user": null
+  },
+  {
+   "pair": [
+    685,
+    688
+   ],
+   "stratum": "opposed_8b",
+   "claude": "Q",
+   "claude_v1": "Q",
+   "user": null
+  },
+  {
+   "pair": [
+    834,
+    841
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  },
+  {
+   "pair": [
+    506,
+    623
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    575,
+    636
+   ],
+   "stratum": "other_8b",
+   "claude": "C",
+   "claude_v1": "C",
+   "user": null
+  },
+  {
+   "pair": [
+    577,
+    581
+   ],
+   "stratum": "other_8b",
+   "claude": "S",
+   "claude_v1": "S",
+   "user": null
+  }
+ ]
+}

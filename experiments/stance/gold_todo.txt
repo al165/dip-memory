@@ -1,0 +1,545 @@
+### 00  362-535
+A [Data Center Fights › of our digital lives?]
+2. Keeps our focus on the infrastructure rather than the content (and so maybe helps avoid some unhelpful moralism about what kinds of content are ecologically and morally justified);2
+
+What’s a better question? 3. Encourages us to think about sufficiency and degrowth (which is to say, we aren’t against digital networks in the general, just against their unthinking/infinite expansion);
+
+B [Small AI › The American Smile]
+Universalism determines which problems are seen as worth solving, whose knowledge is considered valid, and who gets to participate in shaping technology.
+
+This isn't about different forms of intelligence; it’s about understanding that subjectivity and specificity are integral to human culture—not outliers to normalize. Instead of striving for a single, one-size-fits-all system that tries to be everything to everyone, we can develop technologies that embrace subjectivity and placefulness. These systems would serve specific communities and environments while honoring the plurality of human experience.
+
+### 01  536-792
+A [Small AI › The American Smile]
+The myth of general intelligence limits our imagination of what AI can be.
+
+‘There is a push for generality in machine learning, I’m totally against that: we have to work context by context, community by community.’
+
+Timnit Gebru, ex-Google computer scientist now spearheading the Decentralized AI Research Institute (DAIR)
+
+B [How much water does it take to build the cloud? AI, the envi › What are the environmental impacts of AI, and what impact will this have on the art and cultural sector?]
+*Written by Imogen Cripps*
+
+This blog is the second of a series of pieces from JB on the topic of AI and its use in the creative industries. We will be exploring the environmental and ethical concerns arising from the use of this technology, how the sector is responding to these challenges, and what the future of AI in the arts might look like. This piece focuses on the ethical considerations of AI use.
+
+### 02  862-871
+A [Designing Friction › Predictability]
+In this reality, data is king. In creating convenience, all our actions are recorded and translated into data, rendering them readable and predictable. The better the data, the better the predictability. Unpredictability, human messiness and unforeseen actions are all friction, and counter this goal. Predictable futures can be controlled.
+
+B [Designing Friction › Non-positive]
+Perform your unpredictable self. Design environments and situations that trigger and facilitate unpredictable behaviour. De-automise. Step out of your pattern. Do something strange.
+
+*Friction perceived as an obstacle might in fact be a possibility for connection.*
+
+Luna Maurer
+
+Roel Wouters
+
+Co-authored with Alexandra Barancová mail@designingfriction.com
+
+### 03  491-531
+A [Small AI › Introduction]
+I outlined an alternative to the bigger-is-better approaches that dominate AI development today. A vision that explores what AI could be if we didn’t design for scale or profit. Instead, Small AI calls for a more grounded approach, where AI systems are designed specifically for the human and non-human ecologies that sustain it.
+
+B [Small AI › The American Smile]
+In the article "AI and the American Smile", author Jenka Gurfinkel exposes how image generators and broader AI systems unconsciously encode and perpetuate American cultural norms, revealing the invisible Western bias embedded in these supposed "global" or “universal” technologies.
+
+When reddit user @_m0us316_ prompted Midjourney to generate group selfies of people from different historic eras, it generated images that photo with a peculiar quirk – wide, toothy, and distinctly American grins.
+
+### 04  434-509
+A [Data Center Fights › But what could we win?]
+are seemingly oblivious to their own, we could put that energy towards goals with concrete and bounded targets: stuff we could actually win. It feels good to organize under a framework that doesn’t require you to meet impossible ethical standards, to only ever do less. Instead, you could find ways to do more, applying yourself to a constructive project. Plus, this way you don’t have to convert everyone you meet to your exact point of view. You can, instead, find friends where you will, develop the skills you’re interested in fostering, and be a part of building something bigger than yourself.
+
+B [Small AI › New Frontier]
+Universalism: The belief that certain values, moralities, theories, or treatments can be universally applied to all groups, regardless of culture, race, nationality, gender, and other social identities.
+
+### 05  424-800
+A [Data Center Fights › with data centers?]
+With enough people, you can explore more creative tactics. This might involve spectacular (and thus mediafriendly) protests like Extinction Rebellion Ireland’s amazing vampire-themed demonstration against Meta’s data centers. In other contexts, you might work on a project of citizen science data acquisition, like researchers at Cornell who are experimenting with using bird decoy drones to collect data about the thermal impacts of bitcoin mines in the Finger Lakes. Even more inventively, you could explore tactics like working to cut off water rights to existing data centres (like, say, those run by the NSA) or building charmingly low-tech alternatives to the hyperscale cloud.
+
+B [How much water does it take to build the cloud? AI, the envi › BReaking down the numbers]
+Locating these data centres in local communities also presents a serious opportunity cost for more sustainable land use options. In Scotland, for example, new data centre plans threaten to displace proposed renewable energy projects. How much are we taking a step backwards on climate action, when what we need to be doing is accelerating in the other direction?
+
+### 06  563-577
+A [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Crucially, this integration was not about reviving pre-colonial practices but about embracing Māori knowledge as a modern mode of design-making and knowledge-sharing, says O’Sullivan.
+
+Central to this pedagogy are themes of kaitiakitanga (guardianship), manaakitanga (respect and reciprocity), and rangatiratanga (self-determination). These principles reflect a holistic view of design as an ethical and cultural practice, deeply tied to place and community. By incorporating these values, Te Kura Hoahoa’s curriculum challenges the extractive and exploitative tendencies of dominant design practices and invites students to engage with a more place-based and culturally resonant approach.
+
+B [Small AI › Read more about Project D33pthr0at here ↗︎]
+O’Sullivan’s work also highlights how cultural dimensions are often left unspoken in design. As she recalls, Renata Leitão noted at the 2018 Design Research Society Conference that discussions about culture were conspicuously missing in design discourse. However, the absence of explicit discussions of culture does not mean neutrality or that there isn't a cultural framing or assumption. The dominant Eurocentric model of man versus nature, carving society out of empty wilderness is a cultural export that continues to impose how technology is designed and its production materials sourced. Te Kura Hoahoa’s work provides an alternative: a curriculum that is not placeless but deeply situated, not singular but plural, and not extractive but reciprocal.
+
+### 07  676-680
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Making Models More Critical]
+All of these specialist areas will eventually get their own dedicated interfaces to AI, with tailored prompts channelled through fit-to-purpose tools. Legal professionals will have document-heavy case analysis platforms that automatically surface contradictory precedents and challenge legal reasoning with Socratic questioning. Scientists will work in computational notebooks that actively critique their experimental designs and suggest alternative hypotheses. Designers will have canvases embedded with creative reasoning tools that challenge aesthetic choices and push for deeper conceptual justification. Each interface will put domain-specific critical thinking skills directly into the workflow.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Stuffing Multiple Personalities into the Universal Text Box]
+Here’s an unserious, low effort suggestion to add a new “offer critical feedback” toggle within Claude:
+
+Claude already has ~some version of this with the add custom “styles” option. You can change the nature and tone of Claude’s responses on a per-chat basis. I have one called Scholarly Inquisitor that follows similar guidelines to the critical professor prompt I wrote above. It’s nowhere near as harsh as I want it to be, and still tells me I have “sophisticated insights” when I assure you I have not. I haven’t perfected the prompt, and I still contend this should not be my job as the end-user.
+
+### 08  583-584
+A [Small AI › The Mising Tribe]
+In the High Theory podcast, Krishnan shares a story from her research. One of her interlocutors from the Mising community was worried about how she would understand erosion. Pointing at two villages separated by a river, the interlocutor described how, during the monsoon season, the river first swells and overflows and then recedes—always in unpredictable ways. Each year, this cycle alters the size of villages, shifting agricultural space and reshaping the land. Each year, the villagers adapt and move with the river’s rhythms, molding their lives around its fluctuations.
+
+B [Small AI › The Mising Tribe]
+‘It’s not the river and the land … that causes the problems of displacement but the idea that human beings should remain settled in one place,’
+
+### 09  865-868
+A [Designing Friction › Proposal]
+A world headed for a frictionless reality begs the question: how can we create a desirable future with digital technology? How can we access, develop and relate to it? We like to see designing friction as a fundamental design principle when working with digital culture. Instead of following design ethics that strive to eliminate friction, we suggest to not only allow, but embrace friction. To facilitate it: design [products with] digital technology in a way that makes space for our humanness. Here friction is a core ingredient. Digital technology should create environments and situations in which we can truly connect with each other, as well as with the unknown, the uncontrolled, with all senses, all elements, all emotions.
+
+B [Designing Friction › Time delay]
+Friction makes things slower and that is okay! The fastest response might not be the best one to design for. Instant gratification is what digital technology currently optimizes for. This results in the loss of desire, waiting and boredom. Avoiding boredom makes us pick up a device as soon as we have nothing to do. Being bored lets you start new fascinations. Boredom gets us into productive flow. When friction acts to slow things down it allows us to step into the now. Designing friction is fuelling longing and desire; it allows boredom and allows for a slower pace.
+
+### 10  358-839
+A [Data Center Fights › of our digital lives?]
+This makes sense for stuff like car travel or beef, but it doesn’t hold true in the same way for network data. This is because, for information to travel across our networks, much of the equipment that makes up that network needs to be always on, always available. Its electrical draw is fixed—it consumes the same amount regardless of how much data is moving through the figurative tubes. When you use a calculator to estimate the carbon footprint of streaming, sending, or storing something, it takes a guess at a proportionate share of all the energy consumed by the networks entangled in that action. However, this doesn’t mean that swearing off Netflix will actually result in a commensurate reduction in the network’s electrical use or its resulting climate impacts.
+
+B [Digital › Effective Actions]
+Keeping digital devices in use for as long as possible, through care and repair, is the most effective way to reduce the embedded emissions within digital usage.
+
+Check the carbon footprint of your cloud services, and if possible move to a more sustainable one.
+
+Declutter your storage. Simple file management practices can make a difference. Only save what is necessary, and delete large files that are no longer useful.
+
+### 11  858-870
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Non-positive]
+Acknowledge the fulfilment in the non-positive. Today’s digital technology creates a society that is in ‘pursuit of happiness’, in awe of positivity. (As a counterweight of the negativity it produces?) Smoothness doesn’t injure. It doesn’t produce resistance. It enforces the Like. These mechanisms feed our desire for attention and being seen. Designing friction cherishes the non-positive, the ‘digital unseen’, the disagreement, the doubt, the vulnerable, the complicated. This is what makes us human.
+
+### 12  856-858
+A [Designing Friction › DESIGNING FRICTION]
+A call for friction in digital culture
+
+As designers, entrepreneurs and architects of digital culture we feel the urge to refocus how we deal with our digital futures. Designing Friction is a proposal to change the way we think when producing or interacting with digital technology.
+
+B [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+### 13  690-695
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+We treat philosophy as a case study in critical thinking, and interview 21 professional philosophers about how they engage in critical thinking and on their experiences with LMs. We find that philosophers do not find LMs to be useful because they lack a sense of selfhood (memory, beliefs, consistency) and initiative (curiosity, proactivity). We propose the selfhood-initiative model for critical thinking tools to characterize this gap. Using the model, we formulate three roles LMs could play as critical thinking tools: the Interlocutor, the Monitor, and the Respondent.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+The foundation labs who control the models and default interfaces aren’t prioritising this. At least as far as I can tell. They’re focused on autonomous, agentic workflows like the recent “ Deep Research ” hype. Or developing “ reasoning models ” where the models themselves are trained to be the critical thinkers. This focuses entirely on getting models to think for you, rather than helping you become a better thinker.
+
+### 14  506-572
+A [Small AI › New Frontier]
+The Eurocentric narrative of man versus nature—conquering the frontier, mastering the elements, and remaking the world—was never sustainable. It is at its breaking point. What wasn't viable then is even less so now. AI becomes a territory to be conquered—one where companies and nations race to claim dominance, paying little attention to the harms caused by this unrestrained ambition. With AI, we treat every behavior, action, and object as a potential data point—a resource ready to be captured, claimed, and exploited. We dismiss people and communities in pursuit of more and more data—or is it "AI fuel" —while funneling very real and finite resources like energy and water into this one goal.
+
+B [Small AI › AI Governance]
+The frameworks, policies, and practices that guide development, deployment, and management of AI systems.
+
+### 15  431-798
+A [Data Center Fights › But what could we win?]
+To those living in the shadow of data centers, however, I suspect the rewards will be a little more immediate and tangible: being able to open your window without being overwhelmed by whining fan sounds, lessening the load on your groundwater during a drought, keeping farmland fertile, reducing the risk of black outs and rate hikes, and ensuring that the businesses that do set up shop in your city actually pay their fair share of taxes.
+
+B [How much water does it take to build the cloud? AI, the envi › BReaking down the numbers]
+Cooling systems are required for data centres to operate, and when they sit in drought-stressed regions, they place additional pressure on local water availability – water that is often not reusable due to contamination. As countries across Europe have experienced unprecedented droughts and wildfires this summer, the demands of AI on local water sources seem even harder to justify.
+
+### 16  365-430
+A [Data Center Fights › of our digital lives?]
+of content that should be first on the chopping block when it comes time to set limits (so, you know, we’ll be ready to ban that bad stuff). In particular, they go out of their way to suggest that online porn is worth particular scrutiny. But, as a feminist who takes a lot of cues from sex workers struggling for better working conditions, I am pretty worried about where that line of thinking might take us. This isn’t to say that I think that all online content is equally valid (for me, I’d put ad tech, bitcoin, and a lot of AI on the chopping block), just that I strongly suspect that starting from the perspective of what we want to ban leads to a very different—and I fear, less successful—political project than discussing what kinds of physical structures we do (or do not) want to build.
+
+B [Data Center Fights › But what could we win?]
+To folks like me, two major reasons to grapple with data centre expansions include 1) wider climate trajectories and 2) political suspicions about the kind of world that endless data storage is slowly building. Setting limits on digital infrastructure—or even beginning with the assumption that what we currently have might already be sufficient—could help foster a culture of technical maintenance and repair over and above an emphasis on innovation (regardless of the social or climate cost). It would be great to learn how to be better stewards of what we’ve already built instead of playing regulatory catch up with the infrastructural and digital monsters that lurk on the horizon. Plus, again and with emphasis, this climate change thing is pretty bad. We should do something about it.
+
+### 17  499-603
+A [Small AI › The Stories They Tell Us]
+I introduce two case studies:
+◦ The Mising Tribe explores how fluidity and movement foster resilience, emphasizing the importance of understanding AI as interconnected with all other human and nonhuman entities in its ecosystem.
+• “Mini-festo”: Hibernation is to Die For envisions a seasonal approach to AI, aligning these systems with the rhythms of nature.
+• General Intelligence: General Intelligence highlights how the myth of general intelligence centralizes power and reinforces dominant systems of control.
+• FRUITING BODIES: Fruiting Bodies questions the narrative that AI must scale infinitely or aim for general intelligence. Instead, it advocates for a shift toward small-scale, process-oriented approaches to AI development.
+
+B [Small AI › Fruiting Bodies]
+While researching for Small AI, I found myself constantly at odds with the stories of infinite scale and general intelligence.
+
+Fruiting Bodies challenges that. It is a counter-narrative that shifts our focus away from a bigger-is-better mindset.
+
+Fruiting Bodies is about creating thoughtful, deliberate processes that support developing AI systems more connected to place and subjective experience. It encourages reflexive thinking to reimagine the possibilities of AI systems—not as instruments of industrialized general intelligence, but as tools that serve people and celebrate local wisdom.
+
+### 18  539-567
+A [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+B [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Placefulness invites us to design AI systems and governance frameworks that reflect values like kaitiakitanga, manaakitanga, and rangatiratanga. It suggests that the future of design and technology lies in remaking, reshaping, and reclaiming tools and practices to serve justice, sustainability, and local ecologies and customs. Placefulness reminds us that design is never void of bias or cultural positioning—it is always shaped by the cultures, histories, and values we choose to embed within it.
+
+### 19  509-563
+A [Small AI › New Frontier]
+Universalism: The belief that certain values, moralities, theories, or treatments can be universally applied to all groups, regardless of culture, race, nationality, gender, and other social identities.
+
+B [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Crucially, this integration was not about reviving pre-colonial practices but about embracing Māori knowledge as a modern mode of design-making and knowledge-sharing, says O’Sullivan.
+
+Central to this pedagogy are themes of kaitiakitanga (guardianship), manaakitanga (respect and reciprocity), and rangatiratanga (self-determination). These principles reflect a holistic view of design as an ethical and cultural practice, deeply tied to place and community. By incorporating these values, Te Kura Hoahoa’s curriculum challenges the extractive and exploitative tendencies of dominant design practices and invites students to engage with a more place-based and culturally resonant approach.
+
+### 20  858-865
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Proposal]
+A world headed for a frictionless reality begs the question: how can we create a desirable future with digital technology? How can we access, develop and relate to it? We like to see designing friction as a fundamental design principle when working with digital culture. Instead of following design ethics that strive to eliminate friction, we suggest to not only allow, but embrace friction. To facilitate it: design [products with] digital technology in a way that makes space for our humanness. Here friction is a core ingredient. Digital technology should create environments and situations in which we can truly connect with each other, as well as with the unknown, the uncontrolled, with all senses, all elements, all emotions.
+
+### 21  409-435
+A [Data Center Fights › centre]
+This is all interesting (or, at least, it is to nerds like me), but maybe not a boiling political fight. Sometimes, however, you do find exactly that.
+
+B [Data Center Fights › But what could we win?]
+So, please take me quite sincerely when I say:
+
+Happy fighting out there. Good luck.
+
+### 22  862-864
+A [Designing Friction › Predictability]
+In this reality, data is king. In creating convenience, all our actions are recorded and translated into data, rendering them readable and predictable. The better the data, the better the predictability. Unpredictability, human messiness and unforeseen actions are all friction, and counter this goal. Predictable futures can be controlled.
+
+B [Designing Friction › Loss of autonomy]
+Philosopher Miriam Rasch argues that complete removal of friction means standing still. A completely predictable future is no future, but a continuous present. In a world where even our deepest desires can be foreseen, where we have lost our autonomy, we long for what remains beyond the domain of data, algorithms and databases and AI.
+
+### 23  675-689
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Making Models More Critical]
+Yet I’d argue most serious contexts and use cases, beyond searching for information summaries, require models that can critique and challenge us to be useful. Domains like law, scientific research, philosophy, public policy, politics, medicine, writing, education, and engineering – to name a few – all require engaging in discourse that is sometimes difficult, complex, and uncomfortable. We might not rate the experience five stars in a reinforcement learning loop.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.
+- The UW Social Futures Lab (  Language Models as Critical Thinking Tools: A Case Study of PhilosophersYe 2024 ) asked philosophers to use models as critical thinking tools and found they were too neutral, incurious, and passive to be helpful.AbstractCurrent work in language models (LMs) helps us speed up or even skip thinking by accelerating and automating cognitive work. But can LMs help us with critical thinking -- thinking in deeper, more reflective ways which challenge assumptions, clarify ideas, and engineer new concepts?
+
+### 24  661-689
+A [A Treatise on AI Chatbots Undermining the Enlightenment › (intro)]
+People using AI chatbots in their daily lives, concerned with how they subtly shift our ways of thinking. People building software with language models who want to consider the implications of their design choices.
+
+I don’t pay much attention to the torrent of AI think pieces published by the New York Times; I am not their target demographic. But this one , by Princeton professor of history David A. Bell hits some good notes.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.
+- The UW Social Futures Lab (  Language Models as Critical Thinking Tools: A Case Study of PhilosophersYe 2024 ) asked philosophers to use models as critical thinking tools and found they were too neutral, incurious, and passive to be helpful.AbstractCurrent work in language models (LMs) helps us speed up or even skip thinking by accelerating and automating cognitive work. But can LMs help us with critical thinking -- thinking in deeper, more reflective ways which challenge assumptions, clarify ideas, and engineer new concepts?
+
+### 25  858-869
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Engage the body]
+When interacting with screens we lack resistance. Swiping screens makes our world more superficial. Human life gains depth when having thing-relations. Thing-relations tend to bring us together physically and create connections. Designing friction requires thinking about how to increase our resistance. How can we engage our hands and whole bodies? How can these bodily engagements bring us together?
+
+### 26  691-694
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+We hope that our work inspires LM researchers to further develop LMs as critical thinking tools and philosophers and other 'critical thinkers' to imagine intellectually substantive uses of LMs.
+- Business professor Michael Gerlich (  AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical ThinkingGerlich 2025 ) interviewed 666 participants from a range of educational backgrounds and age groups, and found “a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.
+
+These studies don’t convince me that the problem is generative AI itself. They convince me the problem is that models are not trained to support critical thinking. And that the interface affordances and design decisions built into generic chatbots do not encourage or support critical thinking workflows and interactions. And that users have no clue they’re supposed to be compensating for these weaknesses by becoming expert prompt engineers.
+
+### 27  539-561
+A [Small AI › The American Smile]
+This universalist mindset manifests when AI developers assume:
+1 Western data, concepts, and taxonomies can and should be applied worldwide.
+
+2 AI systems developed in technological centers like Silicon Valley will work equally well across diverse global contexts.
+
+3 Western ethical frameworks should govern AI globally without adaptation.
+
+B [Small AI › Milk and Honey, Novak, 2023]
+Instead of discarding places—both material and conceptual ones—shaped by colonial or capitalist ambitions, we can reclaim and reshape them in ways that address the climate crisis, honor local ecologies, and reflect diverse local cultures and ecologies.
+
+The pine forests of Kodaikanal remind us that places—and technologies—are layered with histories of transformation and adaptation. By embracing these layers, we can reimagine AI as a tool not of placeless optimization but of rootedness in the realities of the world around us.
+
+### 28  618-689
+A [Small AI › Once UPON A GARDEN]
+The conversations with Vera and Linda highlight how focusing on the idea of process in AI unearths insights with distinct, unique value compared to the output alone. Both artists emphasize the slow, iterative nature of their data work, underscoring that creating AI models is more than a technical endeavor—it is and can be a form of critical engagement. Together, they show that in the context of AI, the value lies not just in the final outputs but also in the process of training, refining, and reflecting. That, though, comes from two distinct questions:
+How can we identify what’s missing from the data?, and
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.
+- The UW Social Futures Lab (  Language Models as Critical Thinking Tools: A Case Study of PhilosophersYe 2024 ) asked philosophers to use models as critical thinking tools and found they were too neutral, incurious, and passive to be helpful.AbstractCurrent work in language models (LMs) helps us speed up or even skip thinking by accelerating and automating cognitive work. But can LMs help us with critical thinking -- thinking in deeper, more reflective ways which challenge assumptions, clarify ideas, and engineer new concepts?
+
+### 29  590-824
+A [Small AI › The Mising Tribe]
+Designing for the interconnected web of living and nonliving systems that underpin AI.
+
+For example, the Website Carbon Calculator shows the relation between the web and carbon emissions through a “badge” that can be added to the footer of any website that automatically calculates and displays the carbon emissions of each page—aiming to increases awareness of web carbon emissions.
+
+B [Digital › Overview]
+While certainly not without an environmental consequence, the impact of digital technologies are less significant than activities such as flying. However, some aspects of our collective digital usage - such as bitcoin and NFT production - have much larger negative environmental impacts. Information on NFTs can be found on our NFT resource page.
+
+### 30  394-395
+A [Data Center Fights › traceroute]
+Of course, this might not be so simple. Maybe your IP geolocation data is absolutely in the middle of nowhere, or it’s proving tricky to make the jump from the offices of the folks who registered the IP address to the digital warehouse where the digital stuff actually is. We have another trick up our sleeve: we can run a traceroute.
+
+B [Data Center Fights › traceroute]
+This is a diagnostic tool used by clever IT people (and malicious hackers) looking to trace the route data takes across the network to get from point A or point B. Internet traffic can change its paths dynamically as stuff goes offline or comes back up after maintenance, so you may not get the same results from one day to the next. In general, though, you can often find some useful hints about the sea of routers and exchange points your data moves across, all of which can help you zero in on where your target must be located, relative to the rest of your traceroute.
+
+### 31  690-694
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+We treat philosophy as a case study in critical thinking, and interview 21 professional philosophers about how they engage in critical thinking and on their experiences with LMs. We find that philosophers do not find LMs to be useful because they lack a sense of selfhood (memory, beliefs, consistency) and initiative (curiosity, proactivity). We propose the selfhood-initiative model for critical thinking tools to characterize this gap. Using the model, we formulate three roles LMs could play as critical thinking tools: the Interlocutor, the Monitor, and the Respondent.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.
+
+These studies don’t convince me that the problem is generative AI itself. They convince me the problem is that models are not trained to support critical thinking. And that the interface affordances and design decisions built into generic chatbots do not encourage or support critical thinking workflows and interactions. And that users have no clue they’re supposed to be compensating for these weaknesses by becoming expert prompt engineers.
+
+### 32  577-580
+A [Small AI › Read more about Project D33pthr0at here ↗︎]
+O’Sullivan’s work also highlights how cultural dimensions are often left unspoken in design. As she recalls, Renata Leitão noted at the 2018 Design Research Society Conference that discussions about culture were conspicuously missing in design discourse. However, the absence of explicit discussions of culture does not mean neutrality or that there isn't a cultural framing or assumption. The dominant Eurocentric model of man versus nature, carving society out of empty wilderness is a cultural export that continues to impose how technology is designed and its production materials sourced. Te Kura Hoahoa’s work provides an alternative: a curriculum that is not placeless but deeply situated, not singular but plural, and not extractive but reciprocal.
+
+B [Small AI › Moving with Nature]
+Technology is often perceived as separate from the natural world, yet it is deeply "attached".
+
+By shifting our perspective, we can begin to see geography and geographical events not only as spaces for political strategy or economic competition but as the Earth itself speaking to us.
+
+Building data centers in drought-stricken regions or continuing extractive practices in fragile ecosystems demonstrates the profound disconnect the cloud narrative allows and perpetuates.
+
+### 33  381-805
+A [Data Center Fights › HERE]]
+STEP 1: PICK A TARGET
+
+Pick something online that’s meaningful to you—that thing that you’d otherwise be wanting to calculate with a carbon footprinting tool and wring your hands over. Maybe it’s your go-to website for passing the time, an online project you built, your meme stash, a web3 hatewatch, or your favorite multiplayer game. Anything with a URL or IP address will work.
+
+B [How much water does it take to build the cloud? AI, the envi › the risk of over-reliance on ai models]
+AI models are not yet able to capture the full complexity of ecological systems, and over-reliance on them for decision-making carries real risk.
+
+There is a particular tension for organisations using digital tools to measure and reduce their carbon footprint. While AI could have genuine uses here to aid computational modelling, data analysis, and footprinting tools, it’s important that we don’t let digital solutions exacerbate the problem they are meant to address.
+
+### 34  361-430
+A [Data Center Fights › of our digital lives?]
+These days whenever I’m asked what the climate impact of X network thing might be, I pivot and instead try to start a conversation about how we can stop the next data center from being built.
+
+(Think of those ‘one less car’ stickers you see on commuter bikes, but with a digital twist.)
+
+I like this frame because it : 1. Makes it a collective, rather than individual, concern (goodbye and good riddance, green saviour complex);
+
+B [Data Center Fights › But what could we win?]
+To folks like me, two major reasons to grapple with data centre expansions include 1) wider climate trajectories and 2) political suspicions about the kind of world that endless data storage is slowly building. Setting limits on digital infrastructure—or even beginning with the assumption that what we currently have might already be sufficient—could help foster a culture of technical maintenance and repair over and above an emphasis on innovation (regardless of the social or climate cost). It would be great to learn how to be better stewards of what we’ve already built instead of playing regulatory catch up with the infrastructural and digital monsters that lurk on the horizon. Plus, again and with emphasis, this climate change thing is pretty bad. We should do something about it.
+
+### 35  355-865
+A [Data Center Fights › of our digital lives?]
+This is really frustrating! It means that our first impulse, to focus on our own actions and to ask how we can better align them with our ethics, isn’t a terribly useful starting point for learning how digital networks actually work or how to change them. In fact, I worry that it risks teaching the wrong lessons, leaving us with an inflated sense of our individual importance and agency. It’s kind of the same mistake that we’ve made with plastic recycling: we can be overinvested in the morality of individual actions, completely missing how larger industrial factors have a far bigger impact.
+
+B [Designing Friction › Proposal]
+A world headed for a frictionless reality begs the question: how can we create a desirable future with digital technology? How can we access, develop and relate to it? We like to see designing friction as a fundamental design principle when working with digital culture. Instead of following design ethics that strive to eliminate friction, we suggest to not only allow, but embrace friction. To facilitate it: design [products with] digital technology in a way that makes space for our humanness. Here friction is a core ingredient. Digital technology should create environments and situations in which we can truly connect with each other, as well as with the unknown, the uncontrolled, with all senses, all elements, all emotions.
+
+### 36  860-867
+A [Designing Friction › Removing physical human interaction]
+Instead of using our whole hand to interact, we now often use our fingertips to swipe screens or interact with air. Each new app or innovation replaces a previously friction-laden human interaction process, David Byrne states. Transactions with machines are perceived to be smoother than interactions with fellow humans.
+
+B [Designing Friction › Discomfort]
+Embrace uncomfortable situations. In uncomfortable environments we can discover the richness and breadth of friction. Uncomfortable situations help you to feel structures you are not adjusted to, you can learn and discover. With friction we get immersed, we get creative, we get alive. Discomfort allows us to experience boundaries both physically and mentally (these are necessary and productive). Designing friction is exploring boundaries.
+
+### 37  794-815
+A [How much water does it take to build the cloud? AI, the envi › What are the environmental impacts of AI, and what impact will this have on the art and cultural sector?]
+This points to a major rift in how we understand materiality in a digital world.  How much do we really acknowledge the impact that our online lives have on the physical world? The words we use to describe the online realm no doubt support this – it’s hard to grasp something tangible when we’re talking about the *network* or an *algorithm* or the *world wide web*.
+
+B [How much water does it take to build the cloud? AI, the envi › Committed to climate justice: how we’re addressing the gap between ai use and impact]
+At JB, we’re committed to applying the same rigour to our digital choices as we do to our programmatic ones. That means asking harder questions about which tools we reach for and why, being honest about trade-offs, and staying curious about the alternatives that are already being built, from compost-powered servers to community-led responses to AI chatbots.
+
+### 38  685-694
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+And second, because I don’t think it’s hyperbole to suggest we’re heading into a second Enlightenment. Not just in terms of access to information and reshuffling power structures. I should be clear: I’m exceptionally bullish on AI models being able to act as rigorous critical thinking partners. They have the potential to embody those idealistic values of enabling intellectual engagement and critical inquiry. Far more than current implementations suggest.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.
+
+These studies don’t convince me that the problem is generative AI itself. They convince me the problem is that models are not trained to support critical thinking. And that the interface affordances and design decisions built into generic chatbots do not encourage or support critical thinking workflows and interactions. And that users have no clue they’re supposed to be compensating for these weaknesses by becoming expert prompt engineers.
+
+### 39  821-838
+A [Digital › Overview]
+‘Digital’ here refers to an organisation’s web-based activities, the impacts of which will not be measurable via an energy bill - such as cloud services or website hosting. This does not refer to the energy used to power an office, studio or storage facility (information on that kind of energy use can be found here).
+
+B [Digital › Video Calls]
+The Click Clean report and website rates the major internet companies on their energy usage and transparency.
+
+### 40  612-641
+A [Small AI › Worker Info Exchange]
+Building on these insights, The Call helps create a data institution based on bottom-up, collective and participatory processes—an approach that allows for ‘the distribution of power between contributors to training data and those who use the models.’
+
+B [Small AI › Emergent Strategy, Adrienne Maree Brown, 2017]
+Specifically, a data trustee:
+1 represents the collective interests and rights of data subjects, 2 ensures data is used ethically and according to agreed-upon terms, 3 advocates for data subjects in decisions about how their data is collected, stored, and used, 4 provides oversight and accountability for data practices, 5 helps navigate power imbalances between individuals and organizations collecting data, and 6 can negotiate terms of data use on behalf of the collective.
+
+### 41  540-563
+A [Small AI › The American Smile]
+4 Local knowledge systems are merely “edge cases” rather than valid alternative epistemologies.
+
+We can still see traces of this legacy in modern maps. Have you ever wondered whether you know the true size of Africa?
+
+B [Small AI › Te Kura Hoahoa: Integrating tikanga Māori]
+Crucially, this integration was not about reviving pre-colonial practices but about embracing Māori knowledge as a modern mode of design-making and knowledge-sharing, says O’Sullivan.
+
+Central to this pedagogy are themes of kaitiakitanga (guardianship), manaakitanga (respect and reciprocity), and rangatiratanga (self-determination). These principles reflect a holistic view of design as an ethical and cultural practice, deeply tied to place and community. By incorporating these values, Te Kura Hoahoa’s curriculum challenges the extractive and exploitative tendencies of dominant design practices and invites students to engage with a more place-based and culturally resonant approach.
+
+### 42  353-354
+A [Data Center Fights › of our digital lives?]
+This circles back to the question of digital carbon footprints. It’s normal for us to want to think through sustainability problems with the assistance of a little quantification. There’s even a growing number of online calculators to help you assess exactly how bad your own digital emissions might be.1 If you’re sending an email, watching a video, or archiving your data in a cloud back up, you can find a carbon number for your actions.
+
+B [Data Center Fights › of our digital lives?]
+The trouble is, I think that this is often the wrong question to ask—at least in terms of the carbon costs of discrete consumer action.
+
+1 Here’s a few to try if you’re curious: https://ecotree.green/en/ calculate-digital-co2; https://thenetworkedcondition.com/; https:// www.websitecarbon.com/.
+
+### 43  858-867
+A [Designing Friction › Loss of friction]
+Digital technology has long pursued the goal of eliminating friction, striving for seamlessness. We now navigate a sea of frictionless experiences. (With the possible exception of two factor authentication.)☺
+
+B [Designing Friction › Discomfort]
+Embrace uncomfortable situations. In uncomfortable environments we can discover the richness and breadth of friction. Uncomfortable situations help you to feel structures you are not adjusted to, you can learn and discover. With friction we get immersed, we get creative, we get alive. Discomfort allows us to experience boundaries both physically and mentally (these are necessary and productive). Designing friction is exploring boundaries.
+
+### 44  506-630
+A [Small AI › New Frontier]
+The Eurocentric narrative of man versus nature—conquering the frontier, mastering the elements, and remaking the world—was never sustainable. It is at its breaking point. What wasn't viable then is even less so now. AI becomes a territory to be conquered—one where companies and nations race to claim dominance, paying little attention to the harms caused by this unrestrained ambition. With AI, we treat every behavior, action, and object as a potential data point—a resource ready to be captured, claimed, and exploited. We dismiss people and communities in pursuit of more and more data—or is it "AI fuel" —while funneling very real and finite resources like energy and water into this one goal.
+
+B [Small AI › Another way is possible]
+The dominant image of AI infrastructure—massive data centers consuming megawatts of electricity and requiring industrial cooling systems—obscures the opportunities afforded by alternative approaches taking shape around the world. These examples showcase how AI hardware can be made and deployed at a community-scale, responsive to the local environment and available resources.
+
+### 45  558-621
+A [Small AI › The Pines of Kodaikanal]
+‘In other British colonies, foresting policies were not merely rehabilitation or beautification projects, as trees were planted for the sake of firewood and timber, used for construction, heating, and machine operation … The British considered rational land management and expansion an expression of order and control, it was also a reflection of their desire to transform the land and its creatures.’
+
+B [Small AI › Counter-mapping with Forensic Architecture]
+Their work challenges mapping as a colonial practice historically used to assert control.
+
+"In the history of colonization, cartography has always been in the hands of imperialists... Draw a map of a place to mark things and to exclude things."
+
+### 46  678-689
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Making Models More Critical]
+The jury’s still out on whether chatbots are adaptable enough to remain the universal interface: what most people use, for most tasks, most of the time. I don’t believe that   ## Language Model Sketchbook, or Why I Hate Chatbots
+
+Sketchy ideas for interfaces that play with the novel capabilities of language models
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.
+- The UW Social Futures Lab (  Language Models as Critical Thinking Tools: A Case Study of PhilosophersYe 2024 ) asked philosophers to use models as critical thinking tools and found they were too neutral, incurious, and passive to be helpful.AbstractCurrent work in language models (LMs) helps us speed up or even skip thinking by accelerating and automating cognitive work. But can LMs help us with critical thinking -- thinking in deeper, more reflective ways which challenge assumptions, clarify ideas, and engineer new concepts?
+
+### 47  351-800
+A [Data Center Fights › of our digital lives?]
+That requires changing norms and habits— probably both for consumers and industry players.
+
+enormous data center somewhere sort of rural, where it consumes impressive amounts of electricity (to power the facility) and water (to cool down all those hot servers).
+
+B [How much water does it take to build the cloud? AI, the envi › BReaking down the numbers]
+Locating these data centres in local communities also presents a serious opportunity cost for more sustainable land use options. In Scotland, for example, new data centre plans threaten to displace proposed renewable energy projects. How much are we taking a step backwards on climate action, when what we need to be doing is accelerating in the other direction?
+
+### 48  859-870
+A [Designing Friction › Function and form are detached]
+Digital technology goes hand-in-hand with the loss of physical resistance. Philosopher Haroon Sheikh explains that digital technology turns our interactions with things into interactions with devices. A thing is split into its object, or form, and its function. A device is the same object for each function. It’s your purse, your musical instrument and your letterbox, each of which now demands the same bodily action.
+
+B [Designing Friction › Non-positive]
+Acknowledge the fulfilment in the non-positive. Today’s digital technology creates a society that is in ‘pursuit of happiness’, in awe of positivity. (As a counterweight of the negativity it produces?) Smoothness doesn’t injure. It doesn’t produce resistance. It enforces the Like. These mechanisms feed our desire for attention and being seen. Designing friction cherishes the non-positive, the ‘digital unseen’, the disagreement, the doubt, the vulnerable, the complicated. This is what makes us human.
+
+### 49  575-863
+A [Small AI › Read more about Project D33pthr0at here ↗︎]
+AI Mural is an illustration made up of 3 images by clarote.
+It showcases the entanglement of the disproportionate use of natural resources, and the precarious and invisible labor behind AI, with power, profit and control in ways that reinforce structures of domination.
+
+The illustration also presents the user as a Chimera, a visual metaphor suggested by Kate Crawford in which the “end-user” also provides (often unknowingly) valuable feedback, personal data and performs other invisible labor.
+
+B [Designing Friction › Loss of autonomy]
+Keeping friction out maintains a fragile equilibrium. Enter AI — technology becomes omnipresent, and evolves from being a tool, to being a companion with humanlike appeal. We are on the verge of committing our emotions to AI, plunging into an emotional dependency. AI indulges us, consumes us. Its appeal gives us the comforts and conveniences we learn to seek. To get satisfaction from interaction with a model, you need to perform your predictable self. It becomes almost impossible to step out, to live frictionfully. Our autonomy is at stake.
+
+### 50  666-669
+A [A Treatise on AI Chatbots Undermining the Enlightenment › (intro)]
+Bell’s Exhibit A
+
+“One should never so exhaust a subject that nothing is left for readers to do. The point is not to make them read, but to make them think.”
+
+Bell’s Exhibit B
+
+“The most useful books are those that the readers write half of themselves.”
+
+He argues that AI does not do this. It follows our lead. It compliments our poorly considered ideas. It only answers the questions we ask it. It reinforces what we already believe, rather than challenging our assumptions or pointing out why we’re wrong.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › (intro)]
+And a less sycophantic, more critical, intellectually engaging, and astute character is well within the range of what we can prompt as end-users.
+
+### 51  484-505
+A [Small AI › Meet the Research Lead]
+What could we make with AI if scale wasn’t an objective?
+
+B [Small AI › New Frontier]
+In pursuit of our neo-manifest destiny, we plunder vast amounts of data, energy, water, and material resources for AI development. This resource-intensive approach ignores the toll on the planet and marginalized communities, especially in the Global South where most extraction and labor occur.
+
+Just as colonial landscape paintings present land as empty spaces, ripe for conquest, mainstream AI narratives abstract and erase the social, cultural, and environmental contexts in which data is collected and systems are deployed. This frontier language sustains an unrelenting pursuit of growth and expansion with little regard for ethical, social, or environmental consequences.
+
+### 52  860-866
+A [Designing Friction › Removing physical human interaction]
+Instead of using our whole hand to interact, we now often use our fingertips to swipe screens or interact with air. Each new app or innovation replaces a previously friction-laden human interaction process, David Byrne states. Transactions with machines are perceived to be smoother than interactions with fellow humans.
+
+B [Designing Friction › Proposal]
+It should create situations that are not predicted, measured and calculated beforehand; situations that result from and amount to the present moment.
+
+*Here are some ideas on what ‘designing friction’ might entail.*
+
+### 53  486-505
+A [Small AI › Introduction]
+Instead of pouring trillions into speculative futures that may never materialize, we should double down on what AI already does well to address real-life problems people face today. We need AI that serves humanity now, not a hypothetical superintelligence that may or may not ever be real.
+
+Yet, investors continue funding the AI hype cycle. The gap between marketing promises and technical reality grows wider. We celebrate potential while ignoring the limitations behind AI's polished image.
+
+B [Small AI › New Frontier]
+In pursuit of our neo-manifest destiny, we plunder vast amounts of data, energy, water, and material resources for AI development. This resource-intensive approach ignores the toll on the planet and marginalized communities, especially in the Global South where most extraction and labor occur.
+
+Just as colonial landscape paintings present land as empty spaces, ripe for conquest, mainstream AI narratives abstract and erase the social, cultural, and environmental contexts in which data is collected and systems are deployed. This frontier language sustains an unrelenting pursuit of growth and expansion with little regard for ethical, social, or environmental consequences.
+
+### 54  551-560
+A [Small AI › Project D33pthroat]
+This technological censorship mirrors and reinforces broader societal stigma, making it nearly impossible for journalists, healthcare workers, and legal advocates to access peer-reviewed research or factual resources that could inform policy, healthcare, or advocacy.
+
+Project d33pthr0at emerged from this frustration.
+
+B [Small AI › Milk and Honey, Novak, 2023]
+I think that this paradox—of missing places shaped by violence—offers a powerful metaphor for how we might approach technology. Just as Padte reflects on growing with and around the pines, we too can find ways to work with technologies that may not have been designed with us in mind, or where we are not represented—ways to humanize, repurpose, or subvert technology that are true to our many lived experiences and realities. Moving beyond a strict dichotomy between the empire and the marginal allows for a deeper, more nuanced understanding.
+
+### 55  685-688
+A [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+And second, because I don’t think it’s hyperbole to suggest we’re heading into a second Enlightenment. Not just in terms of access to information and reshuffling power structures. I should be clear: I’m exceptionally bullish on AI models being able to act as rigorous critical thinking partners. They have the potential to embody those idealistic values of enabling intellectual engagement and critical inquiry. Far more than current implementations suggest.
+
+B [A Treatise on AI Chatbots Undermining the Enlightenment › Our Missing Pocket-sized Enlightenment]
+Participants shared 936 first-hand examples of using GenAI in work tasks. Quantitatively, when considering both task and user-specific factors, a user’s task-specific self-confidence and confidence in GenAI are predictive of whether critical thinking is enacted and the effort of doing so in GenAI-assisted tasks. Specifically, higher confidence in GenAI is associated with less critical thinking, while higher self-confidence is associated with more critical thinking. Qualitatively, GenAI shifts the nature of critical thinking toward information verification, response integration, and task stewardship.
+
+### 56  834-841
+A [Digital › Overview]
+Emails Research into the carbon footprint of email is somewhat unreliable as many published statistics come from a pre-cloud era when email contributed more to carbon emissions because many companies ran their own email servers. The consolidation of resources by cloud platforms has made email technology considerably more efficient, but it still represents a significant volume of data exchanged among and stored on huge numbers of computers. Email, especially with large attachments, uses substantially more energy than messaging services. Messaging services such as Messenger, WhatsApp, Slack, and Signal have a comparatively negligible environmental impact and are a preferable alternative where possible. As with cloud storage, simple email management practices can make a difference.
+
+B [Digital › Effective Actions]
+Use instant messaging applications over email wherever appropriate.
+
+Speak on the phone rather than via video conferencing whenever possible. If appropriate, keep your camera off during video calls.
+
+Get work and personal emails under control. Avoid including long email threads in reply emails, unsubscribe from unnecessary lists, delete attachments saved elsewhere, and use alternative messaging services other than email, where possible.
+
+### 57  506-623
+A [Small AI › New Frontier]
+The Eurocentric narrative of man versus nature—conquering the frontier, mastering the elements, and remaking the world—was never sustainable. It is at its breaking point. What wasn't viable then is even less so now. AI becomes a territory to be conquered—one where companies and nations race to claim dominance, paying little attention to the harms caused by this unrestrained ambition. With AI, we treat every behavior, action, and object as a potential data point—a resource ready to be captured, claimed, and exploited. We dismiss people and communities in pursuit of more and more data—or is it "AI fuel" —while funneling very real and finite resources like energy and water into this one goal.
+
+B [Small AI › Forensic Architecture, 2019]
+In their Triple-Chaser investigation, Forensic Architecture examined the global deployment of tear gas grenades manufactured by Safariland Group, whose CEO was a board member at the Whitney Museum. The team developed a machine learning classifier to identify Triple-Chaser grenades in images from conflict zones and protest sites worldwide. This investigation not only documented human rights violations across multiple countries but also highlighted the art world's complicity in state violence, leading to the resignation of the museum board member. The project brilliantly exemplifies using AI techniques to create accountability rather than surveillance.
+
+### 58  575-636
+A [Small AI › Read more about Project D33pthr0at here ↗︎]
+AI Mural is an illustration made up of 3 images by clarote.
+It showcases the entanglement of the disproportionate use of natural resources, and the precarious and invisible labor behind AI, with power, profit and control in ways that reinforce structures of domination.
+
+The illustration also presents the user as a Chimera, a visual metaphor suggested by Kate Crawford in which the “end-user” also provides (often unknowingly) valuable feedback, personal data and performs other invisible labor.
+
+B [Small AI › Conclusion]
+From artists building personal AI models to citizen scientists preserving their evolving (marginalized) languages — we've seen how small-scale approaches can protect cultural heritage, advance ecological preservation, and redistribute power from the few big tech corporations to the many communities around the world.
+
+### 59  577-581
+A [Small AI › Read more about Project D33pthr0at here ↗︎]
+O’Sullivan’s work also highlights how cultural dimensions are often left unspoken in design. As she recalls, Renata Leitão noted at the 2018 Design Research Society Conference that discussions about culture were conspicuously missing in design discourse. However, the absence of explicit discussions of culture does not mean neutrality or that there isn't a cultural framing or assumption. The dominant Eurocentric model of man versus nature, carving society out of empty wilderness is a cultural export that continues to impose how technology is designed and its production materials sourced. Te Kura Hoahoa’s work provides an alternative: a curriculum that is not placeless but deeply situated, not singular but plural, and not extractive but reciprocal.
+
+B [Small AI › Moving with Nature]
+In this way, droughts, floods, and monsoons are urgent reminders of how we must build technology that aligns with our planetary constraints and rhythms.
+
+Technology designed with nature as a central consideration can break free from the extractive and destructive tendencies of big tech. It opens space for systems that respond to environmental realities, respect diverse ecologies, and prioritize sustainability and justice over profit and control. Moving with nature is a call to create systems that are not only innovative but also regenerative, antifragile.
+
