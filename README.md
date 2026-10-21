@@ -6,9 +6,6 @@ database, an LLM-maintained markdown wiki, and a FastAPI server. All models run 
 Ollama and sentence-transformers; nothing calls a cloud API. (The only network access besides
 your Ollama server is fetching the web articles you ask it to ingest.)
 
-- **How it works:** [`02_Documentation/retrieval-techniques.md`](../../02_Documentation/retrieval-techniques.md)
-- **Adding data:** [`02_Documentation/adding-data.md`](../../02_Documentation/adding-data.md)
-
 ## Quick start
 
 ```bash
@@ -25,19 +22,19 @@ uvicorn dip.api:app --port 8000      # test UI: http://localhost:8000/   API doc
 
 ## API
 
-| Endpoint | |
-|---|---|
-| `GET /health` | counts + model status |
-| `GET /search?q=` | hybrid keyword + semantic search over chunks |
-| `GET /neighbours?node_id=` | similar passages (diverse) |
-| `GET /counter?node_id=` | passages that disagree |
-| `GET /evidence?node_id=` | passages that support it (evidence, examples first) |
-| `GET /zoom-in?node_id=` | more specific: details, examples, children |
-| `GET /zoom-out?node_id=` | broader: cluster, theme, section, wiki page, more general passages |
-| `POST /question` `{question, node_id?}` | answer with `[id]` citations, wiki-routed |
-| `GET /nodes?kind=chunk`, `GET /nodes/{id}` | browse nodes, with claims and edges |
-| `GET /items`, `GET /wiki`, `GET /wiki/{slug}` | sources and wiki pages |
-| `GET /wiki-files`, `GET`/`PUT /wiki-files/{topic\|image}/{name}` | wiki editor: list, read, save (`{text, base_hash, lock?}`) |
+| Endpoint                                                         |                                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
+| `GET /health`                                                    | counts + model status                                              |
+| `GET /search?q=`                                                 | hybrid keyword + semantic search over chunks                       |
+| `GET /neighbours?node_id=`                                       | similar passages (diverse)                                         |
+| `GET /counter?node_id=`                                          | passages that disagree                                             |
+| `GET /evidence?node_id=`                                         | passages that support it (evidence, examples first)                |
+| `GET /zoom-in?node_id=`                                          | more specific: details, examples, children                         |
+| `GET /zoom-out?node_id=`                                         | broader: cluster, theme, section, wiki page, more general passages |
+| `POST /question` `{question, node_id?}`                          | answer with `[id]` citations, wiki-routed                          |
+| `GET /nodes?kind=chunk`, `GET /nodes/{id}`                       | browse nodes, with claims and edges                                |
+| `GET /items`, `GET /wiki`, `GET /wiki/{slug}`                    | sources and wiki pages                                             |
+| `GET /wiki-files`, `GET`/`PUT /wiki-files/{topic\|image}/{name}` | wiki editor: list, read, save (`{text, base_hash, lock?}`)         |
 
 The wiki editor is at `/ui/editor.html` (linked from the test UI).
 
