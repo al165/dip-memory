@@ -49,6 +49,25 @@ def embed_missing_nodes(conn) -> int:
         vecs = blend_image_vectors(conn, rows, vecs)
     with db.tx(conn):
         db.put_vectors(conn, "node", [r["id"] for r in rows], vecs)
+    embed_missing_chunk_text(conn)
+    return len(rows)
+
+
+def embed_missing_chunk_text(conn) -> int:
+    """A second vector per chunk, of its text alone (owner 'chunk_text'), for stage 4 clustering.
+    The context prefix names the document, which pulls every chunk toward its own source: with it,
+    k-means grouped 25 of 28 clusters from a single source. Search keeps the prefixed 'node' vector."""
+    rows = conn.execute(
+        "SELECT n.* FROM nodes n LEFT JOIN vectors v ON v.owner='chunk_text' AND v.owner_id=n.id "
+        "WHERE n.kind='chunk' AND v.owner_id IS NULL"
+    ).fetchall()
+    if not rows:
+        return 0
+    vecs = llm.embed([r["text"] for r in rows])
+    if config.EMBED_MULTIMODAL:
+        vecs = blend_image_vectors(conn, rows, vecs)
+    with db.tx(conn):
+        db.put_vectors(conn, "chunk_text", [r["id"] for r in rows], vecs)
     return len(rows)
 
 

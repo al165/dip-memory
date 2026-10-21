@@ -13,8 +13,8 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 from dip import config, db, llm
-from dip.ingest.common import (ABSTRACTION_SCALE, abstraction_score, embed_missing_nodes, log, progress,
-                               rebuild_fts)
+from dip.ingest.common import (ABSTRACTION_SCALE, abstraction_score, embed_missing_chunk_text,
+                               embed_missing_nodes, log, progress, rebuild_fts)
 
 SCHEMA = {
     "type": "object",
@@ -59,13 +59,16 @@ def run(conn):
         conn.execute("DELETE FROM nodes WHERE kind IN ('cluster','theme')")
         db.delete_orphan_vectors(conn)
 
-    idx = db.VectorIndex("node").refresh(conn)
+    # cluster on the chunks' own text: the context prefix in their search vectors names the
+    # document and would group passages by source instead of by idea
+    embed_missing_chunk_text(conn)
+    cidx = db.VectorIndex("chunk_text").refresh(conn)
     chunk_ids = sorted(db.ids_of_kind(conn, "chunk"))
-    chunk_ids = [i for i in chunk_ids if idx.get(i) is not None]
+    chunk_ids = [i for i in chunk_ids if cidx.get(i) is not None]
     if len(chunk_ids) < 4:
         log("stage 4: too few chunks to cluster, skipping")
         return
-    mat = np.stack([idx.get(i) for i in chunk_ids])
+    mat = np.stack([cidx.get(i) for i in chunk_ids])
     k = config.CLUSTER_COUNT or round(math.sqrt(len(chunk_ids)))
     labels = _kmeans(mat, k)
     text_of = {r["id"]: r["text"] for r in conn.execute("SELECT id, text FROM nodes WHERE kind='chunk'")}
@@ -84,7 +87,7 @@ def run(conn):
         progress(gi, len(groups), "clusters summarised", every=5)
     embed_missing_nodes(conn)
 
-    idx.refresh(conn)
+    idx = db.VectorIndex("node").refresh(conn)
     cmat = np.stack([idx.get(c) for c in cluster_ids])
     k2 = config.THEME_COUNT or max(2, round(math.sqrt(len(cluster_ids))))
     labels2 = _kmeans(cmat, k2)

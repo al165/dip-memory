@@ -75,6 +75,7 @@ CREATE TABLE IF NOT EXISTS edges (
 CREATE INDEX IF NOT EXISTS edges_dst ON edges(dst_node, type);
 
 -- Embeddings. owner = 'node' | 'claim' | 'wiki'; owner_id = that table's id.
+-- 'chunk_text' (owner_id = nodes.id): a chunk's text without its context prefix, for clustering.
 CREATE TABLE IF NOT EXISTS vectors (
     owner    TEXT NOT NULL,
     owner_id INTEGER NOT NULL,
@@ -217,7 +218,7 @@ def put_vectors(conn, owner: str, ids, vecs):
 
 
 def delete_orphan_vectors(conn):
-    conn.execute("DELETE FROM vectors WHERE owner='node' AND owner_id NOT IN (SELECT id FROM nodes)")
+    conn.execute("DELETE FROM vectors WHERE owner IN ('node','chunk_text') AND owner_id NOT IN (SELECT id FROM nodes)")
     conn.execute("DELETE FROM vectors WHERE owner='claim' AND owner_id NOT IN (SELECT id FROM claims)")
     conn.execute("DELETE FROM vectors WHERE owner='wiki' AND owner_id NOT IN (SELECT id FROM wiki_pages)")
     conn.execute("DELETE FROM vectors WHERE owner IN ('image_desc','image_visual') "

@@ -60,3 +60,33 @@ def test_old_databases_gain_the_column(tmp_path):
     old.close()
     conn = db.connect(path)
     assert "context" in {r["name"] for r in conn.execute("PRAGMA table_info(nodes)")}
+
+
+def test_clusters_use_text_without_prefix(tmp_path, monkeypatch):
+    """Prefixes name the document; clustering on them would group by source, not by idea."""
+    from dip import config
+    from dip.ingest import s4_tree
+    conn = db.connect(tmp_path / "t.sqlite")
+    for name in ("Alpha", "Beta"):
+        f = tmp_path / f"{name}.md"
+        f.write_text(f"# {name}\n\n## Rivers\n" + "Rivers and water use matter here. " * 12 +
+                     "\n\n## Records\n" + "Privacy of personal records matters here. " * 12)
+        s1_parse_chunk.ingest_source(conn, str(f))
+    with db.tx(conn):
+        conn.execute("UPDATE nodes SET context = 'From the ' || (SELECT title FROM nodes d WHERE "
+                     "d.item_id = nodes.item_id AND d.kind='document') || ' report.' WHERE kind='chunk'")
+
+    def fake_embed(texts, **kw):  # topic dims, plus heavy document dims that only the prefix carries
+        return [[3.0 * ("water" in t), 3.0 * ("privacy" in t.lower()),
+                 10.0 * ("Alpha report" in t), 10.0 * ("Beta report" in t), 0.1] for t in texts]
+
+    monkeypatch.setattr(common.llm, "embed", fake_embed)
+    monkeypatch.setattr(s4_tree, "_summarise", lambda texts, what: {"title": what, "summary": "s", "abstraction": 3})
+    monkeypatch.setattr(config, "CLUSTER_COUNT", 2)
+    common.embed_missing_nodes(conn)
+    s4_tree.run(conn)
+    groups = conn.execute(
+        "SELECT group_concat(DISTINCT item_id) items, max(text LIKE '%water%') + max(text LIKE '%rivacy%') topics "
+        "FROM nodes WHERE kind='chunk' GROUP BY cluster_id").fetchall()
+    assert len(groups) == 2
+    assert all(g["topics"] == 1 and len(g["items"].split(",")) == 2 for g in groups)  # by idea, across sources
